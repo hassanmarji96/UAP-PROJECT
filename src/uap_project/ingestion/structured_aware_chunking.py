@@ -26,6 +26,15 @@ _TABLE_SEPARATOR = re.compile(r"^\s*\|?\s*:?-{3,}:?\s*(?:\|\s*:?-{3,}:?\s*)+\|?\
 # Intestazione Markdown (da # a ######); il gruppo 1 cattura il testo del titolo.
 _HEADER = re.compile(r"^\s{0,3}#{1,6}\s+(.+?)\s*$", re.MULTILINE)
 
+# Forzo l'etichettamento io, siccome è un progetto studio. 
+# In ambienti reali, potrei farlo assegnare automaticamente da un LLM che classifica il contenuto dei documenti
+DOCUMENT_CATEGORIES = {
+    "PDF_1_Primi_avvistamenti_UAP_dove_e_quando": "historical_sightings",
+    "PDF_2_Come_vengono_gestiti_i_casi_UAP": "case_management",
+    "PDF_3_Casistiche_UAP": "case_classification",
+    "PDF_4_Fonti_ufficiali_UAP": "official_sources",
+}
+
 
 def _is_table_row(line: str) -> bool:
     """Restituisce True se la riga appartiene a una tabella Markdown (inizia e finisce con '|')."""
@@ -161,6 +170,11 @@ def chunk_markdown(
     path = Path(file_path)
     if not path.is_file() or path.suffix.lower() != ".md":
         raise ValueError(f"Atteso un file .md esistente: {path}")
+    
+    category = DOCUMENT_CATEGORIES.get(
+        path.stem,
+        "uncategorized"
+    )
     # utf-8-sig rimuove l'eventuale BOM all'inizio del file.
     markdown = path.read_text(encoding="utf-8-sig")
     if not markdown.strip():
@@ -200,10 +214,15 @@ def chunk_markdown(
                 "source": str(path),
                 "filename": path.name,
                 "document_title": document_title,
+                "category": category,
             }
         )
         output.extend(
-            _split_section_preserving_tables(section, recursive_splitter, chunk_size)
+            _split_section_preserving_tables(
+                section,
+                recursive_splitter,
+                chunk_size
+            )
         )
 
     # Indice progressivo e ID univoco (es. "nomefile_0007") assegnati a fine elaborazione.
@@ -243,32 +262,32 @@ def chunk_markdown_directory(
         )
     return documents
 
-def main() -> None:
-    parser = argparse.ArgumentParser(description="Chunking di file Markdown basato sulla struttura")
-    parser.add_argument("path", type=Path, help="File Markdown o cartella")
-    parser.add_argument("--chunk-size", type=int, default=1200)
-    parser.add_argument("--chunk-overlap", type=int, default=150)
-    args = parser.parse_args()
+# def main() -> None:
+#     parser = argparse.ArgumentParser(description="Chunking di file Markdown basato sulla struttura")
+#     parser.add_argument("path", type=Path, help="File Markdown o cartella")
+#     parser.add_argument("--chunk-size", type=int, default=1200)
+#     parser.add_argument("--chunk-overlap", type=int, default=150)
+#     args = parser.parse_args()
 
-    if args.path.is_dir():
-        chunks = chunk_markdown_directory(
-            args.path,
-            chunk_size=args.chunk_size,
-            chunk_overlap=args.chunk_overlap,
-        )
-    else:
-        chunks = chunk_markdown(
-            args.path,
-            chunk_size=args.chunk_size,
-            chunk_overlap=args.chunk_overlap,
-        )
+#     if args.path.is_dir():
+#         chunks = chunk_markdown_directory(
+#             args.path,
+#             chunk_size=args.chunk_size,
+#             chunk_overlap=args.chunk_overlap,
+#         )
+#     else:
+#         chunks = chunk_markdown(
+#             args.path,
+#             chunk_size=args.chunk_size,
+#             chunk_overlap=args.chunk_overlap,
+#         )
 
-    print(f"Generati {len(chunks)} chunk")
-    for chunk in chunks:
-        print(f"\n--- {chunk.metadata['chunk_id']} ---")
-        print("Metadati:", chunk.metadata)
-        print(chunk.page_content)
+#     print(f"Generati {len(chunks)} chunk")
+#     for chunk in chunks:
+#         print(f"\n--- {chunk.metadata['chunk_id']} ---")
+#         print("Metadati:", chunk.metadata)
+#         print(chunk.page_content)
 
 
-if __name__ == "__main__":
-    main()
+# if __name__ == "__main__":
+#     main()

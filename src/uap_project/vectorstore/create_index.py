@@ -93,7 +93,12 @@ def create_index(
             searchable=True,
             vector_search_dimensions=embedding_dimensions,
             vector_search_profile_name="vector-profile"
-        )
+        ),
+        SearchableField(
+            name="metadata",
+            type=SearchFieldDataType.String,
+            filterable=False
+        ),
     ]
     
     vector_search = VectorSearch(

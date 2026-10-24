@@ -1,5 +1,5 @@
 import hashlib
-
+import json
 from azure.core.credentials import AzureKeyCredential
 from azure.search.documents import SearchClient
 from langchain_core.documents import Document
@@ -83,6 +83,14 @@ class AzureAISearchVectorStore:
                     "chunk_index": chunk_index,
                     "content": chunk.page_content,
                     "content_vector": vector,
+                    "metadata": json.dumps({
+                        "document_id": document_id,
+                        "source_file": source,
+                        "section": metadata.get("section", ""),
+                        "category": metadata.get("category", "uncategorized"),
+                        "content_type": metadata.get("content_type", "text"),
+                        "chunk_index": chunk_index,
+                    }, ensure_ascii=False),
                 })
 
             results = self.client.upload_documents(

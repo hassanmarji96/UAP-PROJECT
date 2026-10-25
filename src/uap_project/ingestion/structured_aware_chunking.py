@@ -35,6 +35,20 @@ DOCUMENT_CATEGORIES = {
     "PDF_4_Fonti_ufficiali_UAP": "official_sources",
 }
 
+def is_heading_only(text: str) -> bool:
+    """Verifica se un chunk contiene soltanto heading Markdown."""
+
+    lines = [
+        line.strip()
+        for line in text.splitlines()
+        if line.strip()
+    ]
+
+    return bool(lines) and all(
+        re.match(r"^#{1,6}\s+.+$", line)
+        for line in lines
+    )
+
 
 def _is_table_row(line: str) -> bool:
     """Restituisce True se la riga appartiene a una tabella Markdown (inizia e finisce con '|')."""
@@ -86,31 +100,33 @@ def _split_section_preserving_tables(
     splitter: RecursiveCharacterTextSplitter,
     chunk_size: int,
 ) -> list[Document]:
-    """Divide una sezione separando testo e tabelle.
-
-    Il testo normale viene diviso ricorsivamente dallo splitter; le tabelle
-    vengono divise solo ai confini di riga. Ogni chunk eredita i metadati della
-    sezione e riceve in più `content_type` ("text" oppure "table").
     """
+    Divide una sezione Markdown preservandone la struttura.
+
+    - Separa testo e tabelle.
+    - Evita chunk contenenti soltanto heading.
+    - Mantiene gli heading come contesto delle tabelle.
+    - Divide le tabelle soltanto tra righe complete.
+    - Preserva i metadata originali.
+    """
+
     lines = section.page_content.splitlines()
-    # Ogni blocco è una coppia (tipo, righe): tipo = "text" | "table".
+
     blocks: list[tuple[str, list[str]]] = []
     prose: list[str] = []
     table: list[str] = []
 
     def flush_prose() -> None:
-        """Chiude il blocco di testo corrente (ignorando blocchi vuoti)."""
         if prose and "\n".join(prose).strip():
             blocks.append(("text", prose.copy()))
         prose.clear()
 
     def flush_table() -> None:
-        """Chiude il blocco di tabella corrente."""
         if table:
             blocks.append(("table", table.copy()))
         table.clear()
 
-    # Scansione riga per riga: al passaggio testo<->tabella si chiude il blocco precedente.
+    # 1. Separazione in blocchi di testo e tabelle
     for line in lines:
         if _is_table_row(line):
             flush_prose()
@@ -118,26 +134,80 @@ def _split_section_preserving_tables(
         else:
             flush_table()
             prose.append(line)
+
     flush_table()
     flush_prose()
 
+    # 2. Estrazione dell'heading della sezione
+    heading = next(
+        (
+            line.strip()
+            for line in lines
+            if re.match(r"^#{1,6}\s+", line.strip())
+        ),
+        None
+    )
+
+    def is_heading_only(text: str) -> bool:
+        """Verifica se il testo contiene soltanto heading Markdown."""
+        content_lines = [
+            line.strip()
+            for line in text.splitlines()
+            if line.strip()
+        ]
+
+        return bool(content_lines) and all(
+            re.match(r"^#{1,6}\s+.+$", line)
+            for line in content_lines
+        )
+
+    # 3. Generazione dei chunk
     chunks: list[Document] = []
+
     for kind, block_lines in blocks:
+
         content = "\n".join(block_lines).strip()
+
+        if not content:
+            continue
+
+        # Evita chunk costituiti esclusivamente da heading
+        if kind == "text" and is_heading_only(content):
+            continue
+
         if kind == "table":
-            parts = _split_table(block_lines, chunk_size)
+            # Mantiene le righe della tabella integre
+            # e ripete l'intestazione delle colonne.
+            parts = _split_table(
+                block_lines,
+                chunk_size
+            )
         else:
+            # Chunking ricorsivo per il testo normale
             parts = splitter.split_text(content)
 
         for part in parts:
-            # Si scartano i chunk vuoti; i metadati della sezione vengono propagati.
-            if part.strip():
-                chunks.append(
-                    Document(
-                        page_content=part.strip(),
-                        metadata={**section.metadata, "content_type": kind},
-                    )
+
+            part = part.strip()
+
+            if not part or is_heading_only(part):
+                continue
+
+            # 4. Aggiunta del contesto alle tabelle
+            if kind == "table" and heading:
+                if not part.startswith(heading):
+                    part = f"{heading}\n\n{part}"
+
+            chunks.append(
+                Document(
+                    page_content=part,
+                    metadata={
+                        **section.metadata,
+                        "content_type": kind
+                    }
                 )
+            )
+
     return chunks
 
 
@@ -262,32 +332,39 @@ def chunk_markdown_directory(
         )
     return documents
 
-# def main() -> None:
-#     parser = argparse.ArgumentParser(description="Chunking di file Markdown basato sulla struttura")
-#     parser.add_argument("path", type=Path, help="File Markdown o cartella")
-#     parser.add_argument("--chunk-size", type=int, default=1200)
-#     parser.add_argument("--chunk-overlap", type=int, default=150)
-#     args = parser.parse_args()
+def main() -> None:
+    parser = argparse.ArgumentParser(description="Chunking di file Markdown basato sulla struttura")
+    parser.add_argument("path", type=Path, help="File Markdown o cartella")
+    parser.add_argument("--chunk-size", type=int, default=1200)
+    parser.add_argument("--chunk-overlap", type=int, default=150)
+    args = parser.parse_args()
 
-#     if args.path.is_dir():
-#         chunks = chunk_markdown_directory(
-#             args.path,
-#             chunk_size=args.chunk_size,
-#             chunk_overlap=args.chunk_overlap,
-#         )
-#     else:
-#         chunks = chunk_markdown(
-#             args.path,
-#             chunk_size=args.chunk_size,
-#             chunk_overlap=args.chunk_overlap,
-#         )
+    if args.path.is_dir():
+        chunks = chunk_markdown_directory(
+            args.path,
+            chunk_size=args.chunk_size,
+            chunk_overlap=args.chunk_overlap,
+        )
+    else:
+        chunks = chunk_markdown(
+            args.path,
+            chunk_size=args.chunk_size,
+            chunk_overlap=args.chunk_overlap,
+        )
 
-#     print(f"Generati {len(chunks)} chunk")
-#     for chunk in chunks:
-#         print(f"\n--- {chunk.metadata['chunk_id']} ---")
-#         print("Metadati:", chunk.metadata)
-#         print(chunk.page_content)
+    print(f"Generati {len(chunks)} chunk")
+    for chunk in chunks:
+        content = chunk.page_content.strip()
+        if len(content) < 80:
+            print(
+                "Possibile chunk poco informativo:",
+                chunk.metadata.get("chunk_id"),
+                repr(content)
+            )
+        print(f"\n--- {chunk.metadata['chunk_id']} ---")
+        print("Metadati:", chunk.metadata)
+        print(chunk.page_content)
 
 
-# if __name__ == "__main__":
-#     main()
+if __name__ == "__main__":
+    main()

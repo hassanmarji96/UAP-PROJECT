@@ -1,0 +1,350 @@
+Inserisci la domanda (exit per uscire): Quando avvenne l'avvistamento di Kenneth Arnold e perché è considerato importante?
+
+RISPOSTA:
+L'avvistamento di Kenneth Arnold avvenne il 24 giugno 1947 sul Monte Rainier (Washington, USA). È considerato importante perché Arnold riferì di aver visto nove oggetti in formazione a velocità molto alta e la sua descrizione — oggetti che si muovono "come un piattino che salta sull'acqua" — venne ripresa dalla stampa, contribuendo a fissare il termine "flying saucer" [1].
+
+FONTI RECUPERATE:
+[1] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\1._Nota_metodologica.md - **2. Cronologia — casi fondativi (1946–1969)**
+[2] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\PDF_1_Primi_avvistamenti_UAP_dove_e_quando.md - **2. Cronologia dei casi fondativi**
+[3] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\PDF_1_Primi_avvistamenti_UAP_dove_e_quando.md - **4. Cosa NON è un "primo avvistamento"**
+[4] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\1._Nota_metodologica.md - **3. Cronologia — programmi e casi (1970–1999)**
+[5] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\Documento_UAP_Release_recenti_e_stato_della_disclosure.md - **3. Disclosure e animali rari — direzioni per il brand streetwear**
+
+Inserisci la domanda (exit per uscire): Quali eventi UAP importanti sono riportati tra il 2004 e il 2022?
+
+RISPOSTA:
+Nel contesto fornito non ci sono elencati o descritti eventi UAP specifici riferiti al periodo 2004–2022. I documenti citati riportano invece elementi relativi a report FY2024/FY2025 e a release PURSUE del 2026 (per es. release documentate nel 2026), ma non contengono un elenco di eventi 2004–2022 [1][4][3].
+
+Se vuoi, puoi fornire le sezioni o i documenti che contengono le segnalazioni 2004–2022 e risponderò attingendo esclusivamente a quelle fonti. [1][4][3]
+
+FONTI RECUPERATE:
+[1] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\Documento_UAP_Release_recenti_e_stato_della_disclosure.md - **FY2025 Consolidated Annual Report on UAP** — pubblicato nel 2026 **FY2024 Consolidated Annual Report on UAP** — pubblicato il 14 novembre 2024
+[2] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\Documento_UAP_Release_recenti_e_stato_della_disclosure.md - **3. Disclosure e animali rari — direzioni per il brand streetwear**
+[3] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\1._Nota_metodologica.md - **Documento UAP — Cronologia estesa delle segnalazioni e dei programmi ufficiali**
+[4] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\Documento_UAP_Release_recenti_e_stato_della_disclosure.md - **1.1 Il programma PURSUE e le release di file declassificati**
+[5] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\Documento_UAP_Release_recenti_e_stato_della_disclosure.md - **Documento UAP — Release recenti e stato della disclosure**
+
+Inserisci la domanda (exit per uscire): Quanti casi raccolse Project Blue Book e quanti rimasero non identificati?
+
+RISPOSTA:
+Project Blue Book raccolse 12.618 casi, dei quali 701 rimasero non identificati [1].
+
+FONTI RECUPERATE:
+[1] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\1._Nota_metodologica.md - **2. Cronologia — casi fondativi (1946–1969)**
+[2] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\1._Nota_metodologica.md - **2. Cronologia — casi fondativi (1946–1969)**
+[3] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\PDF_2_Come_vengono_gestiti_i_casi_UAP.md - **2. USA — la catena istituzionale**
+[4] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\1._Nota_metodologica.md - **3. Cronologia — programmi e casi (1970–1999)**
+[5] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\PDF_1_Primi_avvistamenti_UAP_dove_e_quando.md - **2. Cronologia dei casi fondativi**
+
+Inserisci la domanda (exit per uscire): Quali sono le fasi principali attraverso cui passa una segnalazione UAP?
+
+RISPOSTA:
+Il percorso standard si articola in cinque fasi, ricostruite dagli enti ufficiali [1]:
+
+1. Segnalazione — il testimone o l'operatore riferisce l'evento attraverso il canale previsto.  
+2. Raccolta dati — acquisizione di testimonianze, dati radar, immagini, tracce fisiche.  
+3. Analisi tecnica — verifica delle spiegazioni convenzionali (aeromobili, palloni, fenomeni atmosferici, satelliti, droni).  
+4. Classificazione — assegnazione del caso a una categoria (identificato, non identificato per dati insufficienti, anomalia genuina).  
+5. Archiviazione o declassificazione — il caso viene conservato negli archivi e, quando possibile, reso pubblico [1].
+
+FONTI RECUPERATE:
+[1] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\1._Nota_metodologica.md - **8. Ciclo di gestione di una segnalazione UAP**
+[2] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\1._Nota_metodologica.md - **1. Nota metodologica**
+[3] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\Documento_UAP_Errori_da_evitare_nell_uso_documentale_delle_fonti.md - **12. Riepilogo operativo**
+[4] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\Documento_UAP_Release_recenti_e_stato_della_disclosure.md - **1.2 Il caso del "triangular UAP" (release 7, ottobre 2026)**
+[5] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\Documento_UAP_Glossario_dei_termini_e_delle_sigle.md - **PURSUE — Presidential Unsealing and Reporting System for UAP Encounters.**
+
+Inserisci la domanda (exit per uscire): Quali categorie e caratteristiche osservabili vengono utilizzate per classificare gli avvistamenti UAP?
+
+RISPOSTA:
+Secondo il contesto fornito, le classificazioni usano sia una scala di identificazione sia categorie basate sulle caratteristiche osservabili e sulla spiegazione:
+
+- Scala di identificazione (Scala GEIPAN, quattro livelli):  
+  A — identificato; B — probabilmente identificabile; C — non identificabile per dati insufficienti; D — non identificato nonostante dati sufficienti. [3]
+
+- Categorie per caratteristica osservata:  
+  luci notturne, oggetti solidi diurni, tracce radar‑visive, effetti fisici, inseguimenti militari, foto/video. [3]
+
+- Categorie per spiegazione (classificazione per spiegazione):  
+  identificati (IFO), non identificati per dati insufficienti, anomalie genuine. [2][3]
+
+FONTI RECUPERATE:
+[1] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\1._Nota_metodologica.md - **1. Nota metodologica**
+[2] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\PDF_3_Casistiche_UAP.md - **2. Classificazione per spiegazione**
+[3] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\Documento_UAP_Glossario_dei_termini_e_delle_sigle.md - **Scala GEIPAN (quattro livelli):**
+[4] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\PDF_1_Primi_avvistamenti_UAP_dove_e_quando.md - **3. Pattern geografico**
+[5] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\Documento_UAP_Release_recenti_e_stato_della_disclosure.md - **3. Disclosure e animali rari — direzioni per il brand streetwear**
+
+Inserisci la domanda (exit per uscire): Quali elementi aumentano l'affidabilità di un avvistamento?
+
+RISPOSTA:
+Gli elementi che aumentano l'affidabilità di un avvistamento (e che rendono il caso "forte") sono:
+
+- Molteplici sensori: rilevazioni concordi da radar, visivo, infrarosso o elettro‑ottico [3].  
+- Testimoni addestrati: persone come piloti o personale militare/forze dell'ordine [1][3].  
+- Documentazione ufficiale: rapporti, log, video con metadati, memorandum, mission report [1][3].  
+- Catena di custodia del materiale raccolto [1][3].  
+- Indipendenza delle fonti: testimoni non coordinati tra loro [1][3].
+
+Un caso è considerato solido soprattutto se presenta più di uno di questi elementi; al contrario, un caso con un solo testimone e senza sensori né documenti è definito aneddotico [1][3].
+
+FONTI RECUPERATE:
+[1] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\1._Nota_metodologica.md - **9. Criteri che rendono un caso "forte"**
+[2] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\PDF_1_Primi_avvistamenti_UAP_dove_e_quando.md - **4. Cosa NON è un "primo avvistamento"**
+[3] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\PDF_3_Casistiche_UAP.md - **4. Cosa rende un caso "forte"**
+[4] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\1._Nota_metodologica.md - **8. Ciclo di gestione di una segnalazione UAP**
+[5] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\PDF_1_Primi_avvistamenti_UAP_dove_e_quando.md - **1. Il problema della "data zero"**
+
+Inserisci la domanda (exit per uscire): Quali casi storici vengono considerati particolarmente solidi e quali caratteristiche li rendono tali?
+
+RISPOSTA:
+I casi storici citati nel contesto come particolarmente "solidi" (o esempi di casi con caratteristiche che li rendono solidi) e le caratteristiche che contribuiscono alla loro solidità sono:
+
+- Nimitz (2004, "Tic Tac")
+  - Esempio citato tra i casi con tracce radar + visive, considerati i più solidi.  
+  - Caso militare moderno con video FLIR declassificato (documentazione tecnica/video).  
+  - Fonti: [2], [4].
+
+- JAL 1628 (1986)
+  - Esempio di caso con tracce radar + visive (categoria ritenuta tra le più solide).  
+  - Avvistamento da un Boeing 747 cargo con indagine FAA (testimone pilota e indagine ufficiale).  
+  - Fonti: [2], [4].
+
+- Washington (1952)
+  - Esempio storico di radar + visivo (onde radar su Washington; risposta ufficiale dell'USAF).  
+  - Fonti: [3], [5].
+
+- Belgio (1989–90)
+  - Esempio noto di casi radar + visivo citato tra i casi iconici.  
+  - Fonte: [3].
+
+- Rendlesham (1980)
+  - Caso militare NATO con documenti ufficiali britannici (presenza di documentazione ufficiale).  
+  - Fonti: [3], [4].
+
+- Levelland (1957)
+  - Caso con effetti fisici documentati (auto che si spengono al passaggio; esempio di "effetti EM"/fisici).  
+  - Fonti: [2], [5].
+
+- Ghost Rockets (1946)
+  - Esempio di ondata di massa con risposta statale (indagine ufficiale in Svezia), cioè un caso di massa con rilevanza istituzionale.  
+  - Fonti: [3], [5].
+
+In generale, il contesto indica che i casi vengono considerati particolarmente solidi quando presentano uno o più dei seguenti elementi: molteplici sensori concordi (radar, visivo, infrarosso, elettro‑ottico), testimoni addestrati (militari, piloti, operatori radar), documentazione ufficiale, catena di custodia e indipendenza delle fonti. Tracce radar + visive e/o effetti fisici sono categorie citate esplicitamente come tra le più robuste per l'analisi dei casi. (Criteri: [1]; categorie/semplici esempi: [2].)
+
+FONTI RECUPERATE:
+[1] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\1._Nota_metodologica.md - **9. Criteri che rendono un caso "forte"**
+[2] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\PDF_3_Casistiche_UAP.md - **1. Classificazione per caratteristica osservata**
+[3] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\PDF_3_Casistiche_UAP.md - **3. Casi iconici per tipo**
+[4] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\PDF_1_Primi_avvistamenti_UAP_dove_e_quando.md - **2. Cronologia dei casi fondativi**
+[5] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\PDF_1_Primi_avvistamenti_UAP_dove_e_quando.md - **2. Cronologia dei casi fondativi**
+
+Inserisci la domanda (exit per uscire): Qual è la differenza tra il modo in cui vengono gestiti i casi UAP negli Stati Uniti e in Francia?
+
+RISPOSTA:
+Secondo il contesto, la differenza principale è istituzionale e di trasparenza operativa:
+
+- Stati Uniti: la gestione è passata attraverso programmi e uffici del Dipartimento della Difesa e dell'intelligence (es. Project Blue Book, AATIP, UAP Task Force, oggi AARO), con rapporti annuali pubblicati dall'ODNI e anche uno studio indipendente della NASA — quindi un quadro coordinato principalmente a livello di difesa/intelligence [3].  
+- Francia: la gestione è affidata a un organismo civile (GEIPAN, dentro il CNES), che raccoglie segnalazioni pubbliche, pubblica i casi online e li classifica con categorie A/B/C/D (A = identificato, D = non identificato) [4].
+
+Fonti: [3], [4].
+
+FONTI RECUPERATE:
+[1] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\1._Nota_metodologica.md - **1. Nota metodologica**
+[2] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\1._Nota_metodologica.md - **8. Ciclo di gestione di una segnalazione UAP**
+[3] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\PDF_2_Come_vengono_gestiti_i_casi_UAP.md - **2. USA — la catena istituzionale**
+[4] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\PDF_2_Come_vengono_gestiti_i_casi_UAP.md - **3. Francia — GEIPAN**
+[5] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\Documento_UAP_Release_recenti_e_stato_della_disclosure.md - **3. Disclosure e animali rari — direzioni per il brand streetwear**
+
+Inserisci la domanda (exit per uscire): Quali fonti dovrei considerare più affidabili per costruire un RAG sugli UAP?
+
+RISPOSTA:
+In base al contesto fornito, le fonti da considerare più affidabili per costruire un RAG sugli UAP sono:
+
+- Documenti governativi e archivi ufficiali (massima priorità): AARO, ODNI, GEIPAN, NARA e documenti del Congresso (es. atti e audizioni) [1][4].  
+- Rapporti tecnici peer‑reviewed o di enti riconosciuti (seconda priorità alta): ad es. NASA e SCU (e rapporti tecnici pubblicati da enti riconosciuti) [1][4].  
+- Altre fonti istituzionali primarie elencate come prioritarie: FBI Vault, CIA Reading Room (CREST), Congress.gov e rapporti ufficiali pubblicati su aaro.mil [4].
+
+Fonti da usare con priorità media (supporto, non sostitutive delle primarie): testate autorevoli come New York Times, agenzie di stampa (es. AP, Reuters, ANSA) e aggregatori indipendenti come UAP Browser o UAPArchive — tenendo conto che aggregatori non ufficiali vanno verificati sui documenti originali (es. PDF AARO) prima di usarne i numeri [1][2][5].
+
+Fonti da evitare o usare con estrema cautela: Wikipedia, blog, forum, canali YouTube e siti di divulgazione privi di documenti allegati [1][2].
+
+Se vuoi, posso aiutare a costruire una gerarchia di fonti (RAG) basata esattamente su questi elenchi. Fonti citate: [1], [4], [2], [5].
+
+FONTI RECUPERATE:
+[1] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\PDF_4_Fonti_ufficiali_UAP.md - **4. Come usare le fonti in un RAG**
+[2] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\1._Nota_metodologica.md - **Fonti secondarie (priorità media)**
+[3] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\Documento_UAP_Release_recenti_e_stato_della_disclosure.md - **Fonti**
+[4] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\1._Nota_metodologica.md - **Fonti primarie (priorità alta)**
+[5] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\Documento_UAP_Release_recenti_e_stato_della_disclosure.md - **3. Disclosure e animali rari — direzioni per il brand streetwear**
+
+Inserisci la domanda (exit per uscire): Quali enti ufficiali studiano o hanno studiato gli UAP e in quali paesi operano?
+
+RISPOSTA:
+Secondo il quadro sintetico fornito nel contesto, gli enti ufficiali che studiano o hanno studiato gli UAP e i rispettivi paesi sono:
+
+- Stati Uniti: AARO (Department of Defense, dal 2022); ODNI (per i rapporti al Congresso); NASA (studio indipendente); FBI (rapporti FD‑302); CIA (archivio CREST); NARA (archivi storici). [3]  
+- Francia: GEIPAN (ente civile all'interno del CNES, attivo dal 1977; usa una scala di classificazione a quattro livelli A/B/C/D). [3]  
+- Regno Unito: Ministry of Defence (ha raccolto casi dal 1950 al 2009; archivi depositati presso gli UK National Archives). [3]  
+- Cile: CEFAA (ente all'interno della Dirección General de Aeronáutica Civil). [3]  
+- Brasile: archivio dell'Aeronautica (inclusa documentazione dell'Operação Prato, 1977). [3]  
+- Argentina: CIAE (ente all'interno della Fuerza Aérea Argentina). [3]  
+- Canada: Transport Canada e National Research Council (con archivi storici). [3]  
+- Italia: Aeronautica Militare (ha storicamente raccolto segnalazioni; non esiste un ente civile equivalente al GEIPAN). [3]
+
+Fonte: quadro sintetico “Enti per paese” nel documento metodologico. [3]
+
+FONTI RECUPERATE:
+[1] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\PDF_4_Fonti_ufficiali_UAP.md - **3. Organizzazioni di ricerca (non ufficiali ma serie)**
+[2] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\1._Nota_metodologica.md - **1. Nota metodologica**
+[3] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\1._Nota_metodologica.md - **6. Enti per paese — quadro sintetico**
+[4] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\1._Nota_metodologica.md - **Documento UAP — Cronologia estesa delle segnalazioni e dei programmi ufficiali**
+[5] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\Documento_UAP_Release_recenti_e_stato_della_disclosure.md - **3. Disclosure e animali rari — direzioni per il brand streetwear**
+
+Inserisci la domanda (exit per uscire): Cosa sappiamo del caso Nimitz del 2004 e perché viene considerato rilevante?
+
+RISPOSTA:
+Cosa sappiamo del caso Nimitz (2004)
+- Durante un'esercitazione della US Navy nel 2004 piloti di F/A-18 registrarono un oggetto bianco a forma di "Tic Tac" che si muoveva con velocità e manovre considerate non spiegate; il video e le testimonianze divennero pubblici anni dopo [2].  
+- Il caso è indicato come un caso militare moderno significativo, associato a un video FLIR declassificato, ed è incluso fra i casi fondativi della cronologia contemporanea UAP [3].
+
+Perché viene considerato rilevante
+- Riunisce elementi che lo rendono particolarmente significativo per lo studio degli UAP: testimoni addestrati (piloti militari) e documentazione video (video FLIR declassificato), caratteristiche che corrispondono ai criteri che rendono un caso "forte" (più sensori/testimonianze addestrate/documentazione ufficiale) [5][3].
+
+FONTI RECUPERATE:
+[1] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\Documento_UAP_Release_recenti_e_stato_della_disclosure.md - **1.2 Il caso del "triangular UAP" (release 7, ottobre 2026)**
+[2] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\1._Nota_metodologica.md - **4. Cronologia — svolta istituzionale (2000–2017)**
+[3] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\PDF_1_Primi_avvistamenti_UAP_dove_e_quando.md - **2. Cronologia dei casi fondativi**
+[4] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\PDF_3_Casistiche_UAP.md - **4. Cosa rende un caso "forte"**
+[5] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\1._Nota_metodologica.md - **9. Criteri che rendono un caso "forte"**
+
+Inserisci la domanda (exit per uscire): Perché il numero di avvistamenti documentati sembra maggiore in USA, Francia e Regno Unito?
+
+RISPOSTA:
+Perché in quei paesi esistono enti e programmi stabili che raccolgono, analizzano e archiviano le segnalazioni, quindi risultano più casi documentati — non perché lì ci sianonecessariamente più fenomeni. [2]
+
+Esempi dal contesto:
+- Gli enti raccolgono e pubblicano le segnalazioni (es. il GEIPAN in Francia), con sistemi di classificazione e pubblicazione online [1].  
+- Negli USA ci sono stati programmi storici di raccolta come Project Sign/Grudge/Blue Book; Blue Book raccolse 12.618 casi (701 non identificati), illustrando come un programma strutturato aumenti la documentazione disponibile [3].  
+In sintesi: la concentrazione di avvistamenti "storici" in USA, Francia e Regno Unito riflette la presenza di strutture che raccolgono dati, e l'assenza di documentazione in altre aree non implica assenza di fenomeni. [2]
+
+FONTI RECUPERATE:
+[1] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\PDF_2_Come_vengono_gestiti_i_casi_UAP.md - **3. Francia — GEIPAN**
+[2] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\PDF_1_Primi_avvistamenti_UAP_dove_e_quando.md - **3. Pattern geografico**
+[3] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\1._Nota_metodologica.md - **2. Cronologia — casi fondativi (1946–1969)**
+[4] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\1._Nota_metodologica.md - **3. Cronologia — programmi e casi (1970–1999)**
+[5] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\PDF_2_Come_vengono_gestiti_i_casi_UAP.md - **1. Il ciclo di gestione**
+
+Inserisci la domanda (exit per uscire): Un caso classificato come non identificato significa che è di origine extraterrestre?
+
+RISPOSTA:
+No. "Non identificato" non significa di origine extraterrestre: indica che i dati disponibili non bastano a identificarlo oppure che il caso resta inspiegato anche avendo dati adeguati. Nessun documento ufficiale (AARO, ODNI, NASA, GEIPAN) usa l'origine extraterrestre come spiegazione. Secondo la scala GEIPAN, il livello C corrisponde a "non identificabile per dati insufficienti" e il livello D a "non identificato nonostante dati sufficienti" (anomalia genuina), ma neppure il D implica automaticamente un'origine non umana [1][5][3].
+
+FONTI RECUPERATE:
+[1] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\Documento_UAP_Errori_da_evitare_nell_uso_documentale_delle_fonti.md - **3. Errore 2 — Confondere "non identificato" con "extraterrestre"**
+[2] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\PDF_2_Come_vengono_gestiti_i_casi_UAP.md - **6. Cosa succede a un caso "non identificato"**
+[3] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\Documento_UAP_Glossario_dei_termini_e_delle_sigle.md - **2. Termini di base**
+[4] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\PDF_1_Primi_avvistamenti_UAP_dove_e_quando.md - **4. Cosa NON è un "primo avvistamento"**
+[5] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\1._Nota_metodologica.md - **7. Classificazione GEIPAN — scala a quattro livelli**
+
+Inserisci la domanda (exit per uscire): Quale modello di astronave extraterrestre è stato recuperato a Roswell?
+
+RISPOSTA:
+Il contesto non riporta il recupero di alcun "modello di astronave extraterrestre". I documenti ricordano che il comunicato iniziale della base di Roswell parlò di un "disco volante", poi ritrattato dall'USAAF che indicò un pallone meteorologico; la versione ufficiale (1994) attribuisce il recupero a un pallone del progetto Mogul [2][5].
+
+FONTI RECUPERATE:
+[1] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\Documento_UAP_Errori_da_evitare_nell_uso_documentale_delle_fonti.md - **3. Errore 2 — Confondere "non identificato" con "extraterrestre"**
+[2] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\1._Nota_metodologica.md - **2. Cronologia — casi fondativi (1946–1969)**
+[3] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\Documento_UAP_Release_recenti_e_stato_della_disclosure.md - **1.2 Il caso del "triangular UAP" (release 7, ottobre 2026)**
+[4] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\PDF_2_Come_vengono_gestiti_i_casi_UAP.md - **6. Cosa succede a un caso "non identificato"**
+[5] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\PDF_1_Primi_avvistamenti_UAP_dove_e_quando.md - **2. Cronologia dei casi fondativi**
+
+Inserisci la domanda (exit per uscire): Chi ha vinto i mondiali di calcio del 2022?
+
+RISPOSTA:
+Non è possibile rispondere con le informazioni fornite. I documenti nel contesto riguardano temi legati agli UAP (es. errori d'uso documentale, glossario, enti coinvolti) e non contengono alcuna informazione sul vincitore dei Mondiali di calcio 2022 [1][5].
+
+FONTI RECUPERATE:
+[1] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\Documento_UAP_Errori_da_evitare_nell_uso_documentale_delle_fonti.md - **7. Errore 6 — Confondere la data dell'evento con la data del documento**
+[2] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\Documento_UAP_Glossario_dei_termini_e_delle_sigle.md - **3. Termini istituzionali**
+[3] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\PDF_4_Fonti_ufficiali_UAP.md - **1. USA**
+[4] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\PDF_2_Come_vengono_gestiti_i_casi_UAP.md - **2. USA — la catena istituzionale**
+[5] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\1._Nota_metodologica.md - **6. Enti per paese — quadro sintetico**
+
+Inserisci la domanda (exit per uscire): Perché AARO ha confermato che gli UAP sono veicoli extraterrestri?
+
+RISPOSTA:
+Non è possibile rispondere che AARO abbia “confermato” che gli UAP siano veicoli extraterrestri, perché il materiale fornito non contiene alcuna affermazione del genere né spiegazioni a riguardo. Il contesto riporta invece la creazione dell’AARO e la pubblicazione di rapporti annuali (es. FY2024, FY2025) [1], e descrive casi catalogati come “unidentified craft” senza attribuirne un’origine extraterrestre [3]. Pertanto le informazioni disponibili non sono sufficienti a sostenere che AARO abbia fatto una conferma di questo tipo né a spiegare il motivo di una tale ipotetica dichiarazione. [1][3]
+
+FONTI RECUPERATE:
+[1] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\1._Nota_metodologica.md - **5. Cronologia — era AARO (2020–2026)**
+[2] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\Documento_UAP_Release_recenti_e_stato_della_disclosure.md - **1.4 Rapporti annuali AARO**
+[3] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\Documento_UAP_Release_recenti_e_stato_della_disclosure.md - **1.2 Il caso del "triangular UAP" (release 7, ottobre 2026)**
+[4] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\Documento_UAP_Release_recenti_e_stato_della_disclosure.md - **3. Disclosure e animali rari — direzioni per il brand streetwear**
+[5] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\1._Nota_metodologica.md - **1. Nota metodologica**
+
+Inserisci la domanda (exit per uscire): Qual era la velocità esatta del Tic Tac durante l'incidente Nimitz?
+
+RISPOSTA:
+Il contesto fornito non riporta alcun valore numerico per la velocità del Tic Tac. Le fonti parlano genericamente di movimento a "velocità e con manovre non spiegate" e del video FLIR declassificato, ma non forniscono una velocità esatta [1][3].
+
+FONTI RECUPERATE:
+[1] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\1._Nota_metodologica.md - **4. Cronologia — svolta istituzionale (2000–2017)**
+[2] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\PDF_3_Casistiche_UAP.md - **3. Casi iconici per tipo**
+[3] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\PDF_1_Primi_avvistamenti_UAP_dove_e_quando.md - **2. Cronologia dei casi fondativi**
+[4] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\Documento_UAP_Release_recenti_e_stato_della_disclosure.md - **1.2 Il caso del "triangular UAP" (release 7, ottobre 2026)**
+[5] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\PDF_3_Casistiche_UAP.md - **2. Classificazione per spiegazione**
+
+Inserisci la domanda (exit per uscire): Ordina cronologicamente Project Blue Book, AATIP, UAP Task Force e AARO.
+
+RISPOSTA:
+Ordine cronologico (dal più antico al più recente):
+- Project Blue Book (1948–1969)
+- AATIP (2007–2012)
+- UAP Task Force (2017–2020)
+- AARO — All-domain Anomaly Resolution Office (2020–2022, ente di riferimento attuale)
+
+Fonte: [1]
+
+FONTI RECUPERATE:
+[1] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\PDF_2_Come_vengono_gestiti_i_casi_UAP.md - **2. USA — la catena istituzionale**
+[2] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\1._Nota_metodologica.md - **5. Cronologia — era AARO (2020–2026)**
+[3] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\PDF_4_Fonti_ufficiali_UAP.md - **1. USA**
+[4] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\1._Nota_metodologica.md - **Fonti secondarie (priorità media)**
+[5] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\Documento_UAP_Glossario_dei_termini_e_delle_sigle.md - **3. Termini istituzionali**
+
+Inserisci la domanda (exit per uscire): Quali casi riportati nei documenti presentano effetti fisici o dati radar?
+
+RISPOSTA:
+Ecco i casi, come riportati nei documenti, che presentano effetti fisici o dati radar:
+
+- Effetti fisici:
+  - Levelland (1957) — segnalazioni di spegnimento motori e interferenze ai veicoli [4].
+  - Rendlesham (1980) — citato esplicitamente tra i casi con effetti fisici [1].
+
+- Tracce radar (radar + visivo):
+  - Washington (1952, "Merry‑Go‑Round") — ondata con tracce radar e avvistamenti visivi concordi [4].
+  - Belgio (1989–90) — indicato tra i casi con radar + visivo [1].
+  - Nimitz (2004) — indicato tra i casi con tracce radar + visive [3].
+  - JAL 1628 (1986) — indicato tra i casi con tracce radar + visive [3].
+
+Fonti: [1], [3], [4].
+
+FONTI RECUPERATE:
+[1] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\PDF_3_Casistiche_UAP.md - **3. Casi iconici per tipo**
+[2] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\Documento_UAP_Glossario_dei_termini_e_delle_sigle.md - **Scala GEIPAN (quattro livelli):**
+[3] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\PDF_3_Casistiche_UAP.md - **1. Classificazione per caratteristica osservata**
+[4] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\1._Nota_metodologica.md - **2. Cronologia — casi fondativi (1946–1969)**
+[5] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\PDF_1_Primi_avvistamenti_UAP_dove_e_quando.md - **2. Cronologia dei casi fondativi**
+
+Inserisci la domanda (exit per uscire): Quali organizzazioni citate nei documenti non sono enti governativi ufficiali?
+
+RISPOSTA:
+Le organizzazioni indicate come non ufficiali sono: NICAP, CUFOS (Center for UFO Studies), MUFON e SCU (Scientific Coalition for UAP Studies) [1].
+
+FONTI RECUPERATE:
+[1] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\PDF_4_Fonti_ufficiali_UAP.md - **3. Organizzazioni di ricerca (non ufficiali ma serie)**
+[2] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\PDF_2_Come_vengono_gestiti_i_casi_UAP.md - **5. Altri enti**
+[3] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\1._Nota_metodologica.md - **6. Enti per paese — quadro sintetico**
+[4] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\Documento_UAP_Errori_da_evitare_nell_uso_documentale_delle_fonti.md - **5. Errore 4 — Attribuire a un ente un documento che non è suo**
+[5] C:\Users\h.marji\source\repos\MyProjects\AI\uap-project\src\uap_project\docs\markdown\Documento_UAP_Glossario_dei_termini_e_delle_sigle.md - **6. Sigle dei documenti**

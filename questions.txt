@@ -1,0 +1,64 @@
+Factual semplice – storico
+Quando avvenne l'avvistamento di Kenneth Arnold e perché è considerato importante?
+
+Retrieval da tabella
+Quali eventi UAP importanti sono riportati tra il 2004 e il 2022?
+
+Factual quantitativa
+Quanti casi raccolse Project Blue Book e quanti rimasero non identificati?
+
+Gestione dei casi
+Quali sono le fasi principali attraverso cui passa una segnalazione UAP?
+
+Classificazione
+Quali categorie e caratteristiche osservabili vengono utilizzate per classificare gli avvistamenti UAP?
+
+Domanda semantica/parafrasi
+Quali elementi aumentano l'affidabilità di un avvistamento?
+Questa è particolarmente utile perché nel documento hai "Cosa rende un caso forte", non esattamente queste parole.
+
+Multi-document
+Quali casi storici vengono considerati particolarmente solidi e quali caratteristiche li rendono tali?
+
+Comparativa
+Qual è la differenza tra il modo in cui vengono gestiti i casi UAP negli Stati Uniti e in Francia?
+
+Fonti
+Quali fonti dovrei considerare più affidabili per costruire un RAG sugli UAP?
+
+Cross-document
+Quali enti ufficiali studiano o hanno studiato gli UAP e in quali paesi operano?
+
+Caso specifico + informazioni distribuite
+Cosa sappiamo del caso Nimitz del 2004 e perché viene considerato rilevante?
+
+Relazione causa-concetto
+Perché il numero di avvistamenti documentati sembra maggiore in USA, Francia e Regno Unito?
+
+Distinzione concettuale
+Un caso classificato come non identificato significa che è di origine extraterrestre?
+
+Hallucination test
+Quale modello di astronave extraterrestre è stato recuperato a Roswell?
+Il RAG non deve rispondere inventando.
+
+Out-of-domain test
+Chi ha vinto i mondiali di calcio del 2022?
+Dovrebbe dire che il contesto non contiene informazioni sufficienti.
+
+False-premise test
+Perché AARO ha confermato che gli UAP sono veicoli extraterrestri?
+Questa è molto importante: deve contestare implicitamente la premessa e non assecondarla.
+
+Missing information
+Qual era la velocità esatta del Tic Tac durante l'incidente Nimitz?
+Nei tuoi documenti non c'è. Deve ammetterlo.
+
+Temporal reasoning
+Ordina cronologicamente Project Blue Book, AATIP, UAP Task Force e AARO.
+
+Table + synthesis
+Quali casi riportati nei documenti presentano effetti fisici o dati radar?
+
+Source-awareness
+Quali organizzazioni citate nei documenti non sono enti governativi ufficiali?

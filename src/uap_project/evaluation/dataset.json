@@ -247,5 +247,22 @@
     "reference": null,
     "answerable": false,
     "expected_sections": []
+  },
+  {
+    "id": "Q21",
+    "type": "multi_hop",
+    "user_input": "Quali eventi UAP importanti sono riportati tra il 2004 e il 2022?",
+    "reference": "Nel 2004 si verifica il caso Nimitz; tra il 2007 e il 2012 opera AATIP; nel 2017 emerge pubblicamente il programma AATIP; nel 2020 viene formalizzata la UAP Task Force; nel 2021 viene pubblicato il rapporto preliminare ODNI; nel 2022 viene istituito AARO.",
+    "answerable": true,
+    "expected_sections": [
+      {
+        "source_file": "1._Nota_metodologica.md",
+        "section": "4. Cronologia — svolta istituzionale (2000–2017)"
+      },
+      {
+        "source_file": "1._Nota_metodologica.md",
+        "section": "5. Cronologia — era AARO (2020–2026)"
+      }
+    ]
   }
 ]

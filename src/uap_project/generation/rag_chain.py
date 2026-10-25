@@ -11,11 +11,11 @@ class UAPRAGChain:
         self, 
         retriever: AzureAISearchRetriever,
         llm: AzureAISearchRetriever,
-        top_k: int = 10
+        top_k: int = 5,
     ) -> None:
         self.retriever = retriever
         self.top_k = top_k
-
+        
         self.prompt = ChatPromptTemplate.from_messages([
             ("system",
             """
@@ -86,11 +86,19 @@ class UAPRAGChain:
         return "\n\n".join(formatted_documents)
     
     def ask(self, question: str) -> dict:
+        
         # Retrieval tramite Azure SDK
         documents = self.retriever.hybrid_search(
             query=question,
             top_k=self.top_k
         )
+        
+        if self.reranker is not None:
+            documents = self.reranker.rerank(
+                query=question,
+                documents=documents,
+                top_k=self.top_k
+            )
 
         if not documents:
             return {

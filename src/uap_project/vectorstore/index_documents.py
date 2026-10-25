@@ -61,7 +61,7 @@ class AzureAISearchVectorStore:
                 source = metadata.get("source", "")
 
                 document_id = hashlib.sha256(
-                    source.encode("utf-8")
+                     metadata["filename"].encode()
                 ).hexdigest()
                 chunk_index = metadata.get("chunk_index", 0)
 

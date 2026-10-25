@@ -49,7 +49,7 @@ class PDFToMarkDownConverter:
             print(f"Elaborando il file #{idx + 1}, con nome: {pdf_file.name}")
             markdown_file = self.convert_pdf(
                 pdf_path=pdf_file,
-                output_dir=output_directory
+                output_directory=output_directory
             )
             markdown_files.append(markdown_file)
         

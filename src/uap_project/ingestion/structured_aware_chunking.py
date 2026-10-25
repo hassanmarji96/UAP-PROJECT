@@ -17,9 +17,7 @@ from langchain_text_splitters import (
     MarkdownHeaderTextSplitter,
     RecursiveCharacterTextSplitter,
 )
-from dotenv import load_dotenv
 
-load_dotenv()
 
 # Riga separatore di una tabella Markdown, es. "| --- | :---: |" (almeno 3 trattini per colonna).
 _TABLE_SEPARATOR = re.compile(r"^\s*\|?\s*:?-{3,}:?\s*(?:\|\s*:?-{3,}:?\s*)+\|?\s*$")
@@ -148,19 +146,6 @@ def _split_section_preserving_tables(
         None
     )
 
-    def is_heading_only(text: str) -> bool:
-        """Verifica se il testo contiene soltanto heading Markdown."""
-        content_lines = [
-            line.strip()
-            for line in text.splitlines()
-            if line.strip()
-        ]
-
-        return bool(content_lines) and all(
-            re.match(r"^#{1,6}\s+.+$", line)
-            for line in content_lines
-        )
-
     # 3. Generazione dei chunk
     chunks: list[Document] = []
 
@@ -176,11 +161,20 @@ def _split_section_preserving_tables(
             continue
 
         if kind == "table":
-            # Mantiene le righe della tabella integre
-            # e ripete l'intestazione delle colonne.
+            heading_length = (
+                len(heading) + 2
+                if heading
+                else 0
+            )
+
+            available_size = max(
+                1,
+                chunk_size - heading_length
+            )
+
             parts = _split_table(
                 block_lines,
-                chunk_size
+                available_size
             )
         else:
             # Chunking ricorsivo per il testo normale

@@ -32,12 +32,38 @@ print("Per favore inserisci la tua domanda:")
 query = input()
 
 
-documents = azure_retriever.hybrid_search(
-    query=query,
-    top_k=5
-)
+results = {
+    "KEYWORD": azure_retriever.keyword_search(query),
+    "VECTOR": azure_retriever.vector_search(query),
+    "HYBRID": azure_retriever.hybrid_search(query),
+}
 
-for i, document in enumerate(documents, start=1):
-    print(f"\n--- DOCUMENTO {i} ---")
-    print("Metadata:", document.metadata)
-    print("Contenuto:", document.page_content)
+for search_type, documents in results.items():
+
+    print(f"\n{'=' * 60}")
+    print(f"RICERCA: {search_type}")
+    print(f"{'=' * 60}")
+
+    for i, document in enumerate(documents, start=1):
+
+        print(f"\n--- DOCUMENTO {i} ---")
+
+        print(
+            "Fonte:",
+            document.metadata.get("source_file")
+        )
+
+        print(
+            "Sezione:",
+            document.metadata.get("section")
+        )
+
+        print(
+            "Categoria:",
+            document.metadata.get("category")
+        )
+
+        print(
+            "Score:",
+            document.metadata.get("score")
+        )

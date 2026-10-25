@@ -50,7 +50,7 @@ class AzureAISearchRetriever:
             search_text=query,
             top=top_k
         )
-        return results
+        return self._to_documents(results)
     
     def vector_search(
         self,
@@ -62,7 +62,7 @@ class AzureAISearchRetriever:
         vector_query = VectorizedQuery(
             vector=query_vector,
             k_nearest_neighbors=top_k,
-            fields="content-vector"
+            fields="content_vector"
         )
         results = self.client.search(
             search_text=None,
@@ -70,7 +70,6 @@ class AzureAISearchRetriever:
             top=top_k
         )
         
-        print(f"Risultati vettoriali: {results[:20]}")
         return self._to_documents(results=results)
     
     def hybrid_search(

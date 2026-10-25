@@ -29,51 +29,24 @@ azure_retriever = AzureAISearchRetriever(
 )
 
 
-queries = [
-    "Quali caratteristiche rendono attendibile un caso UAP?",
-    "Come vengono classificati i casi dal GEIPAN?",
-    "Che cosa significa un caso UAP non identificato?",
-    "Quali sono le principali fonti ufficiali sugli UAP?",
-    "Quali sono le principali tipologie di avvistamenti UAP?",
-    ""
-]
+query = (
+    "Quali eventi UAP importanti sono riportati "
+    "tra il 2004 e il 2022?"
+)
 
-for query in queries:
-    print(f"Rispondo alla domanda: {query}\n\n")
-    
-    results = {
-        "KEYWORD": azure_retriever.keyword_search(query),
-        "VECTOR": azure_retriever.vector_search(query),
-        "HYBRID": azure_retriever.hybrid_search(query),
-    }
+methods = {
+    "keyword": azure_retriever.keyword_search,
+    "vector": azure_retriever.vector_search,
+    "hybrid": azure_retriever.hybrid_search,
+}
 
-    for search_type, documents in results.items():
+for name, search in methods.items():
+    print(f"\n===== {name.upper()} =====")
 
-        print(f"\n{'=' * 60}")
-        print(f"RICERCA: {search_type}")
-        print(f"{'=' * 60}")
+    documents = search(query=query, top_k=15)
 
-        for i, document in enumerate(documents, start=1):
-
-            print(f"\n--- DOCUMENTO {i} ---")
-
-            print(
-                "Fonte:",
-                document.metadata.get("source_file")
-            )
-
-            print(
-                "Sezione:",
-                document.metadata.get("section")
-            )
-
-            print(
-                "Categoria:",
-                document.metadata.get("category")
-            )
-
-            print(
-                "Score:",
-                document.metadata.get("score")
-            )
-    print("=" * 20)
+    for rank, doc in enumerate(documents, start=1):
+        print(f"\n{rank}. Score: {doc.metadata.get('score')}")
+        print(f"File: {doc.metadata.get('source_file')}")
+        print(f"Sezione: {doc.metadata.get('section')}")
+        print(f"Contenuto: {doc.page_content[:250]}")

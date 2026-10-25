@@ -17,7 +17,7 @@ from uap_project.retrieval.azure_retriever import AzureAISearchRetriever
 
 
 DATASET_PATH = Path(__file__).with_name("dataset.json")
-TOP_K = 5
+TOP_K = 10
 
 
 def normalize_section(value: str | None) -> str:

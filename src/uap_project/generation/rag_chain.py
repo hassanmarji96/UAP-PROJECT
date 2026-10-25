@@ -11,7 +11,7 @@ class UAPRAGChain:
         self, 
         retriever: AzureAISearchRetriever,
         llm: AzureAISearchRetriever,
-        top_k: int = 5
+        top_k: int = 10
     ) -> None:
         self.retriever = retriever
         self.top_k = top_k

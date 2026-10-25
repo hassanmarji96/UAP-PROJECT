@@ -28,42 +28,52 @@ azure_retriever = AzureAISearchRetriever(
     embeddings=embeddings
 )
 
-print("Per favore inserisci la tua domanda:")
-query = input()
 
+queries = [
+    "Quali caratteristiche rendono attendibile un caso UAP?",
+    "Come vengono classificati i casi dal GEIPAN?",
+    "Che cosa significa un caso UAP non identificato?",
+    "Quali sono le principali fonti ufficiali sugli UAP?",
+    "Quali sono le principali tipologie di avvistamenti UAP?",
+    ""
+]
 
-results = {
-    "KEYWORD": azure_retriever.keyword_search(query),
-    "VECTOR": azure_retriever.vector_search(query),
-    "HYBRID": azure_retriever.hybrid_search(query),
-}
+for query in queries:
+    print(f"Rispondo alla domanda: {query}\n\n")
+    
+    results = {
+        "KEYWORD": azure_retriever.keyword_search(query),
+        "VECTOR": azure_retriever.vector_search(query),
+        "HYBRID": azure_retriever.hybrid_search(query),
+    }
 
-for search_type, documents in results.items():
+    for search_type, documents in results.items():
 
-    print(f"\n{'=' * 60}")
-    print(f"RICERCA: {search_type}")
-    print(f"{'=' * 60}")
+        print(f"\n{'=' * 60}")
+        print(f"RICERCA: {search_type}")
+        print(f"{'=' * 60}")
 
-    for i, document in enumerate(documents, start=1):
+        for i, document in enumerate(documents, start=1):
 
-        print(f"\n--- DOCUMENTO {i} ---")
+            print(f"\n--- DOCUMENTO {i} ---")
 
-        print(
-            "Fonte:",
-            document.metadata.get("source_file")
-        )
+            print(
+                "Fonte:",
+                document.metadata.get("source_file")
+            )
 
-        print(
-            "Sezione:",
-            document.metadata.get("section")
-        )
+            print(
+                "Sezione:",
+                document.metadata.get("section")
+            )
 
-        print(
-            "Categoria:",
-            document.metadata.get("category")
-        )
+            print(
+                "Categoria:",
+                document.metadata.get("category")
+            )
 
-        print(
-            "Score:",
-            document.metadata.get("score")
-        )
+            print(
+                "Score:",
+                document.metadata.get("score")
+            )
+    print("=" * 20)

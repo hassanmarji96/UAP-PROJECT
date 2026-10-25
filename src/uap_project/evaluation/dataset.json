@@ -1,0 +1,251 @@
+[
+  {
+    "id": "Q01",
+    "type": "direct",
+    "user_input": "Quali caratteristiche rendono attendibile un caso UAP?",
+    "reference": "Un caso è considerato forte quando presenta molteplici sensori, testimoni addestrati, documentazione ufficiale, catena di custodia del materiale e indipendenza delle fonti.",
+    "answerable": true,
+    "expected_sections": [
+      {
+        "source_file": "PDF_3_Casistiche_UAP.md",
+        "section": "4. Cosa rende un caso \"forte\""
+      }
+    ]
+  },
+  {
+    "id": "Q02",
+    "type": "paraphrase",
+    "user_input": "Quali sono le principali tipologie di avvistamenti UAP?",
+    "reference": "Le tipologie per caratteristica osservata includono luci notturne, oggetti solidi diurni, tracce radar e visive, effetti fisici, inseguimenti militari e foto/video.",
+    "answerable": true,
+    "expected_sections": [
+      {
+        "source_file": "PDF_3_Casistiche_UAP.md",
+        "section": "1. Classificazione per caratteristica osservata"
+      }
+    ]
+  },
+  {
+    "id": "Q03",
+    "type": "direct",
+    "user_input": "Quali avvistamenti comprendono luci notturne, oggetti solidi ed effetti fisici?",
+    "reference": "Sono categorie della classificazione per caratteristica osservata: luci notturne, oggetti solidi diurni ed effetti fisici.",
+    "answerable": true,
+    "expected_sections": [
+      {
+        "source_file": "PDF_3_Casistiche_UAP.md",
+        "section": "1. Classificazione per caratteristica osservata"
+      }
+    ]
+  },
+  {
+    "id": "Q04",
+    "type": "paraphrase",
+    "user_input": "Come si distinguono i fenomeni UAP in base a ciò che viene osservato?",
+    "reference": "La classificazione per caratteristica osservata distingue luci notturne, oggetti solidi diurni, tracce radar e visive, effetti fisici, inseguimenti militari e foto/video.",
+    "answerable": true,
+    "expected_sections": [
+      {
+        "source_file": "PDF_3_Casistiche_UAP.md",
+        "section": "1. Classificazione per caratteristica osservata"
+      }
+    ]
+  },
+  {
+    "id": "Q05",
+    "type": "direct",
+    "user_input": "Quali sono le categorie per spiegazione dei casi UAP?",
+    "reference": "Il documento distingue identificati (IFO), non identificati per dati insufficienti e anomalie genuine.",
+    "answerable": true,
+    "expected_sections": [
+      {
+        "source_file": "PDF_3_Casistiche_UAP.md",
+        "section": "2. Classificazione per spiegazione"
+      }
+    ]
+  },
+  {
+    "id": "Q06",
+    "type": "direct",
+    "user_input": "Quali esempi vengono forniti per i casi identificati come IFO?",
+    "reference": "Palloni, droni, aerei, satelliti, uccelli e lanterne.",
+    "answerable": true,
+    "expected_sections": [
+      {
+        "source_file": "PDF_3_Casistiche_UAP.md",
+        "section": "2. Classificazione per spiegazione"
+      }
+    ]
+  },
+  {
+    "id": "Q07",
+    "type": "direct",
+    "user_input": "Quali sono le fasi del ciclo di gestione di un caso UAP?",
+    "reference": "Segnalazione, raccolta dati, analisi tecnica, classificazione e archiviazione o declassificazione.",
+    "answerable": true,
+    "expected_sections": [
+      {
+        "source_file": "PDF_2_Come_vengono_gestiti_i_casi_UAP.md",
+        "section": "1. Il ciclo di gestione"
+      }
+    ]
+  },
+  {
+    "id": "Q08",
+    "type": "direct",
+    "user_input": "Come vengono classificati i casi dal GEIPAN?",
+    "reference": "Il GEIPAN, all’interno del CNES, classifica le segnalazioni in categorie A/B/C/D; il documento specifica che A significa identificato e D non identificato, senza definire B e C.",
+    "answerable": true,
+    "expected_sections": [
+      {
+        "source_file": "PDF_2_Come_vengono_gestiti_i_casi_UAP.md",
+        "section": "3. Francia — GEIPAN"
+      }
+    ]
+  },
+  {
+    "id": "Q09",
+    "type": "paraphrase",
+    "user_input": "Che cosa significa che un caso UAP rimane non identificato?",
+    "reference": "Significa che i dati disponibili non bastano a identificarlo; non implica un’origine extraterrestre. Il caso può essere risolto in seguito se arrivano nuovi dati.",
+    "answerable": true,
+    "expected_sections": [
+      {
+        "source_file": "PDF_2_Come_vengono_gestiti_i_casi_UAP.md",
+        "section": "6. Cosa succede a un caso \"non identificato\""
+      }
+    ]
+  },
+  {
+    "id": "Q10",
+    "type": "direct",
+    "user_input": "Quali istituzioni statunitensi compaiono nella gestione dei casi UAP?",
+    "reference": "Il documento cita Project Blue Book, AATIP, UAP Task Force, AARO, ODNI e NASA UAP Independent Study Team.",
+    "answerable": true,
+    "expected_sections": [
+      {
+        "source_file": "PDF_2_Come_vengono_gestiti_i_casi_UAP.md",
+        "section": "2. USA — la catena istituzionale"
+      }
+    ]
+  },
+  {
+    "id": "Q11",
+    "type": "direct",
+    "user_input": "Quali sono le principali fonti istituzionali statunitensi per studiare gli UAP?",
+    "reference": "AARO, ODNI, NASA, FBI Vault, CIA Reading Room, NARA e Congress.gov.",
+    "answerable": true,
+    "expected_sections": [
+      {
+        "source_file": "PDF_4_Fonti_ufficiali_UAP.md",
+        "section": "1. USA"
+      }
+    ]
+  },
+  {
+    "id": "Q12",
+    "type": "direct",
+    "user_input": "Quali archivi o enti sono elencati nella sezione Europa delle fonti UAP?",
+    "reference": "Il documento elenca GEIPAN, UK National Archives, CEFAA e Aeronautica Militare Italiana. La sezione include anche il CEFAA cileno pur chiamandosi Europa.",
+    "answerable": true,
+    "expected_sections": [
+      {
+        "source_file": "PDF_4_Fonti_ufficiali_UAP.md",
+        "section": "2. Europa"
+      }
+    ]
+  },
+  {
+    "id": "Q13",
+    "type": "direct",
+    "user_input": "Quale ordine di priorità suggerisce il documento per le fonti di un RAG sugli UAP?",
+    "reference": "Priorità 1 ai documenti governativi, priorità 2 a rapporti tecnici peer-reviewed o di enti riconosciuti, priorità 3 alla stampa primaria. Consiglia di evitare fonti divulgative senza documenti allegati.",
+    "answerable": true,
+    "expected_sections": [
+      {
+        "source_file": "PDF_4_Fonti_ufficiali_UAP.md",
+        "section": "4. Come usare le fonti in un RAG"
+      }
+    ]
+  },
+  {
+    "id": "Q14",
+    "type": "direct",
+    "user_input": "Quali organizzazioni di ricerca non ufficiali vengono citate?",
+    "reference": "NICAP, CUFOS, MUFON e SCU. Il documento avverte che i dati MUFON non sono verificati.",
+    "answerable": true,
+    "expected_sections": [
+      {
+        "source_file": "PDF_4_Fonti_ufficiali_UAP.md",
+        "section": "3. Organizzazioni di ricerca (non ufficiali ma serie)"
+      }
+    ]
+  },
+  {
+    "id": "Q15",
+    "type": "direct",
+    "user_input": "Esiste un primo avvistamento UAP documentato in senso assoluto?",
+    "reference": "No. Il documento distingue invece una sequenza di casi storicamente rilevanti, segnalando che prima del 1947 non si usava UAP come categoria moderna.",
+    "answerable": true,
+    "expected_sections": [
+      {
+        "source_file": "PDF_1_Primi_avvistamenti_UAP_dove_e_quando.md",
+        "section": "1. Il problema della \"data zero\""
+      }
+    ]
+  },
+  {
+    "id": "Q16",
+    "type": "direct",
+    "user_input": "Perché gli avvistamenti UAP storici sembrano concentrarsi in alcuni paesi?",
+    "reference": "Il documento collega la maggiore documentazione in USA, Francia, UK, Canada e Scandinavia alla presenza di enti che raccolgono dati; l’assenza di dati altrove non prova l’assenza dei fenomeni.",
+    "answerable": true,
+    "expected_sections": [
+      {
+        "source_file": "PDF_1_Primi_avvistamenti_UAP_dove_e_quando.md",
+        "section": "3. Pattern geografico"
+      }
+    ]
+  },
+  {
+    "id": "Q17",
+    "type": "multi_hop",
+    "user_input": "Qual è la differenza tra un caso non identificato e un caso considerato forte?",
+    "reference": "Non identificato significa che i dati non bastano a stabilirne l’identità; forte indica evidenze robuste, come più sensori, testimoni addestrati, documentazione ufficiale, catena di custodia e fonti indipendenti. I due concetti descrivono aspetti diversi.",
+    "answerable": true,
+    "expected_sections": [
+      {
+        "source_file": "PDF_2_Come_vengono_gestiti_i_casi_UAP.md",
+        "section": "6. Cosa succede a un caso \"non identificato\""
+      },
+      {
+        "source_file": "PDF_3_Casistiche_UAP.md",
+        "section": "4. Cosa rende un caso \"forte\""
+      }
+    ]
+  },
+  {
+    "id": "Q18",
+    "type": "unanswerable",
+    "user_input": "Qual è il nome dell’alieno trovato a Roswell?",
+    "reference": null,
+    "answerable": false,
+    "expected_sections": []
+  },
+  {
+    "id": "Q19",
+    "type": "unanswerable",
+    "user_input": "Qual è la percentuale esatta di casi GEIPAN classificati nella categoria B nel 2025?",
+    "reference": null,
+    "answerable": false,
+    "expected_sections": []
+  },
+  {
+    "id": "Q20",
+    "type": "unanswerable",
+    "user_input": "Quali sono le coordinate GPS esatte dell’avvistamento Nimitz del 2004?",
+    "reference": null,
+    "answerable": false,
+    "expected_sections": []
+  }
+]

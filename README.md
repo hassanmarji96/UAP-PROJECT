@@ -1,6 +1,6 @@
 # UAP Project
 
-Sistema **RAG (Retrieval-Augmented Generation)** in italiano sul tema UAP (Unidentified Anomalous Phenomena). I documenti PDF vengono convertiti in Markdown, suddivisi in chunk che rispettano la struttura, indicizzati su **Azure AI Search** e interrogati tramite ricerca ibrida e generazione con **Azure OpenAI**.
+Sistema **RAG (Retrieval-Augmented Generation)** sul tema UAP (Unidentified Anomalous Phenomena). I documenti PDF vengono convertiti in Markdown, suddivisi in chunk che rispettano la struttura, indicizzati su **Azure AI Search** e interrogati tramite ricerca ibrida e generazione con **Azure OpenAI**.
 
 ## Architettura
 

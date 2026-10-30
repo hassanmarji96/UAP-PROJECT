@@ -62,13 +62,15 @@ def create_index(
         SearchableField(
             name="section",
             type=SearchFieldDataType.String,
-            filterable=True
+            filterable=True,
+            analyzer_name="it.microsoft"
         ),
         SearchableField(
         name="category",
         type=SearchFieldDataType.String,
         filterable=True,
-        facetable=True
+        facetable=True,
+        analyzer_name="it.microsoft"
         ),
         SimpleField(
             name="content_type",
@@ -83,7 +85,8 @@ def create_index(
         ),
         SearchableField(
             name="content",
-            type=SearchFieldDataType.String
+            type=SearchFieldDataType.String,
+            analyzer_name="it.microsoft"
         ),
         SearchField(
             name="content_vector",

@@ -12,9 +12,8 @@ dependencies = [
     "azure-search-documents==11.5.3",
     "fastapi==0.136.3",
     "jinja2==3.1.6",
-    "langchain-community==0.4.2",
+    "langchain-community==0.3.31",
     "langchain-core==1.4.0",
-    "langchain-experimental==0.4.2",
     "langchain-openai==1.2.2",
     "openai==2.41.0",
     "psycopg2-binary==2.9.10",
@@ -22,10 +21,11 @@ dependencies = [
     "pymupdf4llm==1.27.2.3",
     "python-dotenv==1.1.1",
     "python-multipart==0.0.32",
-    "ragas>=0.3.1",
+    "ragas>=0.3.9",
     "sentence-transformers>=6.2.0",
     "sqlalchemy==2.0.50",
     "uvicorn==0.35.0",
+    "langchain-text-splitters",
 ]
 
 [project.scripts]

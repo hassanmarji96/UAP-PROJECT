@@ -1,0 +1,4760 @@
+{
+  "keyword": [
+    {
+      "id": "Q01",
+      "question": "Quali caratteristiche rendono attendibile un caso UAP?",
+      "type": "direct",
+      "metrics": {
+        "hit@1": 0,
+        "hit@3": 1,
+        "hit@10": 1,
+        "recall@10": 1.0,
+        "mrr@10": 0.5,
+        "full_coverage@10": 1,
+        "found_sections": 1,
+        "expected_sections": 1
+      },
+      "latency_s": 1.0439950999862049,
+      "documents": [
+        {
+          "rank": 1,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "9. Criteri che rendono un caso \"forte\"",
+          "chunk_index": 11,
+          "search_score": 19.614933
+        },
+        {
+          "rank": 2,
+          "source_file": "PDF_3_Casistiche_UAP.md",
+          "section": "4. Cosa rende un caso \"forte\"",
+          "chunk_index": 3,
+          "search_score": 14.631332
+        },
+        {
+          "rank": 3,
+          "source_file": "Documento_UAP_Release_recenti_e_stato_della_disclosure.md",
+          "section": "1.2 Il caso del \"triangular UAP\" (release 7, ottobre 2026)",
+          "chunk_index": 2,
+          "search_score": 14.300246
+        },
+        {
+          "rank": 4,
+          "source_file": "PDF_3_Casistiche_UAP.md",
+          "section": "1. Classificazione per caratteristica osservata",
+          "chunk_index": 0,
+          "search_score": 11.642581
+        },
+        {
+          "rank": 5,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "8. Ciclo di gestione di una segnalazione UAP",
+          "chunk_index": 10,
+          "search_score": 10.050879
+        },
+        {
+          "rank": 6,
+          "source_file": "PDF_2_Come_vengono_gestiti_i_casi_UAP.md",
+          "section": "6. Cosa succede a un caso \"non identificato\"",
+          "chunk_index": 5,
+          "search_score": 7.5402417
+        },
+        {
+          "rank": 7,
+          "source_file": "Documento_UAP_Release_recenti_e_stato_della_disclosure.md",
+          "section": "FY2025 Consolidated Annual Report on UAP — pubblicato nel 2026 FY2024 Consolidated Annual Report on UAP — pubblicato il 14 novembre 2024",
+          "chunk_index": 5,
+          "search_score": 7.3672543
+        },
+        {
+          "rank": 8,
+          "source_file": "Documento_UAP_Errori_da_evitare_nell_uso_documentale_delle_fonti.md",
+          "section": "5. Errore 4 — Attribuire a un ente un documento che non è suo",
+          "chunk_index": 4,
+          "search_score": 6.635107
+        },
+        {
+          "rank": 9,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "2. Cronologia — casi fondativi (1946–1969)",
+          "chunk_index": 2,
+          "search_score": 6.2158794
+        },
+        {
+          "rank": 10,
+          "source_file": "Documento_UAP_Glossario_dei_termini_e_delle_sigle.md",
+          "section": "PURSUE — Presidential Unsealing and Reporting System for UAP Encounters.",
+          "chunk_index": 6,
+          "search_score": 6.1608644
+        }
+      ]
+    },
+    {
+      "id": "Q02",
+      "question": "Quali sono le principali tipologie di avvistamenti UAP?",
+      "type": "paraphrase",
+      "metrics": {
+        "hit@1": 0,
+        "hit@3": 0,
+        "hit@10": 0,
+        "recall@10": 0.0,
+        "mrr@10": 0.0,
+        "full_coverage@10": 0,
+        "found_sections": 0,
+        "expected_sections": 1
+      },
+      "latency_s": 0.0778252000163775,
+      "documents": [
+        {
+          "rank": 1,
+          "source_file": "PDF_1_Primi_avvistamenti_UAP_dove_e_quando.md",
+          "section": "4. Cosa NON è un \"primo avvistamento\"",
+          "chunk_index": 4,
+          "search_score": 11.70292
+        },
+        {
+          "rank": 2,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "8. Ciclo di gestione di una segnalazione UAP",
+          "chunk_index": 10,
+          "search_score": 9.336115
+        },
+        {
+          "rank": 3,
+          "source_file": "Documento_UAP_Release_recenti_e_stato_della_disclosure.md",
+          "section": "1.2 Il caso del \"triangular UAP\" (release 7, ottobre 2026)",
+          "chunk_index": 2,
+          "search_score": 9.187217
+        },
+        {
+          "rank": 4,
+          "source_file": "Documento_UAP_Errori_da_evitare_nell_uso_documentale_delle_fonti.md",
+          "section": "6. Errore 5 — Trattare i numeri come stabili quando non lo sono",
+          "chunk_index": 5,
+          "search_score": 7.2964716
+        },
+        {
+          "rank": 5,
+          "source_file": "Documento_UAP_Release_recenti_e_stato_della_disclosure.md",
+          "section": "FY2025 Consolidated Annual Report on UAP — pubblicato nel 2026 FY2024 Consolidated Annual Report on UAP — pubblicato il 14 novembre 2024",
+          "chunk_index": 5,
+          "search_score": 6.488351
+        },
+        {
+          "rank": 6,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "2. Cronologia — casi fondativi (1946–1969)",
+          "chunk_index": 2,
+          "search_score": 6.2468944
+        },
+        {
+          "rank": 7,
+          "source_file": "Documento_UAP_Glossario_dei_termini_e_delle_sigle.md",
+          "section": "PURSUE — Presidential Unsealing and Reporting System for UAP Encounters.",
+          "chunk_index": 6,
+          "search_score": 6.1608644
+        },
+        {
+          "rank": 8,
+          "source_file": "Documento_UAP_Release_recenti_e_stato_della_disclosure.md",
+          "section": "1.1 Il programma PURSUE e le release di file declassificati",
+          "chunk_index": 0,
+          "search_score": 5.615471
+        },
+        {
+          "rank": 9,
+          "source_file": "PDF_1_Primi_avvistamenti_UAP_dove_e_quando.md",
+          "section": "3. Pattern geografico",
+          "chunk_index": 3,
+          "search_score": 4.794585
+        },
+        {
+          "rank": 10,
+          "source_file": "Documento_UAP_Release_recenti_e_stato_della_disclosure.md",
+          "section": "1.1 Il programma PURSUE e le release di file declassificati",
+          "chunk_index": 1,
+          "search_score": 4.6691737
+        }
+      ]
+    },
+    {
+      "id": "Q03",
+      "question": "Quali avvistamenti comprendono luci notturne, oggetti solidi ed effetti fisici?",
+      "type": "direct",
+      "metrics": {
+        "hit@1": 1,
+        "hit@3": 1,
+        "hit@10": 1,
+        "recall@10": 1.0,
+        "mrr@10": 1.0,
+        "full_coverage@10": 1,
+        "found_sections": 1,
+        "expected_sections": 1
+      },
+      "latency_s": 0.08328749999054708,
+      "documents": [
+        {
+          "rank": 1,
+          "source_file": "PDF_3_Casistiche_UAP.md",
+          "section": "1. Classificazione per caratteristica osservata",
+          "chunk_index": 0,
+          "search_score": 27.211098
+        },
+        {
+          "rank": 2,
+          "source_file": "Documento_UAP_Glossario_dei_termini_e_delle_sigle.md",
+          "section": "Scala GEIPAN (quattro livelli):",
+          "chunk_index": 7,
+          "search_score": 26.608034
+        },
+        {
+          "rank": 3,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "2. Cronologia — casi fondativi (1946–1969)",
+          "chunk_index": 2,
+          "search_score": 8.788612
+        },
+        {
+          "rank": 4,
+          "source_file": "PDF_1_Primi_avvistamenti_UAP_dove_e_quando.md",
+          "section": "4. Cosa NON è un \"primo avvistamento\"",
+          "chunk_index": 4,
+          "search_score": 7.8347
+        },
+        {
+          "rank": 5,
+          "source_file": "PDF_1_Primi_avvistamenti_UAP_dove_e_quando.md",
+          "section": "2. Cronologia dei casi fondativi",
+          "chunk_index": 1,
+          "search_score": 7.5629983
+        },
+        {
+          "rank": 6,
+          "source_file": "PDF_3_Casistiche_UAP.md",
+          "section": "3. Casi iconici per tipo",
+          "chunk_index": 2,
+          "search_score": 7.5313835
+        },
+        {
+          "rank": 7,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "2. Cronologia — casi fondativi (1946–1969)",
+          "chunk_index": 1,
+          "search_score": 6.423725
+        },
+        {
+          "rank": 8,
+          "source_file": "Documento_UAP_Glossario_dei_termini_e_delle_sigle.md",
+          "section": "2. Termini di base",
+          "chunk_index": 1,
+          "search_score": 6.0604677
+        },
+        {
+          "rank": 9,
+          "source_file": "PDF_1_Primi_avvistamenti_UAP_dove_e_quando.md",
+          "section": "1. Il problema della \"data zero\"",
+          "chunk_index": 0,
+          "search_score": 5.18511
+        },
+        {
+          "rank": 10,
+          "source_file": "PDF_3_Casistiche_UAP.md",
+          "section": "2. Classificazione per spiegazione",
+          "chunk_index": 1,
+          "search_score": 5.0930395
+        }
+      ]
+    },
+    {
+      "id": "Q04",
+      "question": "Come si distinguono i fenomeni UAP in base a ciò che viene osservato?",
+      "type": "paraphrase",
+      "metrics": {
+        "hit@1": 0,
+        "hit@3": 0,
+        "hit@10": 1,
+        "recall@10": 1.0,
+        "mrr@10": 0.14285714285714285,
+        "full_coverage@10": 1,
+        "found_sections": 1,
+        "expected_sections": 1
+      },
+      "latency_s": 0.06910130000323988,
+      "documents": [
+        {
+          "rank": 1,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "8. Ciclo di gestione di una segnalazione UAP",
+          "chunk_index": 10,
+          "search_score": 16.680998
+        },
+        {
+          "rank": 2,
+          "source_file": "Documento_UAP_Glossario_dei_termini_e_delle_sigle.md",
+          "section": "2. Termini di base",
+          "chunk_index": 1,
+          "search_score": 15.593202
+        },
+        {
+          "rank": 3,
+          "source_file": "Documento_UAP_Release_recenti_e_stato_della_disclosure.md",
+          "section": "1.2 Il caso del \"triangular UAP\" (release 7, ottobre 2026)",
+          "chunk_index": 2,
+          "search_score": 12.989197
+        },
+        {
+          "rank": 4,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "2. Cronologia — casi fondativi (1946–1969)",
+          "chunk_index": 1,
+          "search_score": 12.378503
+        },
+        {
+          "rank": 5,
+          "source_file": "Documento_UAP_Errori_da_evitare_nell_uso_documentale_delle_fonti.md",
+          "section": "6. Errore 5 — Trattare i numeri come stabili quando non lo sono",
+          "chunk_index": 5,
+          "search_score": 12.226706
+        },
+        {
+          "rank": 6,
+          "source_file": "Documento_UAP_Errori_da_evitare_nell_uso_documentale_delle_fonti.md",
+          "section": "5. Errore 4 — Attribuire a un ente un documento che non è suo",
+          "chunk_index": 4,
+          "search_score": 12.056326
+        },
+        {
+          "rank": 7,
+          "source_file": "PDF_3_Casistiche_UAP.md",
+          "section": "1. Classificazione per caratteristica osservata",
+          "chunk_index": 0,
+          "search_score": 11.936338
+        },
+        {
+          "rank": 8,
+          "source_file": "Documento_UAP_Errori_da_evitare_nell_uso_documentale_delle_fonti.md",
+          "section": "1. A cosa serve questo documento",
+          "chunk_index": 0,
+          "search_score": 10.545509
+        },
+        {
+          "rank": 9,
+          "source_file": "Documento_UAP_Errori_da_evitare_nell_uso_documentale_delle_fonti.md",
+          "section": "9. Errore 8 — Presentare una testimonianza singola come prova",
+          "chunk_index": 8,
+          "search_score": 10.28019
+        },
+        {
+          "rank": 10,
+          "source_file": "PDF_4_Fonti_ufficiali_UAP.md",
+          "section": "4. Come usare le fonti in un RAG",
+          "chunk_index": 3,
+          "search_score": 10.264552
+        }
+      ]
+    },
+    {
+      "id": "Q05",
+      "question": "Quali sono le categorie per spiegazione dei casi UAP?",
+      "type": "direct",
+      "metrics": {
+        "hit@1": 1,
+        "hit@3": 1,
+        "hit@10": 1,
+        "recall@10": 1.0,
+        "mrr@10": 1.0,
+        "full_coverage@10": 1,
+        "found_sections": 1,
+        "expected_sections": 1
+      },
+      "latency_s": 0.1405019999947399,
+      "documents": [
+        {
+          "rank": 1,
+          "source_file": "PDF_3_Casistiche_UAP.md",
+          "section": "2. Classificazione per spiegazione",
+          "chunk_index": 1,
+          "search_score": 23.20731
+        },
+        {
+          "rank": 2,
+          "source_file": "PDF_3_Casistiche_UAP.md",
+          "section": "3. Casi iconici per tipo",
+          "chunk_index": 2,
+          "search_score": 13.692577
+        },
+        {
+          "rank": 3,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "8. Ciclo di gestione di una segnalazione UAP",
+          "chunk_index": 10,
+          "search_score": 13.257029
+        },
+        {
+          "rank": 4,
+          "source_file": "PDF_3_Casistiche_UAP.md",
+          "section": "1. Classificazione per caratteristica osservata",
+          "chunk_index": 0,
+          "search_score": 11.142012
+        },
+        {
+          "rank": 5,
+          "source_file": "PDF_1_Primi_avvistamenti_UAP_dove_e_quando.md",
+          "section": "2. Cronologia dei casi fondativi",
+          "chunk_index": 2,
+          "search_score": 10.224332
+        },
+        {
+          "rank": 6,
+          "source_file": "PDF_1_Primi_avvistamenti_UAP_dove_e_quando.md",
+          "section": "2. Cronologia dei casi fondativi",
+          "chunk_index": 1,
+          "search_score": 9.745076
+        },
+        {
+          "rank": 7,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "2. Cronologia — casi fondativi (1946–1969)",
+          "chunk_index": 2,
+          "search_score": 9.71406
+        },
+        {
+          "rank": 8,
+          "source_file": "Documento_UAP_Errori_da_evitare_nell_uso_documentale_delle_fonti.md",
+          "section": "6. Errore 5 — Trattare i numeri come stabili quando non lo sono",
+          "chunk_index": 5,
+          "search_score": 9.470867
+        },
+        {
+          "rank": 9,
+          "source_file": "Documento_UAP_Release_recenti_e_stato_della_disclosure.md",
+          "section": "FY2025 Consolidated Annual Report on UAP — pubblicato nel 2026 FY2024 Consolidated Annual Report on UAP — pubblicato il 14 novembre 2024",
+          "chunk_index": 5,
+          "search_score": 9.03424
+        },
+        {
+          "rank": 10,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "6. Enti per paese — quadro sintetico",
+          "chunk_index": 8,
+          "search_score": 8.879403
+        }
+      ]
+    },
+    {
+      "id": "Q06",
+      "question": "Quali esempi vengono forniti per i casi identificati come IFO?",
+      "type": "direct",
+      "metrics": {
+        "hit@1": 1,
+        "hit@3": 1,
+        "hit@10": 1,
+        "recall@10": 1.0,
+        "mrr@10": 1.0,
+        "full_coverage@10": 1,
+        "found_sections": 1,
+        "expected_sections": 1
+      },
+      "latency_s": 0.0810044999816455,
+      "documents": [
+        {
+          "rank": 1,
+          "source_file": "PDF_3_Casistiche_UAP.md",
+          "section": "2. Classificazione per spiegazione",
+          "chunk_index": 1,
+          "search_score": 20.364792
+        },
+        {
+          "rank": 2,
+          "source_file": "PDF_3_Casistiche_UAP.md",
+          "section": "3. Casi iconici per tipo",
+          "chunk_index": 2,
+          "search_score": 13.692577
+        },
+        {
+          "rank": 3,
+          "source_file": "PDF_2_Come_vengono_gestiti_i_casi_UAP.md",
+          "section": "6. Cosa succede a un caso \"non identificato\"",
+          "chunk_index": 5,
+          "search_score": 11.9602375
+        },
+        {
+          "rank": 4,
+          "source_file": "Documento_UAP_Errori_da_evitare_nell_uso_documentale_delle_fonti.md",
+          "section": "3. Errore 2 — Confondere \"non identificato\" con \"extraterrestre\"",
+          "chunk_index": 2,
+          "search_score": 11.54578
+        },
+        {
+          "rank": 5,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "2. Cronologia — casi fondativi (1946–1969)",
+          "chunk_index": 2,
+          "search_score": 11.224424
+        },
+        {
+          "rank": 6,
+          "source_file": "Documento_UAP_Errori_da_evitare_nell_uso_documentale_delle_fonti.md",
+          "section": "6. Errore 5 — Trattare i numeri come stabili quando non lo sono",
+          "chunk_index": 5,
+          "search_score": 10.870925
+        },
+        {
+          "rank": 7,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "2. Cronologia — casi fondativi (1946–1969)",
+          "chunk_index": 1,
+          "search_score": 9.427112
+        },
+        {
+          "rank": 8,
+          "source_file": "PDF_3_Casistiche_UAP.md",
+          "section": "1. Classificazione per caratteristica osservata",
+          "chunk_index": 0,
+          "search_score": 8.645111
+        },
+        {
+          "rank": 9,
+          "source_file": "Documento_UAP_Glossario_dei_termini_e_delle_sigle.md",
+          "section": "Scala GEIPAN (quattro livelli):",
+          "chunk_index": 7,
+          "search_score": 8.633824
+        },
+        {
+          "rank": 10,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "6. Enti per paese — quadro sintetico",
+          "chunk_index": 8,
+          "search_score": 8.149676
+        }
+      ]
+    },
+    {
+      "id": "Q07",
+      "question": "Quali sono le fasi del ciclo di gestione di un caso UAP?",
+      "type": "direct",
+      "metrics": {
+        "hit@1": 0,
+        "hit@3": 1,
+        "hit@10": 1,
+        "recall@10": 1.0,
+        "mrr@10": 0.5,
+        "full_coverage@10": 1,
+        "found_sections": 1,
+        "expected_sections": 1
+      },
+      "latency_s": 0.09150020001106896,
+      "documents": [
+        {
+          "rank": 1,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "8. Ciclo di gestione di una segnalazione UAP",
+          "chunk_index": 10,
+          "search_score": 40.007202
+        },
+        {
+          "rank": 2,
+          "source_file": "PDF_2_Come_vengono_gestiti_i_casi_UAP.md",
+          "section": "1. Il ciclo di gestione",
+          "chunk_index": 0,
+          "search_score": 27.621916
+        },
+        {
+          "rank": 3,
+          "source_file": "Documento_UAP_Release_recenti_e_stato_della_disclosure.md",
+          "section": "1.2 Il caso del \"triangular UAP\" (release 7, ottobre 2026)",
+          "chunk_index": 2,
+          "search_score": 13.214316
+        },
+        {
+          "rank": 4,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "9. Criteri che rendono un caso \"forte\"",
+          "chunk_index": 11,
+          "search_score": 8.389797
+        },
+        {
+          "rank": 5,
+          "source_file": "PDF_3_Casistiche_UAP.md",
+          "section": "4. Cosa rende un caso \"forte\"",
+          "chunk_index": 3,
+          "search_score": 8.294813
+        },
+        {
+          "rank": 6,
+          "source_file": "Documento_UAP_Errori_da_evitare_nell_uso_documentale_delle_fonti.md",
+          "section": "6. Errore 5 — Trattare i numeri come stabili quando non lo sono",
+          "chunk_index": 5,
+          "search_score": 8.188612
+        },
+        {
+          "rank": 7,
+          "source_file": "PDF_2_Come_vengono_gestiti_i_casi_UAP.md",
+          "section": "6. Cosa succede a un caso \"non identificato\"",
+          "chunk_index": 5,
+          "search_score": 8.10546
+        },
+        {
+          "rank": 8,
+          "source_file": "Documento_UAP_Release_recenti_e_stato_della_disclosure.md",
+          "section": "FY2025 Consolidated Annual Report on UAP — pubblicato nel 2026 FY2024 Consolidated Annual Report on UAP — pubblicato il 14 novembre 2024",
+          "chunk_index": 5,
+          "search_score": 7.3672543
+        },
+        {
+          "rank": 9,
+          "source_file": "Documento_UAP_Release_recenti_e_stato_della_disclosure.md",
+          "section": "1.1 Il programma PURSUE e le release di file declassificati",
+          "chunk_index": 0,
+          "search_score": 7.3619747
+        },
+        {
+          "rank": 10,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "2. Cronologia — casi fondativi (1946–1969)",
+          "chunk_index": 2,
+          "search_score": 6.882281
+        }
+      ]
+    },
+    {
+      "id": "Q08",
+      "question": "Come vengono classificati i casi dal GEIPAN?",
+      "type": "direct",
+      "metrics": {
+        "hit@1": 1,
+        "hit@3": 1,
+        "hit@10": 1,
+        "recall@10": 1.0,
+        "mrr@10": 1.0,
+        "full_coverage@10": 1,
+        "found_sections": 1,
+        "expected_sections": 1
+      },
+      "latency_s": 0.07942399999592453,
+      "documents": [
+        {
+          "rank": 1,
+          "source_file": "PDF_2_Come_vengono_gestiti_i_casi_UAP.md",
+          "section": "3. Francia — GEIPAN",
+          "chunk_index": 2,
+          "search_score": 14.319311
+        },
+        {
+          "rank": 2,
+          "source_file": "Documento_UAP_Errori_da_evitare_nell_uso_documentale_delle_fonti.md",
+          "section": "6. Errore 5 — Trattare i numeri come stabili quando non lo sono",
+          "chunk_index": 5,
+          "search_score": 9.794462
+        },
+        {
+          "rank": 3,
+          "source_file": "Documento_UAP_Errori_da_evitare_nell_uso_documentale_delle_fonti.md",
+          "section": "3. Errore 2 — Confondere \"non identificato\" con \"extraterrestre\"",
+          "chunk_index": 2,
+          "search_score": 9.539174
+        },
+        {
+          "rank": 4,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "2. Cronologia — casi fondativi (1946–1969)",
+          "chunk_index": 1,
+          "search_score": 9.427112
+        },
+        {
+          "rank": 5,
+          "source_file": "Documento_UAP_Glossario_dei_termini_e_delle_sigle.md",
+          "section": "GEIPAN — Groupe d'Études et d'Informations sur les Phénomènes Aérospatiaux",
+          "chunk_index": 5,
+          "search_score": 8.705719
+        },
+        {
+          "rank": 6,
+          "source_file": "PDF_4_Fonti_ufficiali_UAP.md",
+          "section": "4. Come usare le fonti in un RAG",
+          "chunk_index": 3,
+          "search_score": 8.498265
+        },
+        {
+          "rank": 7,
+          "source_file": "Documento_UAP_Glossario_dei_termini_e_delle_sigle.md",
+          "section": "Scala GEIPAN (quattro livelli):",
+          "chunk_index": 7,
+          "search_score": 8.1318245
+        },
+        {
+          "rank": 8,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "7. Classificazione GEIPAN — scala a quattro livelli",
+          "chunk_index": 9,
+          "search_score": 8.1161
+        },
+        {
+          "rank": 9,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "1. Nota metodologica",
+          "chunk_index": 0,
+          "search_score": 7.8962955
+        },
+        {
+          "rank": 10,
+          "source_file": "PDF_1_Primi_avvistamenti_UAP_dove_e_quando.md",
+          "section": "2. Cronologia dei casi fondativi",
+          "chunk_index": 1,
+          "search_score": 7.5173907
+        }
+      ]
+    },
+    {
+      "id": "Q09",
+      "question": "Che cosa significa che un caso UAP rimane non identificato?",
+      "type": "paraphrase",
+      "metrics": {
+        "hit@1": 1,
+        "hit@3": 1,
+        "hit@10": 1,
+        "recall@10": 1.0,
+        "mrr@10": 1.0,
+        "full_coverage@10": 1,
+        "found_sections": 1,
+        "expected_sections": 1
+      },
+      "latency_s": 0.0976026999996975,
+      "documents": [
+        {
+          "rank": 1,
+          "source_file": "PDF_2_Come_vengono_gestiti_i_casi_UAP.md",
+          "section": "6. Cosa succede a un caso \"non identificato\"",
+          "chunk_index": 5,
+          "search_score": 39.742294
+        },
+        {
+          "rank": 2,
+          "source_file": "Documento_UAP_Errori_da_evitare_nell_uso_documentale_delle_fonti.md",
+          "section": "3. Errore 2 — Confondere \"non identificato\" con \"extraterrestre\"",
+          "chunk_index": 2,
+          "search_score": 25.619781
+        },
+        {
+          "rank": 3,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "9. Criteri che rendono un caso \"forte\"",
+          "chunk_index": 11,
+          "search_score": 22.823101
+        },
+        {
+          "rank": 4,
+          "source_file": "Documento_UAP_Errori_da_evitare_nell_uso_documentale_delle_fonti.md",
+          "section": "5. Errore 4 — Attribuire a un ente un documento che non è suo",
+          "chunk_index": 4,
+          "search_score": 20.03243
+        },
+        {
+          "rank": 5,
+          "source_file": "PDF_1_Primi_avvistamenti_UAP_dove_e_quando.md",
+          "section": "4. Cosa NON è un \"primo avvistamento\"",
+          "chunk_index": 4,
+          "search_score": 18.658865
+        },
+        {
+          "rank": 6,
+          "source_file": "PDF_3_Casistiche_UAP.md",
+          "section": "4. Cosa rende un caso \"forte\"",
+          "chunk_index": 3,
+          "search_score": 17.63598
+        },
+        {
+          "rank": 7,
+          "source_file": "Documento_UAP_Glossario_dei_termini_e_delle_sigle.md",
+          "section": "1. A cosa serve questo glossario",
+          "chunk_index": 0,
+          "search_score": 15.6021185
+        },
+        {
+          "rank": 8,
+          "source_file": "Documento_UAP_Errori_da_evitare_nell_uso_documentale_delle_fonti.md",
+          "section": "1. A cosa serve questo documento",
+          "chunk_index": 0,
+          "search_score": 14.278578
+        },
+        {
+          "rank": 9,
+          "source_file": "Documento_UAP_Glossario_dei_termini_e_delle_sigle.md",
+          "section": "ODNI — Office of the Director of National Intelligence. Ufficio che coordina la comunità",
+          "chunk_index": 3,
+          "search_score": 12.723151
+        },
+        {
+          "rank": 10,
+          "source_file": "Documento_UAP_Release_recenti_e_stato_della_disclosure.md",
+          "section": "1.2 Il caso del \"triangular UAP\" (release 7, ottobre 2026)",
+          "chunk_index": 2,
+          "search_score": 12.650737
+        }
+      ]
+    },
+    {
+      "id": "Q10",
+      "question": "Quali istituzioni statunitensi compaiono nella gestione dei casi UAP?",
+      "type": "direct",
+      "metrics": {
+        "hit@1": 0,
+        "hit@3": 0,
+        "hit@10": 0,
+        "recall@10": 0.0,
+        "mrr@10": 0.0,
+        "full_coverage@10": 0,
+        "found_sections": 0,
+        "expected_sections": 1
+      },
+      "latency_s": 0.08455520001007244,
+      "documents": [
+        {
+          "rank": 1,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "8. Ciclo di gestione di una segnalazione UAP",
+          "chunk_index": 10,
+          "search_score": 17.878092
+        },
+        {
+          "rank": 2,
+          "source_file": "Documento_UAP_Release_recenti_e_stato_della_disclosure.md",
+          "section": "1.2 Il caso del \"triangular UAP\" (release 7, ottobre 2026)",
+          "chunk_index": 2,
+          "search_score": 13.257222
+        },
+        {
+          "rank": 3,
+          "source_file": "PDF_1_Primi_avvistamenti_UAP_dove_e_quando.md",
+          "section": "2. Cronologia dei casi fondativi",
+          "chunk_index": 1,
+          "search_score": 11.84155
+        },
+        {
+          "rank": 4,
+          "source_file": "PDF_2_Come_vengono_gestiti_i_casi_UAP.md",
+          "section": "1. Il ciclo di gestione",
+          "chunk_index": 0,
+          "search_score": 11.338157
+        },
+        {
+          "rank": 5,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "2. Cronologia — casi fondativi (1946–1969)",
+          "chunk_index": 2,
+          "search_score": 10.785236
+        },
+        {
+          "rank": 6,
+          "source_file": "PDF_1_Primi_avvistamenti_UAP_dove_e_quando.md",
+          "section": "2. Cronologia dei casi fondativi",
+          "chunk_index": 2,
+          "search_score": 9.830999
+        },
+        {
+          "rank": 7,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "3. Cronologia — programmi e casi (1970–1999)",
+          "chunk_index": 4,
+          "search_score": 8.028771
+        },
+        {
+          "rank": 8,
+          "source_file": "Documento_UAP_Release_recenti_e_stato_della_disclosure.md",
+          "section": "FY2025 Consolidated Annual Report on UAP — pubblicato nel 2026 FY2024 Consolidated Annual Report on UAP — pubblicato il 14 novembre 2024",
+          "chunk_index": 5,
+          "search_score": 7.576201
+        },
+        {
+          "rank": 9,
+          "source_file": "PDF_3_Casistiche_UAP.md",
+          "section": "3. Casi iconici per tipo",
+          "chunk_index": 2,
+          "search_score": 6.235286
+        },
+        {
+          "rank": 10,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "2. Cronologia — casi fondativi (1946–1969)",
+          "chunk_index": 1,
+          "search_score": 6.234674
+        }
+      ]
+    },
+    {
+      "id": "Q11",
+      "question": "Quali sono le principali fonti istituzionali statunitensi per studiare gli UAP?",
+      "type": "direct",
+      "metrics": {
+        "hit@1": 0,
+        "hit@3": 0,
+        "hit@10": 0,
+        "recall@10": 0.0,
+        "mrr@10": 0.0,
+        "full_coverage@10": 0,
+        "found_sections": 0,
+        "expected_sections": 1
+      },
+      "latency_s": 0.07290020000073127,
+      "documents": [
+        {
+          "rank": 1,
+          "source_file": "Documento_UAP_Glossario_dei_termini_e_delle_sigle.md",
+          "section": "3. Termini istituzionali",
+          "chunk_index": 2,
+          "search_score": 17.109446
+        },
+        {
+          "rank": 2,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "Fonti secondarie (priorità media)",
+          "chunk_index": 13,
+          "search_score": 13.297279
+        },
+        {
+          "rank": 3,
+          "source_file": "PDF_3_Casistiche_UAP.md",
+          "section": "1. Classificazione per caratteristica osservata",
+          "chunk_index": 0,
+          "search_score": 13.133893
+        },
+        {
+          "rank": 4,
+          "source_file": "Documento_UAP_Release_recenti_e_stato_della_disclosure.md",
+          "section": "1.2 Il caso del \"triangular UAP\" (release 7, ottobre 2026)",
+          "chunk_index": 2,
+          "search_score": 13.1051855
+        },
+        {
+          "rank": 5,
+          "source_file": "PDF_3_Casistiche_UAP.md",
+          "section": "2. Classificazione per spiegazione",
+          "chunk_index": 1,
+          "search_score": 11.326037
+        },
+        {
+          "rank": 6,
+          "source_file": "PDF_4_Fonti_ufficiali_UAP.md",
+          "section": "4. Come usare le fonti in un RAG",
+          "chunk_index": 3,
+          "search_score": 10.916243
+        },
+        {
+          "rank": 7,
+          "source_file": "Documento_UAP_Errori_da_evitare_nell_uso_documentale_delle_fonti.md",
+          "section": "8. Errore 7 — Sommare fonti diverse come se fossero una sola",
+          "chunk_index": 7,
+          "search_score": 10.860184
+        },
+        {
+          "rank": 8,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "6. Enti per paese — quadro sintetico",
+          "chunk_index": 8,
+          "search_score": 10.36221
+        },
+        {
+          "rank": 9,
+          "source_file": "Documento_UAP_Release_recenti_e_stato_della_disclosure.md",
+          "section": "Fonti",
+          "chunk_index": 7,
+          "search_score": 10.030467
+        },
+        {
+          "rank": 10,
+          "source_file": "Documento_UAP_Errori_da_evitare_nell_uso_documentale_delle_fonti.md",
+          "section": "6. Errore 5 — Trattare i numeri come stabili quando non lo sono",
+          "chunk_index": 5,
+          "search_score": 9.759646
+        }
+      ]
+    },
+    {
+      "id": "Q12",
+      "question": "Quali archivi o enti sono elencati nella sezione Europa delle fonti UAP?",
+      "type": "direct",
+      "metrics": {
+        "hit@1": 1,
+        "hit@3": 1,
+        "hit@10": 1,
+        "recall@10": 1.0,
+        "mrr@10": 1.0,
+        "full_coverage@10": 1,
+        "found_sections": 1,
+        "expected_sections": 1
+      },
+      "latency_s": 0.08756059998995624,
+      "documents": [
+        {
+          "rank": 1,
+          "source_file": "PDF_4_Fonti_ufficiali_UAP.md",
+          "section": "2. Europa",
+          "chunk_index": 1,
+          "search_score": 16.471825
+        },
+        {
+          "rank": 2,
+          "source_file": "Documento_UAP_Errori_da_evitare_nell_uso_documentale_delle_fonti.md",
+          "section": "8. Errore 7 — Sommare fonti diverse come se fossero una sola",
+          "chunk_index": 7,
+          "search_score": 14.155454
+        },
+        {
+          "rank": 3,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "6. Enti per paese — quadro sintetico",
+          "chunk_index": 8,
+          "search_score": 13.660992
+        },
+        {
+          "rank": 4,
+          "source_file": "PDF_2_Come_vengono_gestiti_i_casi_UAP.md",
+          "section": "5. Altri enti",
+          "chunk_index": 4,
+          "search_score": 13.626588
+        },
+        {
+          "rank": 5,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "8. Ciclo di gestione di una segnalazione UAP",
+          "chunk_index": 10,
+          "search_score": 13.038813
+        },
+        {
+          "rank": 6,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "Fonti primarie (priorità alta)",
+          "chunk_index": 12,
+          "search_score": 12.826984
+        },
+        {
+          "rank": 7,
+          "source_file": "PDF_4_Fonti_ufficiali_UAP.md",
+          "section": "4. Come usare le fonti in un RAG",
+          "chunk_index": 3,
+          "search_score": 11.647139
+        },
+        {
+          "rank": 8,
+          "source_file": "Documento_UAP_Errori_da_evitare_nell_uso_documentale_delle_fonti.md",
+          "section": "6. Errore 5 — Trattare i numeri come stabili quando non lo sono",
+          "chunk_index": 5,
+          "search_score": 11.031914
+        },
+        {
+          "rank": 9,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "Fonti secondarie (priorità media)",
+          "chunk_index": 13,
+          "search_score": 10.478512
+        },
+        {
+          "rank": 10,
+          "source_file": "Documento_UAP_Release_recenti_e_stato_della_disclosure.md",
+          "section": "Fonti",
+          "chunk_index": 7,
+          "search_score": 10.030467
+        }
+      ]
+    },
+    {
+      "id": "Q13",
+      "question": "Quale ordine di priorità suggerisce il documento per le fonti di un RAG sugli UAP?",
+      "type": "direct",
+      "metrics": {
+        "hit@1": 1,
+        "hit@3": 1,
+        "hit@10": 1,
+        "recall@10": 1.0,
+        "mrr@10": 1.0,
+        "full_coverage@10": 1,
+        "found_sections": 1,
+        "expected_sections": 1
+      },
+      "latency_s": 0.0701190999825485,
+      "documents": [
+        {
+          "rank": 1,
+          "source_file": "PDF_4_Fonti_ufficiali_UAP.md",
+          "section": "4. Come usare le fonti in un RAG",
+          "chunk_index": 3,
+          "search_score": 32.082306
+        },
+        {
+          "rank": 2,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "Fonti primarie (priorità alta)",
+          "chunk_index": 12,
+          "search_score": 21.994514
+        },
+        {
+          "rank": 3,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "Fonti secondarie (priorità media)",
+          "chunk_index": 13,
+          "search_score": 21.339537
+        },
+        {
+          "rank": 4,
+          "source_file": "Documento_UAP_Glossario_dei_termini_e_delle_sigle.md",
+          "section": "5. Tipi di documento",
+          "chunk_index": 8,
+          "search_score": 14.641575
+        },
+        {
+          "rank": 5,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "8. Ciclo di gestione di una segnalazione UAP",
+          "chunk_index": 10,
+          "search_score": 13.393537
+        },
+        {
+          "rank": 6,
+          "source_file": "Documento_UAP_Release_recenti_e_stato_della_disclosure.md",
+          "section": "1.2 Il caso del \"triangular UAP\" (release 7, ottobre 2026)",
+          "chunk_index": 2,
+          "search_score": 13.249126
+        },
+        {
+          "rank": 7,
+          "source_file": "Documento_UAP_Release_recenti_e_stato_della_disclosure.md",
+          "section": "Fonti",
+          "chunk_index": 7,
+          "search_score": 10.994503
+        },
+        {
+          "rank": 8,
+          "source_file": "Documento_UAP_Errori_da_evitare_nell_uso_documentale_delle_fonti.md",
+          "section": "1. A cosa serve questo documento",
+          "chunk_index": 0,
+          "search_score": 10.565128
+        },
+        {
+          "rank": 9,
+          "source_file": "Documento_UAP_Release_recenti_e_stato_della_disclosure.md",
+          "section": "1.1 Il programma PURSUE e le release di file declassificati",
+          "chunk_index": 1,
+          "search_score": 9.735142
+        },
+        {
+          "rank": 10,
+          "source_file": "Documento_UAP_Release_recenti_e_stato_della_disclosure.md",
+          "section": "FY2025 Consolidated Annual Report on UAP — pubblicato nel 2026 FY2024 Consolidated Annual Report on UAP — pubblicato il 14 novembre 2024",
+          "chunk_index": 5,
+          "search_score": 9.45827
+        }
+      ]
+    },
+    {
+      "id": "Q14",
+      "question": "Quali organizzazioni di ricerca non ufficiali vengono citate?",
+      "type": "direct",
+      "metrics": {
+        "hit@1": 1,
+        "hit@3": 1,
+        "hit@10": 1,
+        "recall@10": 1.0,
+        "mrr@10": 1.0,
+        "full_coverage@10": 1,
+        "found_sections": 1,
+        "expected_sections": 1
+      },
+      "latency_s": 0.0733839999884367,
+      "documents": [
+        {
+          "rank": 1,
+          "source_file": "PDF_4_Fonti_ufficiali_UAP.md",
+          "section": "3. Organizzazioni di ricerca (non ufficiali ma serie)",
+          "chunk_index": 2,
+          "search_score": 49.90411
+        },
+        {
+          "rank": 2,
+          "source_file": "Documento_UAP_Errori_da_evitare_nell_uso_documentale_delle_fonti.md",
+          "section": "2. Errore 1 — Citare Wikipedia, blog e forum come fonte",
+          "chunk_index": 1,
+          "search_score": 9.704924
+        },
+        {
+          "rank": 3,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "8. Ciclo di gestione di una segnalazione UAP",
+          "chunk_index": 10,
+          "search_score": 8.134394
+        },
+        {
+          "rank": 4,
+          "source_file": "Documento_UAP_Errori_da_evitare_nell_uso_documentale_delle_fonti.md",
+          "section": "3. Errore 2 — Confondere \"non identificato\" con \"extraterrestre\"",
+          "chunk_index": 2,
+          "search_score": 7.0343566
+        },
+        {
+          "rank": 5,
+          "source_file": "Documento_UAP_Errori_da_evitare_nell_uso_documentale_delle_fonti.md",
+          "section": "6. Errore 5 — Trattare i numeri come stabili quando non lo sono",
+          "chunk_index": 5,
+          "search_score": 6.445132
+        },
+        {
+          "rank": 6,
+          "source_file": "Documento_UAP_Errori_da_evitare_nell_uso_documentale_delle_fonti.md",
+          "section": "1. A cosa serve questo documento",
+          "chunk_index": 0,
+          "search_score": 6.2037435
+        },
+        {
+          "rank": 7,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "1. Nota metodologica",
+          "chunk_index": 0,
+          "search_score": 6.1562195
+        },
+        {
+          "rank": 8,
+          "source_file": "Documento_UAP_Glossario_dei_termini_e_delle_sigle.md",
+          "section": "8. Nota metodologica",
+          "chunk_index": 11,
+          "search_score": 6.090702
+        },
+        {
+          "rank": 9,
+          "source_file": "PDF_1_Primi_avvistamenti_UAP_dove_e_quando.md",
+          "section": "4. Cosa NON è un \"primo avvistamento\"",
+          "chunk_index": 4,
+          "search_score": 5.6888437
+        },
+        {
+          "rank": 10,
+          "source_file": "PDF_2_Come_vengono_gestiti_i_casi_UAP.md",
+          "section": "6. Cosa succede a un caso \"non identificato\"",
+          "chunk_index": 5,
+          "search_score": 5.6462827
+        }
+      ]
+    },
+    {
+      "id": "Q15",
+      "question": "Esiste un primo avvistamento UAP documentato in senso assoluto?",
+      "type": "direct",
+      "metrics": {
+        "hit@1": 0,
+        "hit@3": 1,
+        "hit@10": 1,
+        "recall@10": 1.0,
+        "mrr@10": 0.5,
+        "full_coverage@10": 1,
+        "found_sections": 1,
+        "expected_sections": 1
+      },
+      "latency_s": 0.23982109999633394,
+      "documents": [
+        {
+          "rank": 1,
+          "source_file": "PDF_1_Primi_avvistamenti_UAP_dove_e_quando.md",
+          "section": "4. Cosa NON è un \"primo avvistamento\"",
+          "chunk_index": 4,
+          "search_score": 24.955208
+        },
+        {
+          "rank": 2,
+          "source_file": "PDF_1_Primi_avvistamenti_UAP_dove_e_quando.md",
+          "section": "1. Il problema della \"data zero\"",
+          "chunk_index": 0,
+          "search_score": 21.715475
+        },
+        {
+          "rank": 3,
+          "source_file": "PDF_4_Fonti_ufficiali_UAP.md",
+          "section": "4. Come usare le fonti in un RAG",
+          "chunk_index": 3,
+          "search_score": 6.5779552
+        },
+        {
+          "rank": 4,
+          "source_file": "PDF_1_Primi_avvistamenti_UAP_dove_e_quando.md",
+          "section": "3. Pattern geografico",
+          "chunk_index": 3,
+          "search_score": 6.532587
+        },
+        {
+          "rank": 5,
+          "source_file": "Documento_UAP_Release_recenti_e_stato_della_disclosure.md",
+          "section": "FY2025 Consolidated Annual Report on UAP — pubblicato nel 2026 FY2024 Consolidated Annual Report on UAP — pubblicato il 14 novembre 2024",
+          "chunk_index": 5,
+          "search_score": 6.488351
+        },
+        {
+          "rank": 6,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "8. Ciclo di gestione di una segnalazione UAP",
+          "chunk_index": 10,
+          "search_score": 6.48615
+        },
+        {
+          "rank": 7,
+          "source_file": "Documento_UAP_Errori_da_evitare_nell_uso_documentale_delle_fonti.md",
+          "section": "5. Errore 4 — Attribuire a un ente un documento che non è suo",
+          "chunk_index": 4,
+          "search_score": 6.3530197
+        },
+        {
+          "rank": 8,
+          "source_file": "Documento_UAP_Release_recenti_e_stato_della_disclosure.md",
+          "section": "1.2 Il caso del \"triangular UAP\" (release 7, ottobre 2026)",
+          "chunk_index": 2,
+          "search_score": 6.1882544
+        },
+        {
+          "rank": 9,
+          "source_file": "Documento_UAP_Glossario_dei_termini_e_delle_sigle.md",
+          "section": "PURSUE — Presidential Unsealing and Reporting System for UAP Encounters.",
+          "chunk_index": 6,
+          "search_score": 6.1608644
+        },
+        {
+          "rank": 10,
+          "source_file": "Documento_UAP_Errori_da_evitare_nell_uso_documentale_delle_fonti.md",
+          "section": "7. Errore 6 — Confondere la data dell'evento con la data del documento",
+          "chunk_index": 6,
+          "search_score": 5.7274637
+        }
+      ]
+    },
+    {
+      "id": "Q16",
+      "question": "Perché gli avvistamenti UAP storici sembrano concentrarsi in alcuni paesi?",
+      "type": "direct",
+      "metrics": {
+        "hit@1": 1,
+        "hit@3": 1,
+        "hit@10": 1,
+        "recall@10": 1.0,
+        "mrr@10": 1.0,
+        "full_coverage@10": 1,
+        "found_sections": 1,
+        "expected_sections": 1
+      },
+      "latency_s": 0.08829719998175278,
+      "documents": [
+        {
+          "rank": 1,
+          "source_file": "PDF_1_Primi_avvistamenti_UAP_dove_e_quando.md",
+          "section": "3. Pattern geografico",
+          "chunk_index": 3,
+          "search_score": 14.935723
+        },
+        {
+          "rank": 2,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "6. Enti per paese — quadro sintetico",
+          "chunk_index": 8,
+          "search_score": 9.842838
+        },
+        {
+          "rank": 3,
+          "source_file": "PDF_1_Primi_avvistamenti_UAP_dove_e_quando.md",
+          "section": "4. Cosa NON è un \"primo avvistamento\"",
+          "chunk_index": 4,
+          "search_score": 8.600632
+        },
+        {
+          "rank": 4,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "2. Cronologia — casi fondativi (1946–1969)",
+          "chunk_index": 2,
+          "search_score": 6.991576
+        },
+        {
+          "rank": 5,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "2. Cronologia — casi fondativi (1946–1969)",
+          "chunk_index": 3,
+          "search_score": 6.9668474
+        },
+        {
+          "rank": 6,
+          "source_file": "Documento_UAP_Release_recenti_e_stato_della_disclosure.md",
+          "section": "FY2025 Consolidated Annual Report on UAP — pubblicato nel 2026 FY2024 Consolidated Annual Report on UAP — pubblicato il 14 novembre 2024",
+          "chunk_index": 5,
+          "search_score": 6.488351
+        },
+        {
+          "rank": 7,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "8. Ciclo di gestione di una segnalazione UAP",
+          "chunk_index": 10,
+          "search_score": 6.48615
+        },
+        {
+          "rank": 8,
+          "source_file": "Documento_UAP_Glossario_dei_termini_e_delle_sigle.md",
+          "section": "PURSUE — Presidential Unsealing and Reporting System for UAP Encounters.",
+          "chunk_index": 6,
+          "search_score": 6.1608644
+        },
+        {
+          "rank": 9,
+          "source_file": "Documento_UAP_Release_recenti_e_stato_della_disclosure.md",
+          "section": "1.2 Il caso del \"triangular UAP\" (release 7, ottobre 2026)",
+          "chunk_index": 2,
+          "search_score": 5.6383104
+        },
+        {
+          "rank": 10,
+          "source_file": "Documento_UAP_Errori_da_evitare_nell_uso_documentale_delle_fonti.md",
+          "section": "6. Errore 5 — Trattare i numeri come stabili quando non lo sono",
+          "chunk_index": 5,
+          "search_score": 5.3012915
+        }
+      ]
+    },
+    {
+      "id": "Q17",
+      "question": "Qual è la differenza tra un caso non identificato e un caso considerato forte?",
+      "type": "multi_hop",
+      "metrics": {
+        "hit@1": 0,
+        "hit@3": 1,
+        "hit@10": 1,
+        "recall@10": 1.0,
+        "mrr@10": 0.5,
+        "full_coverage@10": 1,
+        "found_sections": 2,
+        "expected_sections": 2
+      },
+      "latency_s": 0.0758139000099618,
+      "documents": [
+        {
+          "rank": 1,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "9. Criteri che rendono un caso \"forte\"",
+          "chunk_index": 11,
+          "search_score": 34.857338
+        },
+        {
+          "rank": 2,
+          "source_file": "PDF_2_Come_vengono_gestiti_i_casi_UAP.md",
+          "section": "6. Cosa succede a un caso \"non identificato\"",
+          "chunk_index": 5,
+          "search_score": 31.88341
+        },
+        {
+          "rank": 3,
+          "source_file": "PDF_3_Casistiche_UAP.md",
+          "section": "4. Cosa rende un caso \"forte\"",
+          "chunk_index": 3,
+          "search_score": 27.96333
+        },
+        {
+          "rank": 4,
+          "source_file": "Documento_UAP_Errori_da_evitare_nell_uso_documentale_delle_fonti.md",
+          "section": "3. Errore 2 — Confondere \"non identificato\" con \"extraterrestre\"",
+          "chunk_index": 2,
+          "search_score": 18.474972
+        },
+        {
+          "rank": 5,
+          "source_file": "PDF_1_Primi_avvistamenti_UAP_dove_e_quando.md",
+          "section": "4. Cosa NON è un \"primo avvistamento\"",
+          "chunk_index": 4,
+          "search_score": 17.66238
+        },
+        {
+          "rank": 6,
+          "source_file": "Documento_UAP_Errori_da_evitare_nell_uso_documentale_delle_fonti.md",
+          "section": "5. Errore 4 — Attribuire a un ente un documento che non è suo",
+          "chunk_index": 4,
+          "search_score": 14.754947
+        },
+        {
+          "rank": 7,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "2. Cronologia — casi fondativi (1946–1969)",
+          "chunk_index": 2,
+          "search_score": 14.514416
+        },
+        {
+          "rank": 8,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "3. Cronologia — programmi e casi (1970–1999)",
+          "chunk_index": 4,
+          "search_score": 11.831478
+        },
+        {
+          "rank": 9,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "2. Cronologia — casi fondativi (1946–1969)",
+          "chunk_index": 1,
+          "search_score": 10.899127
+        },
+        {
+          "rank": 10,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "2. Cronologia — casi fondativi (1946–1969)",
+          "chunk_index": 3,
+          "search_score": 10.603623
+        }
+      ]
+    },
+    {
+      "id": "Q21",
+      "question": "Quali eventi UAP importanti sono riportati tra il 2004 e il 2022?",
+      "type": "multi_hop",
+      "metrics": {
+        "hit@1": 0,
+        "hit@3": 0,
+        "hit@10": 1,
+        "recall@10": 0.5,
+        "mrr@10": 0.14285714285714285,
+        "full_coverage@10": 0,
+        "found_sections": 1,
+        "expected_sections": 2
+      },
+      "latency_s": 0.07813020001049154,
+      "documents": [
+        {
+          "rank": 1,
+          "source_file": "Documento_UAP_Errori_da_evitare_nell_uso_documentale_delle_fonti.md",
+          "section": "7. Errore 6 — Confondere la data dell'evento con la data del documento",
+          "chunk_index": 6,
+          "search_score": 17.02376
+        },
+        {
+          "rank": 2,
+          "source_file": "Documento_UAP_Release_recenti_e_stato_della_disclosure.md",
+          "section": "1.2 Il caso del \"triangular UAP\" (release 7, ottobre 2026)",
+          "chunk_index": 2,
+          "search_score": 12.883211
+        },
+        {
+          "rank": 3,
+          "source_file": "Documento_UAP_Release_recenti_e_stato_della_disclosure.md",
+          "section": "FY2025 Consolidated Annual Report on UAP — pubblicato nel 2026 FY2024 Consolidated Annual Report on UAP — pubblicato il 14 novembre 2024",
+          "chunk_index": 5,
+          "search_score": 12.442315
+        },
+        {
+          "rank": 4,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "8. Ciclo di gestione di una segnalazione UAP",
+          "chunk_index": 10,
+          "search_score": 9.78142
+        },
+        {
+          "rank": 5,
+          "source_file": "Documento_UAP_Release_recenti_e_stato_della_disclosure.md",
+          "section": "1.1 Il programma PURSUE e le release di file declassificati",
+          "chunk_index": 0,
+          "search_score": 9.569204
+        },
+        {
+          "rank": 6,
+          "source_file": "Documento_UAP_Errori_da_evitare_nell_uso_documentale_delle_fonti.md",
+          "section": "6. Errore 5 — Trattare i numeri come stabili quando non lo sono",
+          "chunk_index": 5,
+          "search_score": 9.044305
+        },
+        {
+          "rank": 7,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "5. Cronologia — era AARO (2020–2026)",
+          "chunk_index": 6,
+          "search_score": 8.031693
+        },
+        {
+          "rank": 8,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "2. Cronologia — casi fondativi (1946–1969)",
+          "chunk_index": 2,
+          "search_score": 7.161415
+        },
+        {
+          "rank": 9,
+          "source_file": "PDF_1_Primi_avvistamenti_UAP_dove_e_quando.md",
+          "section": "2. Cronologia dei casi fondativi",
+          "chunk_index": 2,
+          "search_score": 6.531857
+        },
+        {
+          "rank": 10,
+          "source_file": "Documento_UAP_Errori_da_evitare_nell_uso_documentale_delle_fonti.md",
+          "section": "12. Riepilogo operativo",
+          "chunk_index": 11,
+          "search_score": 6.493852
+        }
+      ]
+    }
+  ],
+  "vector": [
+    {
+      "id": "Q01",
+      "question": "Quali caratteristiche rendono attendibile un caso UAP?",
+      "type": "direct",
+      "metrics": {
+        "hit@1": 0,
+        "hit@3": 0,
+        "hit@10": 0,
+        "recall@10": 0.0,
+        "mrr@10": 0.0,
+        "full_coverage@10": 0,
+        "found_sections": 0,
+        "expected_sections": 1
+      },
+      "latency_s": 1.3548385000030976,
+      "documents": [
+        {
+          "rank": 1,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "8. Ciclo di gestione di una segnalazione UAP",
+          "chunk_index": 10,
+          "search_score": 0.71586007
+        },
+        {
+          "rank": 2,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "1. Nota metodologica",
+          "chunk_index": 0,
+          "search_score": 0.705472
+        },
+        {
+          "rank": 3,
+          "source_file": "Documento_UAP_Glossario_dei_termini_e_delle_sigle.md",
+          "section": "5. Tipi di documento",
+          "chunk_index": 8,
+          "search_score": 0.690829
+        },
+        {
+          "rank": 4,
+          "source_file": "Documento_UAP_Release_recenti_e_stato_della_disclosure.md",
+          "section": "FY2025 Consolidated Annual Report on UAP — pubblicato nel 2026 FY2024 Consolidated Annual Report on UAP — pubblicato il 14 novembre 2024",
+          "chunk_index": 5,
+          "search_score": 0.6892701
+        },
+        {
+          "rank": 5,
+          "source_file": "Documento_UAP_Errori_da_evitare_nell_uso_documentale_delle_fonti.md",
+          "section": "12. Riepilogo operativo",
+          "chunk_index": 11,
+          "search_score": 0.6873534
+        },
+        {
+          "rank": 6,
+          "source_file": "Documento_UAP_Release_recenti_e_stato_della_disclosure.md",
+          "section": "1.3 Altri documenti recenti indicizzati",
+          "chunk_index": 3,
+          "search_score": 0.6849854
+        },
+        {
+          "rank": 7,
+          "source_file": "Documento_UAP_Release_recenti_e_stato_della_disclosure.md",
+          "section": "1.2 Il caso del \"triangular UAP\" (release 7, ottobre 2026)",
+          "chunk_index": 2,
+          "search_score": 0.68116474
+        },
+        {
+          "rank": 8,
+          "source_file": "Documento_UAP_Glossario_dei_termini_e_delle_sigle.md",
+          "section": "PURSUE — Presidential Unsealing and Reporting System for UAP Encounters.",
+          "chunk_index": 6,
+          "search_score": 0.6763742
+        },
+        {
+          "rank": 9,
+          "source_file": "Documento_UAP_Glossario_dei_termini_e_delle_sigle.md",
+          "section": "2. Termini di base",
+          "chunk_index": 1,
+          "search_score": 0.67548764
+        },
+        {
+          "rank": 10,
+          "source_file": "PDF_1_Primi_avvistamenti_UAP_dove_e_quando.md",
+          "section": "1. Il problema della \"data zero\"",
+          "chunk_index": 0,
+          "search_score": 0.6751659
+        }
+      ]
+    },
+    {
+      "id": "Q02",
+      "question": "Quali sono le principali tipologie di avvistamenti UAP?",
+      "type": "paraphrase",
+      "metrics": {
+        "hit@1": 0,
+        "hit@3": 0,
+        "hit@10": 0,
+        "recall@10": 0.0,
+        "mrr@10": 0.0,
+        "full_coverage@10": 0,
+        "found_sections": 0,
+        "expected_sections": 1
+      },
+      "latency_s": 0.7645905000099447,
+      "documents": [
+        {
+          "rank": 1,
+          "source_file": "Documento_UAP_Release_recenti_e_stato_della_disclosure.md",
+          "section": "1.3 Altri documenti recenti indicizzati",
+          "chunk_index": 3,
+          "search_score": 0.7467522
+        },
+        {
+          "rank": 2,
+          "source_file": "PDF_1_Primi_avvistamenti_UAP_dove_e_quando.md",
+          "section": "1. Il problema della \"data zero\"",
+          "chunk_index": 0,
+          "search_score": 0.74422485
+        },
+        {
+          "rank": 3,
+          "source_file": "PDF_1_Primi_avvistamenti_UAP_dove_e_quando.md",
+          "section": "3. Pattern geografico",
+          "chunk_index": 3,
+          "search_score": 0.7311572
+        },
+        {
+          "rank": 4,
+          "source_file": "PDF_2_Come_vengono_gestiti_i_casi_UAP.md",
+          "section": "2. USA — la catena istituzionale",
+          "chunk_index": 1,
+          "search_score": 0.72637963
+        },
+        {
+          "rank": 5,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "4. Cronologia — svolta istituzionale (2000–2017)",
+          "chunk_index": 5,
+          "search_score": 0.7218215
+        },
+        {
+          "rank": 6,
+          "source_file": "Documento_UAP_Glossario_dei_termini_e_delle_sigle.md",
+          "section": "5. Tipi di documento",
+          "chunk_index": 8,
+          "search_score": 0.71949476
+        },
+        {
+          "rank": 7,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "1. Nota metodologica",
+          "chunk_index": 0,
+          "search_score": 0.7188317
+        },
+        {
+          "rank": 8,
+          "source_file": "PDF_1_Primi_avvistamenti_UAP_dove_e_quando.md",
+          "section": "4. Cosa NON è un \"primo avvistamento\"",
+          "chunk_index": 4,
+          "search_score": 0.7157968
+        },
+        {
+          "rank": 9,
+          "source_file": "Documento_UAP_Glossario_dei_termini_e_delle_sigle.md",
+          "section": "2. Termini di base",
+          "chunk_index": 1,
+          "search_score": 0.7143123
+        },
+        {
+          "rank": 10,
+          "source_file": "Documento_UAP_Release_recenti_e_stato_della_disclosure.md",
+          "section": "1.2 Il caso del \"triangular UAP\" (release 7, ottobre 2026)",
+          "chunk_index": 2,
+          "search_score": 0.71386504
+        }
+      ]
+    },
+    {
+      "id": "Q03",
+      "question": "Quali avvistamenti comprendono luci notturne, oggetti solidi ed effetti fisici?",
+      "type": "direct",
+      "metrics": {
+        "hit@1": 1,
+        "hit@3": 1,
+        "hit@10": 1,
+        "recall@10": 1.0,
+        "mrr@10": 1.0,
+        "full_coverage@10": 1,
+        "found_sections": 1,
+        "expected_sections": 1
+      },
+      "latency_s": 0.4694298999966122,
+      "documents": [
+        {
+          "rank": 1,
+          "source_file": "PDF_3_Casistiche_UAP.md",
+          "section": "1. Classificazione per caratteristica osservata",
+          "chunk_index": 0,
+          "search_score": 0.7377606
+        },
+        {
+          "rank": 2,
+          "source_file": "PDF_3_Casistiche_UAP.md",
+          "section": "2. Classificazione per spiegazione",
+          "chunk_index": 1,
+          "search_score": 0.7042126
+        },
+        {
+          "rank": 3,
+          "source_file": "PDF_1_Primi_avvistamenti_UAP_dove_e_quando.md",
+          "section": "4. Cosa NON è un \"primo avvistamento\"",
+          "chunk_index": 4,
+          "search_score": 0.69837904
+        },
+        {
+          "rank": 4,
+          "source_file": "Documento_UAP_Glossario_dei_termini_e_delle_sigle.md",
+          "section": "Scala GEIPAN (quattro livelli):",
+          "chunk_index": 7,
+          "search_score": 0.68114376
+        },
+        {
+          "rank": 5,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "2. Cronologia — casi fondativi (1946–1969)",
+          "chunk_index": 2,
+          "search_score": 0.66221994
+        },
+        {
+          "rank": 6,
+          "source_file": "PDF_2_Come_vengono_gestiti_i_casi_UAP.md",
+          "section": "1. Il ciclo di gestione",
+          "chunk_index": 0,
+          "search_score": 0.65804976
+        },
+        {
+          "rank": 7,
+          "source_file": "PDF_1_Primi_avvistamenti_UAP_dove_e_quando.md",
+          "section": "2. Cronologia dei casi fondativi",
+          "chunk_index": 1,
+          "search_score": 0.658016
+        },
+        {
+          "rank": 8,
+          "source_file": "PDF_1_Primi_avvistamenti_UAP_dove_e_quando.md",
+          "section": "1. Il problema della \"data zero\"",
+          "chunk_index": 0,
+          "search_score": 0.65540713
+        },
+        {
+          "rank": 9,
+          "source_file": "PDF_2_Come_vengono_gestiti_i_casi_UAP.md",
+          "section": "6. Cosa succede a un caso \"non identificato\"",
+          "chunk_index": 5,
+          "search_score": 0.65390027
+        },
+        {
+          "rank": 10,
+          "source_file": "Documento_UAP_Glossario_dei_termini_e_delle_sigle.md",
+          "section": "2. Termini di base",
+          "chunk_index": 1,
+          "search_score": 0.6535694
+        }
+      ]
+    },
+    {
+      "id": "Q04",
+      "question": "Come si distinguono i fenomeni UAP in base a ciò che viene osservato?",
+      "type": "paraphrase",
+      "metrics": {
+        "hit@1": 0,
+        "hit@3": 0,
+        "hit@10": 0,
+        "recall@10": 0.0,
+        "mrr@10": 0.0,
+        "full_coverage@10": 0,
+        "found_sections": 0,
+        "expected_sections": 1
+      },
+      "latency_s": 0.5010220000112895,
+      "documents": [
+        {
+          "rank": 1,
+          "source_file": "PDF_1_Primi_avvistamenti_UAP_dove_e_quando.md",
+          "section": "1. Il problema della \"data zero\"",
+          "chunk_index": 0,
+          "search_score": 0.7463006
+        },
+        {
+          "rank": 2,
+          "source_file": "PDF_1_Primi_avvistamenti_UAP_dove_e_quando.md",
+          "section": "3. Pattern geografico",
+          "chunk_index": 3,
+          "search_score": 0.73385584
+        },
+        {
+          "rank": 3,
+          "source_file": "Documento_UAP_Glossario_dei_termini_e_delle_sigle.md",
+          "section": "2. Termini di base",
+          "chunk_index": 1,
+          "search_score": 0.73143125
+        },
+        {
+          "rank": 4,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "8. Ciclo di gestione di una segnalazione UAP",
+          "chunk_index": 10,
+          "search_score": 0.72268426
+        },
+        {
+          "rank": 5,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "1. Nota metodologica",
+          "chunk_index": 0,
+          "search_score": 0.7218435
+        },
+        {
+          "rank": 6,
+          "source_file": "PDF_1_Primi_avvistamenti_UAP_dove_e_quando.md",
+          "section": "4. Cosa NON è un \"primo avvistamento\"",
+          "chunk_index": 4,
+          "search_score": 0.71529275
+        },
+        {
+          "rank": 7,
+          "source_file": "Documento_UAP_Release_recenti_e_stato_della_disclosure.md",
+          "section": "1.3 Altri documenti recenti indicizzati",
+          "chunk_index": 3,
+          "search_score": 0.71112746
+        },
+        {
+          "rank": 8,
+          "source_file": "PDF_2_Come_vengono_gestiti_i_casi_UAP.md",
+          "section": "2. USA — la catena istituzionale",
+          "chunk_index": 1,
+          "search_score": 0.70828503
+        },
+        {
+          "rank": 9,
+          "source_file": "PDF_3_Casistiche_UAP.md",
+          "section": "2. Classificazione per spiegazione",
+          "chunk_index": 1,
+          "search_score": 0.702222
+        },
+        {
+          "rank": 10,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "4. Cronologia — svolta istituzionale (2000–2017)",
+          "chunk_index": 5,
+          "search_score": 0.7000125
+        }
+      ]
+    },
+    {
+      "id": "Q05",
+      "question": "Quali sono le categorie per spiegazione dei casi UAP?",
+      "type": "direct",
+      "metrics": {
+        "hit@1": 0,
+        "hit@3": 0,
+        "hit@10": 1,
+        "recall@10": 1.0,
+        "mrr@10": 0.2,
+        "full_coverage@10": 1,
+        "found_sections": 1,
+        "expected_sections": 1
+      },
+      "latency_s": 0.26444050000282004,
+      "documents": [
+        {
+          "rank": 1,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "8. Ciclo di gestione di una segnalazione UAP",
+          "chunk_index": 10,
+          "search_score": 0.74738264
+        },
+        {
+          "rank": 2,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "1. Nota metodologica",
+          "chunk_index": 0,
+          "search_score": 0.7389299
+        },
+        {
+          "rank": 3,
+          "source_file": "Documento_UAP_Glossario_dei_termini_e_delle_sigle.md",
+          "section": "2. Termini di base",
+          "chunk_index": 1,
+          "search_score": 0.73005736
+        },
+        {
+          "rank": 4,
+          "source_file": "Documento_UAP_Glossario_dei_termini_e_delle_sigle.md",
+          "section": "5. Tipi di documento",
+          "chunk_index": 8,
+          "search_score": 0.72271264
+        },
+        {
+          "rank": 5,
+          "source_file": "PDF_3_Casistiche_UAP.md",
+          "section": "2. Classificazione per spiegazione",
+          "chunk_index": 1,
+          "search_score": 0.7111035
+        },
+        {
+          "rank": 6,
+          "source_file": "Documento_UAP_Errori_da_evitare_nell_uso_documentale_delle_fonti.md",
+          "section": "12. Riepilogo operativo",
+          "chunk_index": 11,
+          "search_score": 0.7105908
+        },
+        {
+          "rank": 7,
+          "source_file": "Documento_UAP_Release_recenti_e_stato_della_disclosure.md",
+          "section": "1.3 Altri documenti recenti indicizzati",
+          "chunk_index": 3,
+          "search_score": 0.7083725
+        },
+        {
+          "rank": 8,
+          "source_file": "Documento_UAP_Release_recenti_e_stato_della_disclosure.md",
+          "section": "FY2025 Consolidated Annual Report on UAP — pubblicato nel 2026 FY2024 Consolidated Annual Report on UAP — pubblicato il 14 novembre 2024",
+          "chunk_index": 5,
+          "search_score": 0.7033529
+        },
+        {
+          "rank": 9,
+          "source_file": "PDF_1_Primi_avvistamenti_UAP_dove_e_quando.md",
+          "section": "2. Cronologia dei casi fondativi",
+          "chunk_index": 2,
+          "search_score": 0.6990107
+        },
+        {
+          "rank": 10,
+          "source_file": "PDF_2_Come_vengono_gestiti_i_casi_UAP.md",
+          "section": "2. USA — la catena istituzionale",
+          "chunk_index": 1,
+          "search_score": 0.69814354
+        }
+      ]
+    },
+    {
+      "id": "Q06",
+      "question": "Quali esempi vengono forniti per i casi identificati come IFO?",
+      "type": "direct",
+      "metrics": {
+        "hit@1": 1,
+        "hit@3": 1,
+        "hit@10": 1,
+        "recall@10": 1.0,
+        "mrr@10": 1.0,
+        "full_coverage@10": 1,
+        "found_sections": 1,
+        "expected_sections": 1
+      },
+      "latency_s": 1.2307830000063404,
+      "documents": [
+        {
+          "rank": 1,
+          "source_file": "PDF_3_Casistiche_UAP.md",
+          "section": "2. Classificazione per spiegazione",
+          "chunk_index": 1,
+          "search_score": 0.67251784
+        },
+        {
+          "rank": 2,
+          "source_file": "Documento_UAP_Glossario_dei_termini_e_delle_sigle.md",
+          "section": "Scala GEIPAN (quattro livelli):",
+          "chunk_index": 7,
+          "search_score": 0.6710696
+        },
+        {
+          "rank": 3,
+          "source_file": "Documento_UAP_Glossario_dei_termini_e_delle_sigle.md",
+          "section": "2. Termini di base",
+          "chunk_index": 1,
+          "search_score": 0.6572522
+        },
+        {
+          "rank": 4,
+          "source_file": "PDF_2_Come_vengono_gestiti_i_casi_UAP.md",
+          "section": "6. Cosa succede a un caso \"non identificato\"",
+          "chunk_index": 5,
+          "search_score": 0.6503034
+        },
+        {
+          "rank": 5,
+          "source_file": "Documento_UAP_Errori_da_evitare_nell_uso_documentale_delle_fonti.md",
+          "section": "3. Errore 2 — Confondere \"non identificato\" con \"extraterrestre\"",
+          "chunk_index": 2,
+          "search_score": 0.64202887
+        },
+        {
+          "rank": 6,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "7. Classificazione GEIPAN — scala a quattro livelli",
+          "chunk_index": 9,
+          "search_score": 0.64140916
+        },
+        {
+          "rank": 7,
+          "source_file": "Documento_UAP_Glossario_dei_termini_e_delle_sigle.md",
+          "section": "6. Sigle dei documenti",
+          "chunk_index": 9,
+          "search_score": 0.63433516
+        },
+        {
+          "rank": 8,
+          "source_file": "PDF_3_Casistiche_UAP.md",
+          "section": "1. Classificazione per caratteristica osservata",
+          "chunk_index": 0,
+          "search_score": 0.63160264
+        },
+        {
+          "rank": 9,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "9. Criteri che rendono un caso \"forte\"",
+          "chunk_index": 11,
+          "search_score": 0.6298645
+        },
+        {
+          "rank": 10,
+          "source_file": "Documento_UAP_Errori_da_evitare_nell_uso_documentale_delle_fonti.md",
+          "section": "9. Errore 8 — Presentare una testimonianza singola come prova",
+          "chunk_index": 8,
+          "search_score": 0.62539804
+        }
+      ]
+    },
+    {
+      "id": "Q07",
+      "question": "Quali sono le fasi del ciclo di gestione di un caso UAP?",
+      "type": "direct",
+      "metrics": {
+        "hit@1": 0,
+        "hit@3": 0,
+        "hit@10": 1,
+        "recall@10": 1.0,
+        "mrr@10": 0.2,
+        "full_coverage@10": 1,
+        "found_sections": 1,
+        "expected_sections": 1
+      },
+      "latency_s": 0.8588759000122081,
+      "documents": [
+        {
+          "rank": 1,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "8. Ciclo di gestione di una segnalazione UAP",
+          "chunk_index": 10,
+          "search_score": 0.75105363
+        },
+        {
+          "rank": 2,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "1. Nota metodologica",
+          "chunk_index": 0,
+          "search_score": 0.71305066
+        },
+        {
+          "rank": 3,
+          "source_file": "Documento_UAP_Release_recenti_e_stato_della_disclosure.md",
+          "section": "FY2025 Consolidated Annual Report on UAP — pubblicato nel 2026 FY2024 Consolidated Annual Report on UAP — pubblicato il 14 novembre 2024",
+          "chunk_index": 5,
+          "search_score": 0.68732107
+        },
+        {
+          "rank": 4,
+          "source_file": "Documento_UAP_Glossario_dei_termini_e_delle_sigle.md",
+          "section": "5. Tipi di documento",
+          "chunk_index": 8,
+          "search_score": 0.6787297
+        },
+        {
+          "rank": 5,
+          "source_file": "PDF_2_Come_vengono_gestiti_i_casi_UAP.md",
+          "section": "1. Il ciclo di gestione",
+          "chunk_index": 0,
+          "search_score": 0.6695424
+        },
+        {
+          "rank": 6,
+          "source_file": "Documento_UAP_Errori_da_evitare_nell_uso_documentale_delle_fonti.md",
+          "section": "12. Riepilogo operativo",
+          "chunk_index": 11,
+          "search_score": 0.6692284
+        },
+        {
+          "rank": 7,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "5. Cronologia — era AARO (2020–2026)",
+          "chunk_index": 6,
+          "search_score": 0.66567606
+        },
+        {
+          "rank": 8,
+          "source_file": "Documento_UAP_Glossario_dei_termini_e_delle_sigle.md",
+          "section": "1. A cosa serve questo glossario",
+          "chunk_index": 0,
+          "search_score": 0.65436554
+        },
+        {
+          "rank": 9,
+          "source_file": "Documento_UAP_Glossario_dei_termini_e_delle_sigle.md",
+          "section": "3. Termini istituzionali",
+          "chunk_index": 2,
+          "search_score": 0.65294
+        },
+        {
+          "rank": 10,
+          "source_file": "Documento_UAP_Glossario_dei_termini_e_delle_sigle.md",
+          "section": "PURSUE — Presidential Unsealing and Reporting System for UAP Encounters.",
+          "chunk_index": 6,
+          "search_score": 0.65166765
+        }
+      ]
+    },
+    {
+      "id": "Q08",
+      "question": "Come vengono classificati i casi dal GEIPAN?",
+      "type": "direct",
+      "metrics": {
+        "hit@1": 0,
+        "hit@3": 1,
+        "hit@10": 1,
+        "recall@10": 1.0,
+        "mrr@10": 0.3333333333333333,
+        "full_coverage@10": 1,
+        "found_sections": 1,
+        "expected_sections": 1
+      },
+      "latency_s": 0.25975019999896176,
+      "documents": [
+        {
+          "rank": 1,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "7. Classificazione GEIPAN — scala a quattro livelli",
+          "chunk_index": 9,
+          "search_score": 0.73177487
+        },
+        {
+          "rank": 2,
+          "source_file": "Documento_UAP_Glossario_dei_termini_e_delle_sigle.md",
+          "section": "Scala GEIPAN (quattro livelli):",
+          "chunk_index": 7,
+          "search_score": 0.70545846
+        },
+        {
+          "rank": 3,
+          "source_file": "PDF_2_Come_vengono_gestiti_i_casi_UAP.md",
+          "section": "3. Francia — GEIPAN",
+          "chunk_index": 2,
+          "search_score": 0.6851753
+        },
+        {
+          "rank": 4,
+          "source_file": "Documento_UAP_Glossario_dei_termini_e_delle_sigle.md",
+          "section": "2. Termini di base",
+          "chunk_index": 1,
+          "search_score": 0.6551098
+        },
+        {
+          "rank": 5,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "6. Enti per paese — quadro sintetico",
+          "chunk_index": 8,
+          "search_score": 0.65071535
+        },
+        {
+          "rank": 6,
+          "source_file": "Documento_UAP_Errori_da_evitare_nell_uso_documentale_delle_fonti.md",
+          "section": "3. Errore 2 — Confondere \"non identificato\" con \"extraterrestre\"",
+          "chunk_index": 2,
+          "search_score": 0.6502068
+        },
+        {
+          "rank": 7,
+          "source_file": "Documento_UAP_Glossario_dei_termini_e_delle_sigle.md",
+          "section": "GEIPAN — Groupe d'Études et d'Informations sur les Phénomènes Aérospatiaux",
+          "chunk_index": 5,
+          "search_score": 0.6458172
+        },
+        {
+          "rank": 8,
+          "source_file": "PDF_2_Come_vengono_gestiti_i_casi_UAP.md",
+          "section": "5. Altri enti",
+          "chunk_index": 4,
+          "search_score": 0.6438686
+        },
+        {
+          "rank": 9,
+          "source_file": "PDF_2_Come_vengono_gestiti_i_casi_UAP.md",
+          "section": "1. Il ciclo di gestione",
+          "chunk_index": 0,
+          "search_score": 0.6437116
+        },
+        {
+          "rank": 10,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "1. Nota metodologica",
+          "chunk_index": 0,
+          "search_score": 0.639815
+        }
+      ]
+    },
+    {
+      "id": "Q09",
+      "question": "Che cosa significa che un caso UAP rimane non identificato?",
+      "type": "paraphrase",
+      "metrics": {
+        "hit@1": 1,
+        "hit@3": 1,
+        "hit@10": 1,
+        "recall@10": 1.0,
+        "mrr@10": 1.0,
+        "full_coverage@10": 1,
+        "found_sections": 1,
+        "expected_sections": 1
+      },
+      "latency_s": 0.28330320000532083,
+      "documents": [
+        {
+          "rank": 1,
+          "source_file": "PDF_2_Come_vengono_gestiti_i_casi_UAP.md",
+          "section": "6. Cosa succede a un caso \"non identificato\"",
+          "chunk_index": 5,
+          "search_score": 0.76155263
+        },
+        {
+          "rank": 2,
+          "source_file": "Documento_UAP_Glossario_dei_termini_e_delle_sigle.md",
+          "section": "2. Termini di base",
+          "chunk_index": 1,
+          "search_score": 0.7142118
+        },
+        {
+          "rank": 3,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "8. Ciclo di gestione di una segnalazione UAP",
+          "chunk_index": 10,
+          "search_score": 0.7108757
+        },
+        {
+          "rank": 4,
+          "source_file": "Documento_UAP_Errori_da_evitare_nell_uso_documentale_delle_fonti.md",
+          "section": "3. Errore 2 — Confondere \"non identificato\" con \"extraterrestre\"",
+          "chunk_index": 2,
+          "search_score": 0.70696425
+        },
+        {
+          "rank": 5,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "1. Nota metodologica",
+          "chunk_index": 0,
+          "search_score": 0.70517796
+        },
+        {
+          "rank": 6,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "7. Classificazione GEIPAN — scala a quattro livelli",
+          "chunk_index": 9,
+          "search_score": 0.6938318
+        },
+        {
+          "rank": 7,
+          "source_file": "Documento_UAP_Release_recenti_e_stato_della_disclosure.md",
+          "section": "1.2 Il caso del \"triangular UAP\" (release 7, ottobre 2026)",
+          "chunk_index": 2,
+          "search_score": 0.6901665
+        },
+        {
+          "rank": 8,
+          "source_file": "PDF_1_Primi_avvistamenti_UAP_dove_e_quando.md",
+          "section": "1. Il problema della \"data zero\"",
+          "chunk_index": 0,
+          "search_score": 0.6870906
+        },
+        {
+          "rank": 9,
+          "source_file": "Documento_UAP_Release_recenti_e_stato_della_disclosure.md",
+          "section": "1.3 Altri documenti recenti indicizzati",
+          "chunk_index": 3,
+          "search_score": 0.68606615
+        },
+        {
+          "rank": 10,
+          "source_file": "Documento_UAP_Release_recenti_e_stato_della_disclosure.md",
+          "section": "FY2025 Consolidated Annual Report on UAP — pubblicato nel 2026 FY2024 Consolidated Annual Report on UAP — pubblicato il 14 novembre 2024",
+          "chunk_index": 5,
+          "search_score": 0.68224514
+        }
+      ]
+    },
+    {
+      "id": "Q10",
+      "question": "Quali istituzioni statunitensi compaiono nella gestione dei casi UAP?",
+      "type": "direct",
+      "metrics": {
+        "hit@1": 1,
+        "hit@3": 1,
+        "hit@10": 1,
+        "recall@10": 1.0,
+        "mrr@10": 1.0,
+        "full_coverage@10": 1,
+        "found_sections": 1,
+        "expected_sections": 1
+      },
+      "latency_s": 0.5251531000249088,
+      "documents": [
+        {
+          "rank": 1,
+          "source_file": "PDF_2_Come_vengono_gestiti_i_casi_UAP.md",
+          "section": "2. USA — la catena istituzionale",
+          "chunk_index": 1,
+          "search_score": 0.78012097
+        },
+        {
+          "rank": 2,
+          "source_file": "PDF_4_Fonti_ufficiali_UAP.md",
+          "section": "1. USA",
+          "chunk_index": 0,
+          "search_score": 0.7561483
+        },
+        {
+          "rank": 3,
+          "source_file": "Documento_UAP_Glossario_dei_termini_e_delle_sigle.md",
+          "section": "3. Termini istituzionali",
+          "chunk_index": 2,
+          "search_score": 0.7388995
+        },
+        {
+          "rank": 4,
+          "source_file": "PDF_1_Primi_avvistamenti_UAP_dove_e_quando.md",
+          "section": "2. Cronologia dei casi fondativi",
+          "chunk_index": 2,
+          "search_score": 0.7302707
+        },
+        {
+          "rank": 5,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "5. Cronologia — era AARO (2020–2026)",
+          "chunk_index": 6,
+          "search_score": 0.72783375
+        },
+        {
+          "rank": 6,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "8. Ciclo di gestione di una segnalazione UAP",
+          "chunk_index": 10,
+          "search_score": 0.72502995
+        },
+        {
+          "rank": 7,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "6. Enti per paese — quadro sintetico",
+          "chunk_index": 8,
+          "search_score": 0.72488356
+        },
+        {
+          "rank": 8,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "4. Cronologia — svolta istituzionale (2000–2017)",
+          "chunk_index": 5,
+          "search_score": 0.72227275
+        },
+        {
+          "rank": 9,
+          "source_file": "Documento_UAP_Errori_da_evitare_nell_uso_documentale_delle_fonti.md",
+          "section": "12. Riepilogo operativo",
+          "chunk_index": 11,
+          "search_score": 0.7217711
+        },
+        {
+          "rank": 10,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "1. Nota metodologica",
+          "chunk_index": 0,
+          "search_score": 0.72105414
+        }
+      ]
+    },
+    {
+      "id": "Q11",
+      "question": "Quali sono le principali fonti istituzionali statunitensi per studiare gli UAP?",
+      "type": "direct",
+      "metrics": {
+        "hit@1": 0,
+        "hit@3": 1,
+        "hit@10": 1,
+        "recall@10": 1.0,
+        "mrr@10": 0.5,
+        "full_coverage@10": 1,
+        "found_sections": 1,
+        "expected_sections": 1
+      },
+      "latency_s": 0.4860408999957144,
+      "documents": [
+        {
+          "rank": 1,
+          "source_file": "PDF_2_Come_vengono_gestiti_i_casi_UAP.md",
+          "section": "2. USA — la catena istituzionale",
+          "chunk_index": 1,
+          "search_score": 0.78135896
+        },
+        {
+          "rank": 2,
+          "source_file": "PDF_4_Fonti_ufficiali_UAP.md",
+          "section": "1. USA",
+          "chunk_index": 0,
+          "search_score": 0.75786793
+        },
+        {
+          "rank": 3,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "Fonti primarie (priorità alta)",
+          "chunk_index": 12,
+          "search_score": 0.74233323
+        },
+        {
+          "rank": 4,
+          "source_file": "Documento_UAP_Release_recenti_e_stato_della_disclosure.md",
+          "section": "1.3 Altri documenti recenti indicizzati",
+          "chunk_index": 3,
+          "search_score": 0.73137105
+        },
+        {
+          "rank": 5,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "4. Cronologia — svolta istituzionale (2000–2017)",
+          "chunk_index": 5,
+          "search_score": 0.7281349
+        },
+        {
+          "rank": 6,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "Fonti secondarie (priorità media)",
+          "chunk_index": 13,
+          "search_score": 0.7264757
+        },
+        {
+          "rank": 7,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "1. Nota metodologica",
+          "chunk_index": 0,
+          "search_score": 0.7250969
+        },
+        {
+          "rank": 8,
+          "source_file": "PDF_4_Fonti_ufficiali_UAP.md",
+          "section": "3. Organizzazioni di ricerca (non ufficiali ma serie)",
+          "chunk_index": 2,
+          "search_score": 0.72491753
+        },
+        {
+          "rank": 9,
+          "source_file": "Documento_UAP_Glossario_dei_termini_e_delle_sigle.md",
+          "section": "3. Termini istituzionali",
+          "chunk_index": 2,
+          "search_score": 0.72434276
+        },
+        {
+          "rank": 10,
+          "source_file": "Documento_UAP_Errori_da_evitare_nell_uso_documentale_delle_fonti.md",
+          "section": "12. Riepilogo operativo",
+          "chunk_index": 11,
+          "search_score": 0.72374547
+        }
+      ]
+    },
+    {
+      "id": "Q12",
+      "question": "Quali archivi o enti sono elencati nella sezione Europa delle fonti UAP?",
+      "type": "direct",
+      "metrics": {
+        "hit@1": 0,
+        "hit@3": 0,
+        "hit@10": 1,
+        "recall@10": 1.0,
+        "mrr@10": 0.16666666666666666,
+        "full_coverage@10": 1,
+        "found_sections": 1,
+        "expected_sections": 1
+      },
+      "latency_s": 0.2901189000112936,
+      "documents": [
+        {
+          "rank": 1,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "Fonti primarie (priorità alta)",
+          "chunk_index": 12,
+          "search_score": 0.74370724
+        },
+        {
+          "rank": 2,
+          "source_file": "Documento_UAP_Errori_da_evitare_nell_uso_documentale_delle_fonti.md",
+          "section": "12. Riepilogo operativo",
+          "chunk_index": 11,
+          "search_score": 0.7362085
+        },
+        {
+          "rank": 3,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "1. Nota metodologica",
+          "chunk_index": 0,
+          "search_score": 0.73395306
+        },
+        {
+          "rank": 4,
+          "source_file": "Documento_UAP_Release_recenti_e_stato_della_disclosure.md",
+          "section": "Fonti",
+          "chunk_index": 7,
+          "search_score": 0.7236318
+        },
+        {
+          "rank": 5,
+          "source_file": "Documento_UAP_Glossario_dei_termini_e_delle_sigle.md",
+          "section": "5. Tipi di documento",
+          "chunk_index": 8,
+          "search_score": 0.70100075
+        },
+        {
+          "rank": 6,
+          "source_file": "PDF_4_Fonti_ufficiali_UAP.md",
+          "section": "2. Europa",
+          "chunk_index": 1,
+          "search_score": 0.6979548
+        },
+        {
+          "rank": 7,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "Fonti secondarie (priorità media)",
+          "chunk_index": 13,
+          "search_score": 0.6946034
+        },
+        {
+          "rank": 8,
+          "source_file": "PDF_4_Fonti_ufficiali_UAP.md",
+          "section": "4. Come usare le fonti in un RAG",
+          "chunk_index": 3,
+          "search_score": 0.6930308
+        },
+        {
+          "rank": 9,
+          "source_file": "Documento_UAP_Glossario_dei_termini_e_delle_sigle.md",
+          "section": "1. A cosa serve questo glossario",
+          "chunk_index": 0,
+          "search_score": 0.6895192
+        },
+        {
+          "rank": 10,
+          "source_file": "PDF_4_Fonti_ufficiali_UAP.md",
+          "section": "1. USA",
+          "chunk_index": 0,
+          "search_score": 0.68151164
+        }
+      ]
+    },
+    {
+      "id": "Q13",
+      "question": "Quale ordine di priorità suggerisce il documento per le fonti di un RAG sugli UAP?",
+      "type": "direct",
+      "metrics": {
+        "hit@1": 1,
+        "hit@3": 1,
+        "hit@10": 1,
+        "recall@10": 1.0,
+        "mrr@10": 1.0,
+        "full_coverage@10": 1,
+        "found_sections": 1,
+        "expected_sections": 1
+      },
+      "latency_s": 0.3903176999883726,
+      "documents": [
+        {
+          "rank": 1,
+          "source_file": "PDF_4_Fonti_ufficiali_UAP.md",
+          "section": "4. Come usare le fonti in un RAG",
+          "chunk_index": 3,
+          "search_score": 0.74391925
+        },
+        {
+          "rank": 2,
+          "source_file": "Documento_UAP_Errori_da_evitare_nell_uso_documentale_delle_fonti.md",
+          "section": "12. Riepilogo operativo",
+          "chunk_index": 11,
+          "search_score": 0.7404995
+        },
+        {
+          "rank": 3,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "1. Nota metodologica",
+          "chunk_index": 0,
+          "search_score": 0.731759
+        },
+        {
+          "rank": 4,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "Fonti primarie (priorità alta)",
+          "chunk_index": 12,
+          "search_score": 0.7096285
+        },
+        {
+          "rank": 5,
+          "source_file": "Documento_UAP_Glossario_dei_termini_e_delle_sigle.md",
+          "section": "5. Tipi di documento",
+          "chunk_index": 8,
+          "search_score": 0.7022231
+        },
+        {
+          "rank": 6,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "Fonti secondarie (priorità media)",
+          "chunk_index": 13,
+          "search_score": 0.68806547
+        },
+        {
+          "rank": 7,
+          "source_file": "Documento_UAP_Errori_da_evitare_nell_uso_documentale_delle_fonti.md",
+          "section": "1. A cosa serve questo documento",
+          "chunk_index": 0,
+          "search_score": 0.68789464
+        },
+        {
+          "rank": 8,
+          "source_file": "Documento_UAP_Errori_da_evitare_nell_uso_documentale_delle_fonti.md",
+          "section": "5. Errore 4 — Attribuire a un ente un documento che non è suo",
+          "chunk_index": 4,
+          "search_score": 0.68393254
+        },
+        {
+          "rank": 9,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "8. Ciclo di gestione di una segnalazione UAP",
+          "chunk_index": 10,
+          "search_score": 0.6802982
+        },
+        {
+          "rank": 10,
+          "source_file": "Documento_UAP_Glossario_dei_termini_e_delle_sigle.md",
+          "section": "1. A cosa serve questo glossario",
+          "chunk_index": 0,
+          "search_score": 0.6778212
+        }
+      ]
+    },
+    {
+      "id": "Q14",
+      "question": "Quali organizzazioni di ricerca non ufficiali vengono citate?",
+      "type": "direct",
+      "metrics": {
+        "hit@1": 1,
+        "hit@3": 1,
+        "hit@10": 1,
+        "recall@10": 1.0,
+        "mrr@10": 1.0,
+        "full_coverage@10": 1,
+        "found_sections": 1,
+        "expected_sections": 1
+      },
+      "latency_s": 0.537924500007648,
+      "documents": [
+        {
+          "rank": 1,
+          "source_file": "PDF_4_Fonti_ufficiali_UAP.md",
+          "section": "3. Organizzazioni di ricerca (non ufficiali ma serie)",
+          "chunk_index": 2,
+          "search_score": 0.7516131
+        },
+        {
+          "rank": 2,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "Fonti secondarie (priorità media)",
+          "chunk_index": 13,
+          "search_score": 0.6907739
+        },
+        {
+          "rank": 3,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "Fonti primarie (priorità alta)",
+          "chunk_index": 12,
+          "search_score": 0.6722297
+        },
+        {
+          "rank": 4,
+          "source_file": "Documento_UAP_Glossario_dei_termini_e_delle_sigle.md",
+          "section": "2. Termini di base",
+          "chunk_index": 1,
+          "search_score": 0.6693603
+        },
+        {
+          "rank": 5,
+          "source_file": "PDF_4_Fonti_ufficiali_UAP.md",
+          "section": "4. Come usare le fonti in un RAG",
+          "chunk_index": 3,
+          "search_score": 0.6690973
+        },
+        {
+          "rank": 6,
+          "source_file": "Documento_UAP_Glossario_dei_termini_e_delle_sigle.md",
+          "section": "8. Nota metodologica",
+          "chunk_index": 11,
+          "search_score": 0.66582954
+        },
+        {
+          "rank": 7,
+          "source_file": "Documento_UAP_Glossario_dei_termini_e_delle_sigle.md",
+          "section": "7. Termini da usare con cautela",
+          "chunk_index": 10,
+          "search_score": 0.66490364
+        },
+        {
+          "rank": 8,
+          "source_file": "PDF_2_Come_vengono_gestiti_i_casi_UAP.md",
+          "section": "2. USA — la catena istituzionale",
+          "chunk_index": 1,
+          "search_score": 0.6628332
+        },
+        {
+          "rank": 9,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "1. Nota metodologica",
+          "chunk_index": 0,
+          "search_score": 0.6602155
+        },
+        {
+          "rank": 10,
+          "source_file": "PDF_4_Fonti_ufficiali_UAP.md",
+          "section": "1. USA",
+          "chunk_index": 0,
+          "search_score": 0.6571023
+        }
+      ]
+    },
+    {
+      "id": "Q15",
+      "question": "Esiste un primo avvistamento UAP documentato in senso assoluto?",
+      "type": "direct",
+      "metrics": {
+        "hit@1": 1,
+        "hit@3": 1,
+        "hit@10": 1,
+        "recall@10": 1.0,
+        "mrr@10": 1.0,
+        "full_coverage@10": 1,
+        "found_sections": 1,
+        "expected_sections": 1
+      },
+      "latency_s": 0.4515100000135135,
+      "documents": [
+        {
+          "rank": 1,
+          "source_file": "PDF_1_Primi_avvistamenti_UAP_dove_e_quando.md",
+          "section": "1. Il problema della \"data zero\"",
+          "chunk_index": 0,
+          "search_score": 0.7932769
+        },
+        {
+          "rank": 2,
+          "source_file": "Documento_UAP_Release_recenti_e_stato_della_disclosure.md",
+          "section": "1.3 Altri documenti recenti indicizzati",
+          "chunk_index": 3,
+          "search_score": 0.7523017
+        },
+        {
+          "rank": 3,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "1. Nota metodologica",
+          "chunk_index": 0,
+          "search_score": 0.7269029
+        },
+        {
+          "rank": 4,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "4. Cronologia — svolta istituzionale (2000–2017)",
+          "chunk_index": 5,
+          "search_score": 0.72641104
+        },
+        {
+          "rank": 5,
+          "source_file": "Documento_UAP_Release_recenti_e_stato_della_disclosure.md",
+          "section": "1.2 Il caso del \"triangular UAP\" (release 7, ottobre 2026)",
+          "chunk_index": 2,
+          "search_score": 0.7182789
+        },
+        {
+          "rank": 6,
+          "source_file": "PDF_1_Primi_avvistamenti_UAP_dove_e_quando.md",
+          "section": "3. Pattern geografico",
+          "chunk_index": 3,
+          "search_score": 0.7115195
+        },
+        {
+          "rank": 7,
+          "source_file": "PDF_2_Come_vengono_gestiti_i_casi_UAP.md",
+          "section": "2. USA — la catena istituzionale",
+          "chunk_index": 1,
+          "search_score": 0.7096392
+        },
+        {
+          "rank": 8,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "2. Cronologia — casi fondativi (1946–1969)",
+          "chunk_index": 1,
+          "search_score": 0.7042504
+        },
+        {
+          "rank": 9,
+          "source_file": "PDF_1_Primi_avvistamenti_UAP_dove_e_quando.md",
+          "section": "4. Cosa NON è un \"primo avvistamento\"",
+          "chunk_index": 4,
+          "search_score": 0.70424366
+        },
+        {
+          "rank": 10,
+          "source_file": "Documento_UAP_Release_recenti_e_stato_della_disclosure.md",
+          "section": "1.1 Il programma PURSUE e le release di file declassificati",
+          "chunk_index": 0,
+          "search_score": 0.70310855
+        }
+      ]
+    },
+    {
+      "id": "Q16",
+      "question": "Perché gli avvistamenti UAP storici sembrano concentrarsi in alcuni paesi?",
+      "type": "direct",
+      "metrics": {
+        "hit@1": 1,
+        "hit@3": 1,
+        "hit@10": 1,
+        "recall@10": 1.0,
+        "mrr@10": 1.0,
+        "full_coverage@10": 1,
+        "found_sections": 1,
+        "expected_sections": 1
+      },
+      "latency_s": 0.4986849999986589,
+      "documents": [
+        {
+          "rank": 1,
+          "source_file": "PDF_1_Primi_avvistamenti_UAP_dove_e_quando.md",
+          "section": "3. Pattern geografico",
+          "chunk_index": 3,
+          "search_score": 0.78346586
+        },
+        {
+          "rank": 2,
+          "source_file": "PDF_1_Primi_avvistamenti_UAP_dove_e_quando.md",
+          "section": "1. Il problema della \"data zero\"",
+          "chunk_index": 0,
+          "search_score": 0.7145726
+        },
+        {
+          "rank": 3,
+          "source_file": "Documento_UAP_Release_recenti_e_stato_della_disclosure.md",
+          "section": "1.3 Altri documenti recenti indicizzati",
+          "chunk_index": 3,
+          "search_score": 0.70570105
+        },
+        {
+          "rank": 4,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "4. Cronologia — svolta istituzionale (2000–2017)",
+          "chunk_index": 5,
+          "search_score": 0.70314294
+        },
+        {
+          "rank": 5,
+          "source_file": "PDF_1_Primi_avvistamenti_UAP_dove_e_quando.md",
+          "section": "2. Cronologia dei casi fondativi",
+          "chunk_index": 2,
+          "search_score": 0.7001011
+        },
+        {
+          "rank": 6,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "1. Nota metodologica",
+          "chunk_index": 0,
+          "search_score": 0.69537157
+        },
+        {
+          "rank": 7,
+          "source_file": "PDF_2_Come_vengono_gestiti_i_casi_UAP.md",
+          "section": "2. USA — la catena istituzionale",
+          "chunk_index": 1,
+          "search_score": 0.69482785
+        },
+        {
+          "rank": 8,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "3. Cronologia — programmi e casi (1970–1999)",
+          "chunk_index": 4,
+          "search_score": 0.6942312
+        },
+        {
+          "rank": 9,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "5. Cronologia — era AARO (2020–2026)",
+          "chunk_index": 6,
+          "search_score": 0.69026387
+        },
+        {
+          "rank": 10,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "2. Cronologia — casi fondativi (1946–1969)",
+          "chunk_index": 1,
+          "search_score": 0.6865002
+        }
+      ]
+    },
+    {
+      "id": "Q17",
+      "question": "Qual è la differenza tra un caso non identificato e un caso considerato forte?",
+      "type": "multi_hop",
+      "metrics": {
+        "hit@1": 1,
+        "hit@3": 1,
+        "hit@10": 1,
+        "recall@10": 1.0,
+        "mrr@10": 1.0,
+        "full_coverage@10": 1,
+        "found_sections": 2,
+        "expected_sections": 2
+      },
+      "latency_s": 0.4111644999939017,
+      "documents": [
+        {
+          "rank": 1,
+          "source_file": "PDF_3_Casistiche_UAP.md",
+          "section": "4. Cosa rende un caso \"forte\"",
+          "chunk_index": 3,
+          "search_score": 0.7083176
+        },
+        {
+          "rank": 2,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "9. Criteri che rendono un caso \"forte\"",
+          "chunk_index": 11,
+          "search_score": 0.7045087
+        },
+        {
+          "rank": 3,
+          "source_file": "PDF_2_Come_vengono_gestiti_i_casi_UAP.md",
+          "section": "6. Cosa succede a un caso \"non identificato\"",
+          "chunk_index": 5,
+          "search_score": 0.70201766
+        },
+        {
+          "rank": 4,
+          "source_file": "Documento_UAP_Errori_da_evitare_nell_uso_documentale_delle_fonti.md",
+          "section": "3. Errore 2 — Confondere \"non identificato\" con \"extraterrestre\"",
+          "chunk_index": 2,
+          "search_score": 0.67745984
+        },
+        {
+          "rank": 5,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "7. Classificazione GEIPAN — scala a quattro livelli",
+          "chunk_index": 9,
+          "search_score": 0.66842556
+        },
+        {
+          "rank": 6,
+          "source_file": "Documento_UAP_Glossario_dei_termini_e_delle_sigle.md",
+          "section": "Scala GEIPAN (quattro livelli):",
+          "chunk_index": 7,
+          "search_score": 0.6630405
+        },
+        {
+          "rank": 7,
+          "source_file": "PDF_3_Casistiche_UAP.md",
+          "section": "2. Classificazione per spiegazione",
+          "chunk_index": 1,
+          "search_score": 0.66226
+        },
+        {
+          "rank": 8,
+          "source_file": "Documento_UAP_Glossario_dei_termini_e_delle_sigle.md",
+          "section": "2. Termini di base",
+          "chunk_index": 1,
+          "search_score": 0.6592356
+        },
+        {
+          "rank": 9,
+          "source_file": "PDF_3_Casistiche_UAP.md",
+          "section": "1. Classificazione per caratteristica osservata",
+          "chunk_index": 0,
+          "search_score": 0.6430324
+        },
+        {
+          "rank": 10,
+          "source_file": "Documento_UAP_Errori_da_evitare_nell_uso_documentale_delle_fonti.md",
+          "section": "9. Errore 8 — Presentare una testimonianza singola come prova",
+          "chunk_index": 8,
+          "search_score": 0.63904184
+        }
+      ]
+    },
+    {
+      "id": "Q21",
+      "question": "Quali eventi UAP importanti sono riportati tra il 2004 e il 2022?",
+      "type": "multi_hop",
+      "metrics": {
+        "hit@1": 0,
+        "hit@3": 1,
+        "hit@10": 1,
+        "recall@10": 1.0,
+        "mrr@10": 0.3333333333333333,
+        "full_coverage@10": 1,
+        "found_sections": 2,
+        "expected_sections": 2
+      },
+      "latency_s": 0.553815699997358,
+      "documents": [
+        {
+          "rank": 1,
+          "source_file": "Documento_UAP_Release_recenti_e_stato_della_disclosure.md",
+          "section": "FY2025 Consolidated Annual Report on UAP — pubblicato nel 2026 FY2024 Consolidated Annual Report on UAP — pubblicato il 14 novembre 2024",
+          "chunk_index": 5,
+          "search_score": 0.70794606
+        },
+        {
+          "rank": 2,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "1. Nota metodologica",
+          "chunk_index": 0,
+          "search_score": 0.69914514
+        },
+        {
+          "rank": 3,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "5. Cronologia — era AARO (2020–2026)",
+          "chunk_index": 6,
+          "search_score": 0.6929421
+        },
+        {
+          "rank": 4,
+          "source_file": "PDF_2_Come_vengono_gestiti_i_casi_UAP.md",
+          "section": "2. USA — la catena istituzionale",
+          "chunk_index": 1,
+          "search_score": 0.6779971
+        },
+        {
+          "rank": 5,
+          "source_file": "Documento_UAP_Release_recenti_e_stato_della_disclosure.md",
+          "section": "1.3 Altri documenti recenti indicizzati",
+          "chunk_index": 3,
+          "search_score": 0.67455953
+        },
+        {
+          "rank": 6,
+          "source_file": "Documento_UAP_Errori_da_evitare_nell_uso_documentale_delle_fonti.md",
+          "section": "12. Riepilogo operativo",
+          "chunk_index": 11,
+          "search_score": 0.6734574
+        },
+        {
+          "rank": 7,
+          "source_file": "Documento_UAP_Glossario_dei_termini_e_delle_sigle.md",
+          "section": "3. Termini istituzionali",
+          "chunk_index": 2,
+          "search_score": 0.6698897
+        },
+        {
+          "rank": 8,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "5. Cronologia — era AARO (2020–2026)",
+          "chunk_index": 7,
+          "search_score": 0.66755575
+        },
+        {
+          "rank": 9,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "4. Cronologia — svolta istituzionale (2000–2017)",
+          "chunk_index": 5,
+          "search_score": 0.66496634
+        },
+        {
+          "rank": 10,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "Fonti secondarie (priorità media)",
+          "chunk_index": 13,
+          "search_score": 0.6630169
+        }
+      ]
+    }
+  ],
+  "hybrid": [
+    {
+      "id": "Q01",
+      "question": "Quali caratteristiche rendono attendibile un caso UAP?",
+      "type": "direct",
+      "metrics": {
+        "hit@1": 0,
+        "hit@3": 0,
+        "hit@10": 1,
+        "recall@10": 1.0,
+        "mrr@10": 0.16666666666666666,
+        "full_coverage@10": 1,
+        "found_sections": 1,
+        "expected_sections": 1
+      },
+      "latency_s": 0.36351269998704083,
+      "documents": [
+        {
+          "rank": 1,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "8. Ciclo di gestione di una segnalazione UAP",
+          "chunk_index": 10,
+          "search_score": 0.03229166567325592
+        },
+        {
+          "rank": 2,
+          "source_file": "Documento_UAP_Release_recenti_e_stato_della_disclosure.md",
+          "section": "1.2 Il caso del \"triangular UAP\" (release 7, ottobre 2026)",
+          "chunk_index": 2,
+          "search_score": 0.03128054738044739
+        },
+        {
+          "rank": 3,
+          "source_file": "Documento_UAP_Release_recenti_e_stato_della_disclosure.md",
+          "section": "FY2025 Consolidated Annual Report on UAP — pubblicato nel 2026 FY2024 Consolidated Annual Report on UAP — pubblicato il 14 novembre 2024",
+          "chunk_index": 5,
+          "search_score": 0.03102453239262104
+        },
+        {
+          "rank": 4,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "9. Criteri che rendono un caso \"forte\"",
+          "chunk_index": 11,
+          "search_score": 0.03055555745959282
+        },
+        {
+          "rank": 5,
+          "source_file": "Documento_UAP_Glossario_dei_termini_e_delle_sigle.md",
+          "section": "PURSUE — Presidential Unsealing and Reporting System for UAP Encounters.",
+          "chunk_index": 6,
+          "search_score": 0.02941812574863434
+        },
+        {
+          "rank": 6,
+          "source_file": "PDF_3_Casistiche_UAP.md",
+          "section": "4. Cosa rende un caso \"forte\"",
+          "chunk_index": 3,
+          "search_score": 0.029213953763246536
+        },
+        {
+          "rank": 7,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "1. Nota metodologica",
+          "chunk_index": 0,
+          "search_score": 0.028588563203811646
+        },
+        {
+          "rank": 8,
+          "source_file": "Documento_UAP_Glossario_dei_termini_e_delle_sigle.md",
+          "section": "5. Tipi di documento",
+          "chunk_index": 8,
+          "search_score": 0.028177224099636078
+        },
+        {
+          "rank": 9,
+          "source_file": "PDF_1_Primi_avvistamenti_UAP_dove_e_quando.md",
+          "section": "2. Cronologia dei casi fondativi",
+          "chunk_index": 2,
+          "search_score": 0.027222223579883575
+        },
+        {
+          "rank": 10,
+          "source_file": "Documento_UAP_Errori_da_evitare_nell_uso_documentale_delle_fonti.md",
+          "section": "1. A cosa serve questo documento",
+          "chunk_index": 0,
+          "search_score": 0.02694394253194332
+        }
+      ]
+    },
+    {
+      "id": "Q02",
+      "question": "Quali sono le principali tipologie di avvistamenti UAP?",
+      "type": "paraphrase",
+      "metrics": {
+        "hit@1": 0,
+        "hit@3": 0,
+        "hit@10": 0,
+        "recall@10": 0.0,
+        "mrr@10": 0.0,
+        "full_coverage@10": 0,
+        "found_sections": 0,
+        "expected_sections": 1
+      },
+      "latency_s": 0.6451539999980014,
+      "documents": [
+        {
+          "rank": 1,
+          "source_file": "PDF_1_Primi_avvistamenti_UAP_dove_e_quando.md",
+          "section": "4. Cosa NON è un \"primo avvistamento\"",
+          "chunk_index": 4,
+          "search_score": 0.03159204125404358
+        },
+        {
+          "rank": 2,
+          "source_file": "PDF_1_Primi_avvistamenti_UAP_dove_e_quando.md",
+          "section": "3. Pattern geografico",
+          "chunk_index": 3,
+          "search_score": 0.03083491325378418
+        },
+        {
+          "rank": 3,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "8. Ciclo di gestione di una segnalazione UAP",
+          "chunk_index": 10,
+          "search_score": 0.03067915514111519
+        },
+        {
+          "rank": 4,
+          "source_file": "Documento_UAP_Release_recenti_e_stato_della_disclosure.md",
+          "section": "1.2 Il caso del \"triangular UAP\" (release 7, ottobre 2026)",
+          "chunk_index": 2,
+          "search_score": 0.030621785670518875
+        },
+        {
+          "rank": 5,
+          "source_file": "PDF_1_Primi_avvistamenti_UAP_dove_e_quando.md",
+          "section": "1. Il problema della \"data zero\"",
+          "chunk_index": 0,
+          "search_score": 0.029726775363087654
+        },
+        {
+          "rank": 6,
+          "source_file": "Documento_UAP_Glossario_dei_termini_e_delle_sigle.md",
+          "section": "5. Tipi di documento",
+          "chunk_index": 8,
+          "search_score": 0.029083244502544403
+        },
+        {
+          "rank": 7,
+          "source_file": "Documento_UAP_Release_recenti_e_stato_della_disclosure.md",
+          "section": "1.1 Il programma PURSUE e le release di file declassificati",
+          "chunk_index": 0,
+          "search_score": 0.027745885774493217
+        },
+        {
+          "rank": 8,
+          "source_file": "Documento_UAP_Glossario_dei_termini_e_delle_sigle.md",
+          "section": "2. Termini di base",
+          "chunk_index": 1,
+          "search_score": 0.02752639539539814
+        },
+        {
+          "rank": 9,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "5. Cronologia — era AARO (2020–2026)",
+          "chunk_index": 6,
+          "search_score": 0.02704678475856781
+        },
+        {
+          "rank": 10,
+          "source_file": "Documento_UAP_Release_recenti_e_stato_della_disclosure.md",
+          "section": "1.3 Altri documenti recenti indicizzati",
+          "chunk_index": 3,
+          "search_score": 0.02687074989080429
+        }
+      ]
+    },
+    {
+      "id": "Q03",
+      "question": "Quali avvistamenti comprendono luci notturne, oggetti solidi ed effetti fisici?",
+      "type": "direct",
+      "metrics": {
+        "hit@1": 1,
+        "hit@3": 1,
+        "hit@10": 1,
+        "recall@10": 1.0,
+        "mrr@10": 1.0,
+        "full_coverage@10": 1,
+        "found_sections": 1,
+        "expected_sections": 1
+      },
+      "latency_s": 0.31580680000479333,
+      "documents": [
+        {
+          "rank": 1,
+          "source_file": "PDF_3_Casistiche_UAP.md",
+          "section": "1. Classificazione per caratteristica osservata",
+          "chunk_index": 0,
+          "search_score": 0.03333333507180214
+        },
+        {
+          "rank": 2,
+          "source_file": "Documento_UAP_Glossario_dei_termini_e_delle_sigle.md",
+          "section": "Scala GEIPAN (quattro livelli):",
+          "chunk_index": 7,
+          "search_score": 0.03226646035909653
+        },
+        {
+          "rank": 3,
+          "source_file": "PDF_1_Primi_avvistamenti_UAP_dove_e_quando.md",
+          "section": "4. Cosa NON è un \"primo avvistamento\"",
+          "chunk_index": 4,
+          "search_score": 0.0320020467042923
+        },
+        {
+          "rank": 4,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "2. Cronologia — casi fondativi (1946–1969)",
+          "chunk_index": 2,
+          "search_score": 0.0317540317773819
+        },
+        {
+          "rank": 5,
+          "source_file": "PDF_3_Casistiche_UAP.md",
+          "section": "2. Classificazione per spiegazione",
+          "chunk_index": 1,
+          "search_score": 0.030886195600032806
+        },
+        {
+          "rank": 6,
+          "source_file": "PDF_1_Primi_avvistamenti_UAP_dove_e_quando.md",
+          "section": "2. Cronologia dei casi fondativi",
+          "chunk_index": 1,
+          "search_score": 0.03077651560306549
+        },
+        {
+          "rank": 7,
+          "source_file": "PDF_1_Primi_avvistamenti_UAP_dove_e_quando.md",
+          "section": "1. Il problema della \"data zero\"",
+          "chunk_index": 0,
+          "search_score": 0.029631255194544792
+        },
+        {
+          "rank": 8,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "2. Cronologia — casi fondativi (1946–1969)",
+          "chunk_index": 1,
+          "search_score": 0.02943722903728485
+        },
+        {
+          "rank": 9,
+          "source_file": "Documento_UAP_Glossario_dei_termini_e_delle_sigle.md",
+          "section": "2. Termini di base",
+          "chunk_index": 1,
+          "search_score": 0.02941812574863434
+        },
+        {
+          "rank": 10,
+          "source_file": "PDF_2_Come_vengono_gestiti_i_casi_UAP.md",
+          "section": "6. Cosa succede a un caso \"non identificato\"",
+          "chunk_index": 5,
+          "search_score": 0.028404511511325836
+        }
+      ]
+    },
+    {
+      "id": "Q04",
+      "question": "Come si distinguono i fenomeni UAP in base a ciò che viene osservato?",
+      "type": "paraphrase",
+      "metrics": {
+        "hit@1": 0,
+        "hit@3": 0,
+        "hit@10": 1,
+        "recall@10": 1.0,
+        "mrr@10": 0.125,
+        "full_coverage@10": 1,
+        "found_sections": 1,
+        "expected_sections": 1
+      },
+      "latency_s": 0.9645628000143915,
+      "documents": [
+        {
+          "rank": 1,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "8. Ciclo di gestione di una segnalazione UAP",
+          "chunk_index": 10,
+          "search_score": 0.03253968432545662
+        },
+        {
+          "rank": 2,
+          "source_file": "Documento_UAP_Glossario_dei_termini_e_delle_sigle.md",
+          "section": "2. Termini di base",
+          "chunk_index": 1,
+          "search_score": 0.032522473484277725
+        },
+        {
+          "rank": 3,
+          "source_file": "Documento_UAP_Release_recenti_e_stato_della_disclosure.md",
+          "section": "1.2 Il caso del \"triangular UAP\" (release 7, ottobre 2026)",
+          "chunk_index": 2,
+          "search_score": 0.030414745211601257
+        },
+        {
+          "rank": 4,
+          "source_file": "PDF_1_Primi_avvistamenti_UAP_dove_e_quando.md",
+          "section": "1. Il problema della \"data zero\"",
+          "chunk_index": 0,
+          "search_score": 0.030180182307958603
+        },
+        {
+          "rank": 5,
+          "source_file": "PDF_1_Primi_avvistamenti_UAP_dove_e_quando.md",
+          "section": "3. Pattern geografico",
+          "chunk_index": 3,
+          "search_score": 0.02955133654177189
+        },
+        {
+          "rank": 6,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "2. Cronologia — casi fondativi (1946–1969)",
+          "chunk_index": 1,
+          "search_score": 0.028693530708551407
+        },
+        {
+          "rank": 7,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "1. Nota metodologica",
+          "chunk_index": 0,
+          "search_score": 0.027970679104328156
+        },
+        {
+          "rank": 8,
+          "source_file": "PDF_3_Casistiche_UAP.md",
+          "section": "1. Classificazione per caratteristica osservata",
+          "chunk_index": 0,
+          "search_score": 0.027809742838144302
+        },
+        {
+          "rank": 9,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "4. Cronologia — svolta istituzionale (2000–2017)",
+          "chunk_index": 5,
+          "search_score": 0.02747976779937744
+        },
+        {
+          "rank": 10,
+          "source_file": "PDF_1_Primi_avvistamenti_UAP_dove_e_quando.md",
+          "section": "4. Cosa NON è un \"primo avvistamento\"",
+          "chunk_index": 4,
+          "search_score": 0.02637362666428089
+        }
+      ]
+    },
+    {
+      "id": "Q05",
+      "question": "Quali sono le categorie per spiegazione dei casi UAP?",
+      "type": "direct",
+      "metrics": {
+        "hit@1": 0,
+        "hit@3": 1,
+        "hit@10": 1,
+        "recall@10": 1.0,
+        "mrr@10": 0.5,
+        "full_coverage@10": 1,
+        "found_sections": 1,
+        "expected_sections": 1
+      },
+      "latency_s": 0.5460834000259638,
+      "documents": [
+        {
+          "rank": 1,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "8. Ciclo di gestione di una segnalazione UAP",
+          "chunk_index": 10,
+          "search_score": 0.03279569745063782
+        },
+        {
+          "rank": 2,
+          "source_file": "PDF_3_Casistiche_UAP.md",
+          "section": "2. Classificazione per spiegazione",
+          "chunk_index": 1,
+          "search_score": 0.03229166567325592
+        },
+        {
+          "rank": 3,
+          "source_file": "PDF_1_Primi_avvistamenti_UAP_dove_e_quando.md",
+          "section": "2. Cronologia dei casi fondativi",
+          "chunk_index": 2,
+          "search_score": 0.030330881476402283
+        },
+        {
+          "rank": 4,
+          "source_file": "Documento_UAP_Release_recenti_e_stato_della_disclosure.md",
+          "section": "FY2025 Consolidated Annual Report on UAP — pubblicato nel 2026 FY2024 Consolidated Annual Report on UAP — pubblicato il 14 novembre 2024",
+          "chunk_index": 5,
+          "search_score": 0.029631255194544792
+        },
+        {
+          "rank": 5,
+          "source_file": "Documento_UAP_Glossario_dei_termini_e_delle_sigle.md",
+          "section": "2. Termini di base",
+          "chunk_index": 1,
+          "search_score": 0.028629031032323837
+        },
+        {
+          "rank": 6,
+          "source_file": "Documento_UAP_Glossario_dei_termini_e_delle_sigle.md",
+          "section": "Scala GEIPAN (quattro livelli):",
+          "chunk_index": 7,
+          "search_score": 0.028169013559818268
+        },
+        {
+          "rank": 7,
+          "source_file": "Documento_UAP_Glossario_dei_termini_e_delle_sigle.md",
+          "section": "5. Tipi di documento",
+          "chunk_index": 8,
+          "search_score": 0.027500923722982407
+        },
+        {
+          "rank": 8,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "1. Nota metodologica",
+          "chunk_index": 0,
+          "search_score": 0.026919757947325706
+        },
+        {
+          "rank": 9,
+          "source_file": "Documento_UAP_Glossario_dei_termini_e_delle_sigle.md",
+          "section": "PURSUE — Presidential Unsealing and Reporting System for UAP Encounters.",
+          "chunk_index": 6,
+          "search_score": 0.026356857270002365
+        },
+        {
+          "rank": 10,
+          "source_file": "PDF_2_Come_vengono_gestiti_i_casi_UAP.md",
+          "section": "6. Cosa succede a un caso \"non identificato\"",
+          "chunk_index": 5,
+          "search_score": 0.02633402682840824
+        }
+      ]
+    },
+    {
+      "id": "Q06",
+      "question": "Quali esempi vengono forniti per i casi identificati come IFO?",
+      "type": "direct",
+      "metrics": {
+        "hit@1": 1,
+        "hit@3": 1,
+        "hit@10": 1,
+        "recall@10": 1.0,
+        "mrr@10": 1.0,
+        "full_coverage@10": 1,
+        "found_sections": 1,
+        "expected_sections": 1
+      },
+      "latency_s": 0.43673169999965467,
+      "documents": [
+        {
+          "rank": 1,
+          "source_file": "PDF_3_Casistiche_UAP.md",
+          "section": "2. Classificazione per spiegazione",
+          "chunk_index": 1,
+          "search_score": 0.03333333507180214
+        },
+        {
+          "rank": 2,
+          "source_file": "PDF_2_Come_vengono_gestiti_i_casi_UAP.md",
+          "section": "6. Cosa succede a un caso \"non identificato\"",
+          "chunk_index": 5,
+          "search_score": 0.0320020467042923
+        },
+        {
+          "rank": 3,
+          "source_file": "Documento_UAP_Errori_da_evitare_nell_uso_documentale_delle_fonti.md",
+          "section": "3. Errore 2 — Confondere \"non identificato\" con \"extraterrestre\"",
+          "chunk_index": 2,
+          "search_score": 0.0314980149269104
+        },
+        {
+          "rank": 4,
+          "source_file": "Documento_UAP_Glossario_dei_termini_e_delle_sigle.md",
+          "section": "Scala GEIPAN (quattro livelli):",
+          "chunk_index": 7,
+          "search_score": 0.03109932318329811
+        },
+        {
+          "rank": 5,
+          "source_file": "PDF_3_Casistiche_UAP.md",
+          "section": "1. Classificazione per caratteristica osservata",
+          "chunk_index": 0,
+          "search_score": 0.02985074557363987
+        },
+        {
+          "rank": 6,
+          "source_file": "Documento_UAP_Glossario_dei_termini_e_delle_sigle.md",
+          "section": "2. Termini di base",
+          "chunk_index": 1,
+          "search_score": 0.029286926612257957
+        },
+        {
+          "rank": 7,
+          "source_file": "Documento_UAP_Errori_da_evitare_nell_uso_documentale_delle_fonti.md",
+          "section": "9. Errore 8 — Presentare una testimonianza singola come prova",
+          "chunk_index": 8,
+          "search_score": 0.028577260673046112
+        },
+        {
+          "rank": 8,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "8. Ciclo di gestione di una segnalazione UAP",
+          "chunk_index": 10,
+          "search_score": 0.02857142873108387
+        },
+        {
+          "rank": 9,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "7. Classificazione GEIPAN — scala a quattro livelli",
+          "chunk_index": 9,
+          "search_score": 0.027149321511387825
+        },
+        {
+          "rank": 10,
+          "source_file": "PDF_1_Primi_avvistamenti_UAP_dove_e_quando.md",
+          "section": "2. Cronologia dei casi fondativi",
+          "chunk_index": 1,
+          "search_score": 0.025645241141319275
+        }
+      ]
+    },
+    {
+      "id": "Q07",
+      "question": "Quali sono le fasi del ciclo di gestione di un caso UAP?",
+      "type": "direct",
+      "metrics": {
+        "hit@1": 0,
+        "hit@3": 1,
+        "hit@10": 1,
+        "recall@10": 1.0,
+        "mrr@10": 0.5,
+        "full_coverage@10": 1,
+        "found_sections": 1,
+        "expected_sections": 1
+      },
+      "latency_s": 0.8224230000050738,
+      "documents": [
+        {
+          "rank": 1,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "8. Ciclo di gestione di una segnalazione UAP",
+          "chunk_index": 10,
+          "search_score": 0.03333333507180214
+        },
+        {
+          "rank": 2,
+          "source_file": "PDF_2_Come_vengono_gestiti_i_casi_UAP.md",
+          "section": "1. Il ciclo di gestione",
+          "chunk_index": 0,
+          "search_score": 0.03201844170689583
+        },
+        {
+          "rank": 3,
+          "source_file": "Documento_UAP_Release_recenti_e_stato_della_disclosure.md",
+          "section": "FY2025 Consolidated Annual Report on UAP — pubblicato nel 2026 FY2024 Consolidated Annual Report on UAP — pubblicato il 14 novembre 2024",
+          "chunk_index": 5,
+          "search_score": 0.031054403632879257
+        },
+        {
+          "rank": 4,
+          "source_file": "Documento_UAP_Glossario_dei_termini_e_delle_sigle.md",
+          "section": "5. Tipi di documento",
+          "chunk_index": 8,
+          "search_score": 0.03015873208642006
+        },
+        {
+          "rank": 5,
+          "source_file": "Documento_UAP_Release_recenti_e_stato_della_disclosure.md",
+          "section": "1.2 Il caso del \"triangular UAP\" (release 7, ottobre 2026)",
+          "chunk_index": 2,
+          "search_score": 0.029462365433573723
+        },
+        {
+          "rank": 6,
+          "source_file": "Documento_UAP_Release_recenti_e_stato_della_disclosure.md",
+          "section": "1.1 Il programma PURSUE e le release di file declassificati",
+          "chunk_index": 0,
+          "search_score": 0.028219396248459816
+        },
+        {
+          "rank": 7,
+          "source_file": "Documento_UAP_Glossario_dei_termini_e_delle_sigle.md",
+          "section": "PURSUE — Presidential Unsealing and Reporting System for UAP Encounters.",
+          "chunk_index": 6,
+          "search_score": 0.027826087549328804
+        },
+        {
+          "rank": 8,
+          "source_file": "Documento_UAP_Glossario_dei_termini_e_delle_sigle.md",
+          "section": "2. Termini di base",
+          "chunk_index": 1,
+          "search_score": 0.02777777798473835
+        },
+        {
+          "rank": 9,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "1. Nota metodologica",
+          "chunk_index": 0,
+          "search_score": 0.02738245204091072
+        },
+        {
+          "rank": 10,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "5. Cronologia — era AARO (2020–2026)",
+          "chunk_index": 6,
+          "search_score": 0.02719970792531967
+        }
+      ]
+    },
+    {
+      "id": "Q08",
+      "question": "Come vengono classificati i casi dal GEIPAN?",
+      "type": "direct",
+      "metrics": {
+        "hit@1": 1,
+        "hit@3": 1,
+        "hit@10": 1,
+        "recall@10": 1.0,
+        "mrr@10": 1.0,
+        "full_coverage@10": 1,
+        "found_sections": 1,
+        "expected_sections": 1
+      },
+      "latency_s": 0.30744590001995675,
+      "documents": [
+        {
+          "rank": 1,
+          "source_file": "PDF_2_Come_vengono_gestiti_i_casi_UAP.md",
+          "section": "3. Francia — GEIPAN",
+          "chunk_index": 2,
+          "search_score": 0.03279569745063782
+        },
+        {
+          "rank": 2,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "7. Classificazione GEIPAN — scala a quattro livelli",
+          "chunk_index": 9,
+          "search_score": 0.03159204125404358
+        },
+        {
+          "rank": 3,
+          "source_file": "Documento_UAP_Glossario_dei_termini_e_delle_sigle.md",
+          "section": "Scala GEIPAN (quattro livelli):",
+          "chunk_index": 7,
+          "search_score": 0.03154495730996132
+        },
+        {
+          "rank": 4,
+          "source_file": "Documento_UAP_Errori_da_evitare_nell_uso_documentale_delle_fonti.md",
+          "section": "3. Errore 2 — Confondere \"non identificato\" con \"extraterrestre\"",
+          "chunk_index": 2,
+          "search_score": 0.03151364624500275
+        },
+        {
+          "rank": 5,
+          "source_file": "Documento_UAP_Glossario_dei_termini_e_delle_sigle.md",
+          "section": "GEIPAN — Groupe d'Études et d'Informations sur les Phénomènes Aérospatiaux",
+          "chunk_index": 5,
+          "search_score": 0.03077651560306549
+        },
+        {
+          "rank": 6,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "1. Nota metodologica",
+          "chunk_index": 0,
+          "search_score": 0.02919863536953926
+        },
+        {
+          "rank": 7,
+          "source_file": "PDF_1_Primi_avvistamenti_UAP_dove_e_quando.md",
+          "section": "2. Cronologia dei casi fondativi",
+          "chunk_index": 2,
+          "search_score": 0.028370220214128494
+        },
+        {
+          "rank": 8,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "6. Enti per paese — quadro sintetico",
+          "chunk_index": 8,
+          "search_score": 0.02812499925494194
+        },
+        {
+          "rank": 9,
+          "source_file": "Documento_UAP_Glossario_dei_termini_e_delle_sigle.md",
+          "section": "2. Termini di base",
+          "chunk_index": 1,
+          "search_score": 0.02792120911180973
+        },
+        {
+          "rank": 10,
+          "source_file": "PDF_1_Primi_avvistamenti_UAP_dove_e_quando.md",
+          "section": "2. Cronologia dei casi fondativi",
+          "chunk_index": 1,
+          "search_score": 0.02747976779937744
+        }
+      ]
+    },
+    {
+      "id": "Q09",
+      "question": "Che cosa significa che un caso UAP rimane non identificato?",
+      "type": "paraphrase",
+      "metrics": {
+        "hit@1": 1,
+        "hit@3": 1,
+        "hit@10": 1,
+        "recall@10": 1.0,
+        "mrr@10": 1.0,
+        "full_coverage@10": 1,
+        "found_sections": 1,
+        "expected_sections": 1
+      },
+      "latency_s": 0.280049399996642,
+      "documents": [
+        {
+          "rank": 1,
+          "source_file": "PDF_2_Come_vengono_gestiti_i_casi_UAP.md",
+          "section": "6. Cosa succede a un caso \"non identificato\"",
+          "chunk_index": 5,
+          "search_score": 0.03333333507180214
+        },
+        {
+          "rank": 2,
+          "source_file": "Documento_UAP_Errori_da_evitare_nell_uso_documentale_delle_fonti.md",
+          "section": "3. Errore 2 — Confondere \"non identificato\" con \"extraterrestre\"",
+          "chunk_index": 2,
+          "search_score": 0.03226646035909653
+        },
+        {
+          "rank": 3,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "8. Ciclo di gestione di una segnalazione UAP",
+          "chunk_index": 10,
+          "search_score": 0.03021353855729103
+        },
+        {
+          "rank": 4,
+          "source_file": "Documento_UAP_Release_recenti_e_stato_della_disclosure.md",
+          "section": "1.2 Il caso del \"triangular UAP\" (release 7, ottobre 2026)",
+          "chunk_index": 2,
+          "search_score": 0.02964426949620247
+        },
+        {
+          "rank": 5,
+          "source_file": "PDF_2_Come_vengono_gestiti_i_casi_UAP.md",
+          "section": "2. USA — la catena istituzionale",
+          "chunk_index": 1,
+          "search_score": 0.02817460335791111
+        },
+        {
+          "rank": 6,
+          "source_file": "PDF_1_Primi_avvistamenti_UAP_dove_e_quando.md",
+          "section": "1. Il problema della \"data zero\"",
+          "chunk_index": 0,
+          "search_score": 0.02808326855301857
+        },
+        {
+          "rank": 7,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "7. Classificazione GEIPAN — scala a quattro livelli",
+          "chunk_index": 9,
+          "search_score": 0.02804284356534481
+        },
+        {
+          "rank": 8,
+          "source_file": "Documento_UAP_Glossario_dei_termini_e_delle_sigle.md",
+          "section": "2. Termini di base",
+          "chunk_index": 1,
+          "search_score": 0.027887694537639618
+        },
+        {
+          "rank": 9,
+          "source_file": "Documento_UAP_Release_recenti_e_stato_della_disclosure.md",
+          "section": "FY2025 Consolidated Annual Report on UAP — pubblicato nel 2026 FY2024 Consolidated Annual Report on UAP — pubblicato il 14 novembre 2024",
+          "chunk_index": 5,
+          "search_score": 0.027826087549328804
+        },
+        {
+          "rank": 10,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "1. Nota metodologica",
+          "chunk_index": 0,
+          "search_score": 0.026988636702299118
+        }
+      ]
+    },
+    {
+      "id": "Q10",
+      "question": "Quali istituzioni statunitensi compaiono nella gestione dei casi UAP?",
+      "type": "direct",
+      "metrics": {
+        "hit@1": 0,
+        "hit@3": 0,
+        "hit@10": 1,
+        "recall@10": 1.0,
+        "mrr@10": 0.14285714285714285,
+        "full_coverage@10": 1,
+        "found_sections": 1,
+        "expected_sections": 1
+      },
+      "latency_s": 0.4768540999793913,
+      "documents": [
+        {
+          "rank": 1,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "8. Ciclo di gestione di una segnalazione UAP",
+          "chunk_index": 10,
+          "search_score": 0.03205128386616707
+        },
+        {
+          "rank": 2,
+          "source_file": "PDF_1_Primi_avvistamenti_UAP_dove_e_quando.md",
+          "section": "2. Cronologia dei casi fondativi",
+          "chunk_index": 2,
+          "search_score": 0.03125763311982155
+        },
+        {
+          "rank": 3,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "5. Cronologia — era AARO (2020–2026)",
+          "chunk_index": 6,
+          "search_score": 0.02991071343421936
+        },
+        {
+          "rank": 4,
+          "source_file": "Documento_UAP_Release_recenti_e_stato_della_disclosure.md",
+          "section": "1.2 Il caso del \"triangular UAP\" (release 7, ottobre 2026)",
+          "chunk_index": 2,
+          "search_score": 0.02905166894197464
+        },
+        {
+          "rank": 5,
+          "source_file": "Documento_UAP_Glossario_dei_termini_e_delle_sigle.md",
+          "section": "3. Termini istituzionali",
+          "chunk_index": 2,
+          "search_score": 0.02878725901246071
+        },
+        {
+          "rank": 6,
+          "source_file": "Documento_UAP_Release_recenti_e_stato_della_disclosure.md",
+          "section": "FY2025 Consolidated Annual Report on UAP — pubblicato nel 2026 FY2024 Consolidated Annual Report on UAP — pubblicato il 14 novembre 2024",
+          "chunk_index": 5,
+          "search_score": 0.028624001890420914
+        },
+        {
+          "rank": 7,
+          "source_file": "PDF_2_Come_vengono_gestiti_i_casi_UAP.md",
+          "section": "2. USA — la catena istituzionale",
+          "chunk_index": 1,
+          "search_score": 0.028294574469327927
+        },
+        {
+          "rank": 8,
+          "source_file": "Documento_UAP_Glossario_dei_termini_e_delle_sigle.md",
+          "section": "PURSUE — Presidential Unsealing and Reporting System for UAP Encounters.",
+          "chunk_index": 6,
+          "search_score": 0.028169013559818268
+        },
+        {
+          "rank": 9,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "Fonti secondarie (priorità media)",
+          "chunk_index": 13,
+          "search_score": 0.027027027681469917
+        },
+        {
+          "rank": 10,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "1. Nota metodologica",
+          "chunk_index": 0,
+          "search_score": 0.02654094621539116
+        }
+      ]
+    },
+    {
+      "id": "Q11",
+      "question": "Quali sono le principali fonti istituzionali statunitensi per studiare gli UAP?",
+      "type": "direct",
+      "metrics": {
+        "hit@1": 0,
+        "hit@3": 0,
+        "hit@10": 0,
+        "recall@10": 0.0,
+        "mrr@10": 0.0,
+        "full_coverage@10": 0,
+        "found_sections": 0,
+        "expected_sections": 1
+      },
+      "latency_s": 0.5797011000104249,
+      "documents": [
+        {
+          "rank": 1,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "Fonti secondarie (priorità media)",
+          "chunk_index": 13,
+          "search_score": 0.03177805617451668
+        },
+        {
+          "rank": 2,
+          "source_file": "Documento_UAP_Glossario_dei_termini_e_delle_sigle.md",
+          "section": "3. Termini istituzionali",
+          "chunk_index": 2,
+          "search_score": 0.0313725508749485
+        },
+        {
+          "rank": 3,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "Fonti primarie (priorità alta)",
+          "chunk_index": 12,
+          "search_score": 0.030414745211601257
+        },
+        {
+          "rank": 4,
+          "source_file": "PDF_2_Come_vengono_gestiti_i_casi_UAP.md",
+          "section": "2. USA — la catena istituzionale",
+          "chunk_index": 1,
+          "search_score": 0.030180182307958603
+        },
+        {
+          "rank": 5,
+          "source_file": "Documento_UAP_Release_recenti_e_stato_della_disclosure.md",
+          "section": "1.2 Il caso del \"triangular UAP\" (release 7, ottobre 2026)",
+          "chunk_index": 2,
+          "search_score": 0.029206350445747375
+        },
+        {
+          "rank": 6,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "6. Enti per paese — quadro sintetico",
+          "chunk_index": 8,
+          "search_score": 0.029009878635406494
+        },
+        {
+          "rank": 7,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "1. Nota metodologica",
+          "chunk_index": 0,
+          "search_score": 0.02830941043794155
+        },
+        {
+          "rank": 8,
+          "source_file": "Documento_UAP_Release_recenti_e_stato_della_disclosure.md",
+          "section": "Fonti",
+          "chunk_index": 7,
+          "search_score": 0.028219396248459816
+        },
+        {
+          "rank": 9,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "4. Cronologia — svolta istituzionale (2000–2017)",
+          "chunk_index": 5,
+          "search_score": 0.02812499925494194
+        },
+        {
+          "rank": 10,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "5. Cronologia — era AARO (2020–2026)",
+          "chunk_index": 6,
+          "search_score": 0.027272727340459824
+        }
+      ]
+    },
+    {
+      "id": "Q12",
+      "question": "Quali archivi o enti sono elencati nella sezione Europa delle fonti UAP?",
+      "type": "direct",
+      "metrics": {
+        "hit@1": 0,
+        "hit@3": 1,
+        "hit@10": 1,
+        "recall@10": 1.0,
+        "mrr@10": 0.5,
+        "full_coverage@10": 1,
+        "found_sections": 1,
+        "expected_sections": 1
+      },
+      "latency_s": 0.5650157000054605,
+      "documents": [
+        {
+          "rank": 1,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "Fonti primarie (priorità alta)",
+          "chunk_index": 12,
+          "search_score": 0.03205128386616707
+        },
+        {
+          "rank": 2,
+          "source_file": "PDF_4_Fonti_ufficiali_UAP.md",
+          "section": "2. Europa",
+          "chunk_index": 1,
+          "search_score": 0.03205128386616707
+        },
+        {
+          "rank": 3,
+          "source_file": "Documento_UAP_Release_recenti_e_stato_della_disclosure.md",
+          "section": "Fonti",
+          "chunk_index": 7,
+          "search_score": 0.030365770682692528
+        },
+        {
+          "rank": 4,
+          "source_file": "PDF_4_Fonti_ufficiali_UAP.md",
+          "section": "4. Come usare le fonti in un RAG",
+          "chunk_index": 3,
+          "search_score": 0.03007688745856285
+        },
+        {
+          "rank": 5,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "Fonti secondarie (priorità media)",
+          "chunk_index": 13,
+          "search_score": 0.029857397079467773
+        },
+        {
+          "rank": 6,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "6. Enti per paese — quadro sintetico",
+          "chunk_index": 8,
+          "search_score": 0.02982766181230545
+        },
+        {
+          "rank": 7,
+          "source_file": "Documento_UAP_Errori_da_evitare_nell_uso_documentale_delle_fonti.md",
+          "section": "12. Riepilogo operativo",
+          "chunk_index": 11,
+          "search_score": 0.029726775363087654
+        },
+        {
+          "rank": 8,
+          "source_file": "PDF_2_Come_vengono_gestiti_i_casi_UAP.md",
+          "section": "5. Altri enti",
+          "chunk_index": 4,
+          "search_score": 0.02903091162443161
+        },
+        {
+          "rank": 9,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "1. Nota metodologica",
+          "chunk_index": 0,
+          "search_score": 0.028474710881710052
+        },
+        {
+          "rank": 10,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "8. Ciclo di gestione di una segnalazione UAP",
+          "chunk_index": 10,
+          "search_score": 0.02828322723507881
+        }
+      ]
+    },
+    {
+      "id": "Q13",
+      "question": "Quale ordine di priorità suggerisce il documento per le fonti di un RAG sugli UAP?",
+      "type": "direct",
+      "metrics": {
+        "hit@1": 1,
+        "hit@3": 1,
+        "hit@10": 1,
+        "recall@10": 1.0,
+        "mrr@10": 1.0,
+        "full_coverage@10": 1,
+        "found_sections": 1,
+        "expected_sections": 1
+      },
+      "latency_s": 0.6781113000179175,
+      "documents": [
+        {
+          "rank": 1,
+          "source_file": "PDF_4_Fonti_ufficiali_UAP.md",
+          "section": "4. Come usare le fonti in un RAG",
+          "chunk_index": 3,
+          "search_score": 0.03333333507180214
+        },
+        {
+          "rank": 2,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "Fonti primarie (priorità alta)",
+          "chunk_index": 12,
+          "search_score": 0.03226646035909653
+        },
+        {
+          "rank": 3,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "Fonti secondarie (priorità media)",
+          "chunk_index": 13,
+          "search_score": 0.03151364624500275
+        },
+        {
+          "rank": 4,
+          "source_file": "Documento_UAP_Glossario_dei_termini_e_delle_sigle.md",
+          "section": "5. Tipi di documento",
+          "chunk_index": 8,
+          "search_score": 0.0314980149269104
+        },
+        {
+          "rank": 5,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "8. Ciclo di gestione di una segnalazione UAP",
+          "chunk_index": 10,
+          "search_score": 0.030330881476402283
+        },
+        {
+          "rank": 6,
+          "source_file": "Documento_UAP_Errori_da_evitare_nell_uso_documentale_delle_fonti.md",
+          "section": "1. A cosa serve questo documento",
+          "chunk_index": 0,
+          "search_score": 0.03007688745856285
+        },
+        {
+          "rank": 7,
+          "source_file": "Documento_UAP_Release_recenti_e_stato_della_disclosure.md",
+          "section": "Fonti",
+          "chunk_index": 7,
+          "search_score": 0.02904040366411209
+        },
+        {
+          "rank": 8,
+          "source_file": "Documento_UAP_Errori_da_evitare_nell_uso_documentale_delle_fonti.md",
+          "section": "5. Errore 4 — Attribuire a un ente un documento che non è suo",
+          "chunk_index": 4,
+          "search_score": 0.029009878635406494
+        },
+        {
+          "rank": 9,
+          "source_file": "Documento_UAP_Release_recenti_e_stato_della_disclosure.md",
+          "section": "1.2 Il caso del \"triangular UAP\" (release 7, ottobre 2026)",
+          "chunk_index": 2,
+          "search_score": 0.02804284356534481
+        },
+        {
+          "rank": 10,
+          "source_file": "Documento_UAP_Release_recenti_e_stato_della_disclosure.md",
+          "section": "FY2025 Consolidated Annual Report on UAP — pubblicato nel 2026 FY2024 Consolidated Annual Report on UAP — pubblicato il 14 novembre 2024",
+          "chunk_index": 5,
+          "search_score": 0.028006266802549362
+        }
+      ]
+    },
+    {
+      "id": "Q14",
+      "question": "Quali organizzazioni di ricerca non ufficiali vengono citate?",
+      "type": "direct",
+      "metrics": {
+        "hit@1": 1,
+        "hit@3": 1,
+        "hit@10": 1,
+        "recall@10": 1.0,
+        "mrr@10": 1.0,
+        "full_coverage@10": 1,
+        "found_sections": 1,
+        "expected_sections": 1
+      },
+      "latency_s": 0.5665113999857567,
+      "documents": [
+        {
+          "rank": 1,
+          "source_file": "PDF_4_Fonti_ufficiali_UAP.md",
+          "section": "3. Organizzazioni di ricerca (non ufficiali ma serie)",
+          "chunk_index": 2,
+          "search_score": 0.03333333507180214
+        },
+        {
+          "rank": 2,
+          "source_file": "Documento_UAP_Glossario_dei_termini_e_delle_sigle.md",
+          "section": "8. Nota metodologica",
+          "chunk_index": 11,
+          "search_score": 0.03030998818576336
+        },
+        {
+          "rank": 3,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "1. Nota metodologica",
+          "chunk_index": 0,
+          "search_score": 0.029857397079467773
+        },
+        {
+          "rank": 4,
+          "source_file": "Documento_UAP_Glossario_dei_termini_e_delle_sigle.md",
+          "section": "2. Termini di base",
+          "chunk_index": 1,
+          "search_score": 0.0297619067132473
+        },
+        {
+          "rank": 5,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "Fonti secondarie (priorità media)",
+          "chunk_index": 13,
+          "search_score": 0.028739120811223984
+        },
+        {
+          "rank": 6,
+          "source_file": "PDF_1_Primi_avvistamenti_UAP_dove_e_quando.md",
+          "section": "4. Cosa NON è un \"primo avvistamento\"",
+          "chunk_index": 4,
+          "search_score": 0.028039216995239258
+        },
+        {
+          "rank": 7,
+          "source_file": "Documento_UAP_Glossario_dei_termini_e_delle_sigle.md",
+          "section": "7. Termini da usare con cautela",
+          "chunk_index": 10,
+          "search_score": 0.0279720276594162
+        },
+        {
+          "rank": 8,
+          "source_file": "Documento_UAP_Errori_da_evitare_nell_uso_documentale_delle_fonti.md",
+          "section": "12. Riepilogo operativo",
+          "chunk_index": 11,
+          "search_score": 0.026500526815652847
+        },
+        {
+          "rank": 9,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "4. Cronologia — svolta istituzionale (2000–2017)",
+          "chunk_index": 5,
+          "search_score": 0.02518213540315628
+        },
+        {
+          "rank": 10,
+          "source_file": "PDF_1_Primi_avvistamenti_UAP_dove_e_quando.md",
+          "section": "2. Cronologia dei casi fondativi",
+          "chunk_index": 2,
+          "search_score": 0.024934586137533188
+        }
+      ]
+    },
+    {
+      "id": "Q15",
+      "question": "Esiste un primo avvistamento UAP documentato in senso assoluto?",
+      "type": "direct",
+      "metrics": {
+        "hit@1": 1,
+        "hit@3": 1,
+        "hit@10": 1,
+        "recall@10": 1.0,
+        "mrr@10": 1.0,
+        "full_coverage@10": 1,
+        "found_sections": 1,
+        "expected_sections": 1
+      },
+      "latency_s": 0.5653361000004224,
+      "documents": [
+        {
+          "rank": 1,
+          "source_file": "PDF_1_Primi_avvistamenti_UAP_dove_e_quando.md",
+          "section": "1. Il problema della \"data zero\"",
+          "chunk_index": 0,
+          "search_score": 0.03306011110544205
+        },
+        {
+          "rank": 2,
+          "source_file": "PDF_1_Primi_avvistamenti_UAP_dove_e_quando.md",
+          "section": "4. Cosa NON è un \"primo avvistamento\"",
+          "chunk_index": 4,
+          "search_score": 0.0313725508749485
+        },
+        {
+          "rank": 3,
+          "source_file": "PDF_1_Primi_avvistamenti_UAP_dove_e_quando.md",
+          "section": "3. Pattern geografico",
+          "chunk_index": 3,
+          "search_score": 0.03125763311982155
+        },
+        {
+          "rank": 4,
+          "source_file": "Documento_UAP_Release_recenti_e_stato_della_disclosure.md",
+          "section": "1.2 Il caso del \"triangular UAP\" (release 7, ottobre 2026)",
+          "chunk_index": 2,
+          "search_score": 0.03055037185549736
+        },
+        {
+          "rank": 5,
+          "source_file": "Documento_UAP_Release_recenti_e_stato_della_disclosure.md",
+          "section": "1.3 Altri documenti recenti indicizzati",
+          "chunk_index": 3,
+          "search_score": 0.02938045561313629
+        },
+        {
+          "rank": 6,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "2. Cronologia — casi fondativi (1946–1969)",
+          "chunk_index": 1,
+          "search_score": 0.028258707374334335
+        },
+        {
+          "rank": 7,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "3. Cronologia — programmi e casi (1970–1999)",
+          "chunk_index": 4,
+          "search_score": 0.028169013559818268
+        },
+        {
+          "rank": 8,
+          "source_file": "Documento_UAP_Glossario_dei_termini_e_delle_sigle.md",
+          "section": "PURSUE — Presidential Unsealing and Reporting System for UAP Encounters.",
+          "chunk_index": 6,
+          "search_score": 0.027364110574126244
+        },
+        {
+          "rank": 9,
+          "source_file": "PDF_1_Primi_avvistamenti_UAP_dove_e_quando.md",
+          "section": "2. Cronologia dei casi fondativi",
+          "chunk_index": 2,
+          "search_score": 0.02704678475856781
+        },
+        {
+          "rank": 10,
+          "source_file": "Documento_UAP_Errori_da_evitare_nell_uso_documentale_delle_fonti.md",
+          "section": "12. Riepilogo operativo",
+          "chunk_index": 11,
+          "search_score": 0.026356857270002365
+        }
+      ]
+    },
+    {
+      "id": "Q16",
+      "question": "Perché gli avvistamenti UAP storici sembrano concentrarsi in alcuni paesi?",
+      "type": "direct",
+      "metrics": {
+        "hit@1": 1,
+        "hit@3": 1,
+        "hit@10": 1,
+        "recall@10": 1.0,
+        "mrr@10": 1.0,
+        "full_coverage@10": 1,
+        "found_sections": 1,
+        "expected_sections": 1
+      },
+      "latency_s": 0.27976370000396855,
+      "documents": [
+        {
+          "rank": 1,
+          "source_file": "PDF_1_Primi_avvistamenti_UAP_dove_e_quando.md",
+          "section": "3. Pattern geografico",
+          "chunk_index": 3,
+          "search_score": 0.03333333507180214
+        },
+        {
+          "rank": 2,
+          "source_file": "PDF_1_Primi_avvistamenti_UAP_dove_e_quando.md",
+          "section": "1. Il problema della \"data zero\"",
+          "chunk_index": 0,
+          "search_score": 0.03067915514111519
+        },
+        {
+          "rank": 3,
+          "source_file": "PDF_1_Primi_avvistamenti_UAP_dove_e_quando.md",
+          "section": "4. Cosa NON è un \"primo avvistamento\"",
+          "chunk_index": 4,
+          "search_score": 0.030017919838428497
+        },
+        {
+          "rank": 4,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "6. Enti per paese — quadro sintetico",
+          "chunk_index": 8,
+          "search_score": 0.02938045561313629
+        },
+        {
+          "rank": 5,
+          "source_file": "PDF_1_Primi_avvistamenti_UAP_dove_e_quando.md",
+          "section": "2. Cronologia dei casi fondativi",
+          "chunk_index": 2,
+          "search_score": 0.029138512909412384
+        },
+        {
+          "rank": 6,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "3. Cronologia — programmi e casi (1970–1999)",
+          "chunk_index": 4,
+          "search_score": 0.02808326855301857
+        },
+        {
+          "rank": 7,
+          "source_file": "PDF_4_Fonti_ufficiali_UAP.md",
+          "section": "1. USA",
+          "chunk_index": 0,
+          "search_score": 0.027598019689321518
+        },
+        {
+          "rank": 8,
+          "source_file": "PDF_1_Primi_avvistamenti_UAP_dove_e_quando.md",
+          "section": "2. Cronologia dei casi fondativi",
+          "chunk_index": 1,
+          "search_score": 0.027397260069847107
+        },
+        {
+          "rank": 9,
+          "source_file": "Documento_UAP_Release_recenti_e_stato_della_disclosure.md",
+          "section": "1.2 Il caso del \"triangular UAP\" (release 7, ottobre 2026)",
+          "chunk_index": 2,
+          "search_score": 0.027364110574126244
+        },
+        {
+          "rank": 10,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "2. Cronologia — casi fondativi (1946–1969)",
+          "chunk_index": 1,
+          "search_score": 0.02715098112821579
+        }
+      ]
+    },
+    {
+      "id": "Q17",
+      "question": "Qual è la differenza tra un caso non identificato e un caso considerato forte?",
+      "type": "multi_hop",
+      "metrics": {
+        "hit@1": 0,
+        "hit@3": 1,
+        "hit@10": 1,
+        "recall@10": 1.0,
+        "mrr@10": 0.5,
+        "full_coverage@10": 1,
+        "found_sections": 2,
+        "expected_sections": 2
+      },
+      "latency_s": 0.5165557999862358,
+      "documents": [
+        {
+          "rank": 1,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "9. Criteri che rendono un caso \"forte\"",
+          "chunk_index": 11,
+          "search_score": 0.03306011110544205
+        },
+        {
+          "rank": 2,
+          "source_file": "PDF_3_Casistiche_UAP.md",
+          "section": "4. Cosa rende un caso \"forte\"",
+          "chunk_index": 3,
+          "search_score": 0.03279569745063782
+        },
+        {
+          "rank": 3,
+          "source_file": "PDF_2_Come_vengono_gestiti_i_casi_UAP.md",
+          "section": "6. Cosa succede a un caso \"non identificato\"",
+          "chunk_index": 5,
+          "search_score": 0.032522473484277725
+        },
+        {
+          "rank": 4,
+          "source_file": "Documento_UAP_Errori_da_evitare_nell_uso_documentale_delle_fonti.md",
+          "section": "3. Errore 2 — Confondere \"non identificato\" con \"extraterrestre\"",
+          "chunk_index": 2,
+          "search_score": 0.0317460335791111
+        },
+        {
+          "rank": 5,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "7. Classificazione GEIPAN — scala a quattro livelli",
+          "chunk_index": 9,
+          "search_score": 0.02828322723507881
+        },
+        {
+          "rank": 6,
+          "source_file": "PDF_1_Primi_avvistamenti_UAP_dove_e_quando.md",
+          "section": "4. Cosa NON è un \"primo avvistamento\"",
+          "chunk_index": 4,
+          "search_score": 0.02828322723507881
+        },
+        {
+          "rank": 7,
+          "source_file": "Documento_UAP_Glossario_dei_termini_e_delle_sigle.md",
+          "section": "2. Termini di base",
+          "chunk_index": 1,
+          "search_score": 0.02808326855301857
+        },
+        {
+          "rank": 8,
+          "source_file": "PDF_1_Primi_avvistamenti_UAP_dove_e_quando.md",
+          "section": "2. Cronologia dei casi fondativi",
+          "chunk_index": 2,
+          "search_score": 0.027402402833104134
+        },
+        {
+          "rank": 9,
+          "source_file": "PDF_3_Casistiche_UAP.md",
+          "section": "2. Classificazione per spiegazione",
+          "chunk_index": 1,
+          "search_score": 0.027346637099981308
+        },
+        {
+          "rank": 10,
+          "source_file": "PDF_1_Primi_avvistamenti_UAP_dove_e_quando.md",
+          "section": "2. Cronologia dei casi fondativi",
+          "chunk_index": 1,
+          "search_score": 0.026685643941164017
+        }
+      ]
+    },
+    {
+      "id": "Q21",
+      "question": "Quali eventi UAP importanti sono riportati tra il 2004 e il 2022?",
+      "type": "multi_hop",
+      "metrics": {
+        "hit@1": 0,
+        "hit@3": 1,
+        "hit@10": 1,
+        "recall@10": 1.0,
+        "mrr@10": 0.5,
+        "full_coverage@10": 1,
+        "found_sections": 2,
+        "expected_sections": 2
+      },
+      "latency_s": 0.4406347000040114,
+      "documents": [
+        {
+          "rank": 1,
+          "source_file": "Documento_UAP_Release_recenti_e_stato_della_disclosure.md",
+          "section": "FY2025 Consolidated Annual Report on UAP — pubblicato nel 2026 FY2024 Consolidated Annual Report on UAP — pubblicato il 14 novembre 2024",
+          "chunk_index": 5,
+          "search_score": 0.03279569745063782
+        },
+        {
+          "rank": 2,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "5. Cronologia — era AARO (2020–2026)",
+          "chunk_index": 6,
+          "search_score": 0.03128054738044739
+        },
+        {
+          "rank": 3,
+          "source_file": "Documento_UAP_Errori_da_evitare_nell_uso_documentale_delle_fonti.md",
+          "section": "12. Riepilogo operativo",
+          "chunk_index": 11,
+          "search_score": 0.029877368360757828
+        },
+        {
+          "rank": 4,
+          "source_file": "Documento_UAP_Release_recenti_e_stato_della_disclosure.md",
+          "section": "1.1 Il programma PURSUE e le release di file declassificati",
+          "chunk_index": 0,
+          "search_score": 0.029138512909412384
+        },
+        {
+          "rank": 5,
+          "source_file": "Documento_UAP_Release_recenti_e_stato_della_disclosure.md",
+          "section": "1.3 Altri documenti recenti indicizzati",
+          "chunk_index": 3,
+          "search_score": 0.029138512909412384
+        },
+        {
+          "rank": 6,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "8. Ciclo di gestione di una segnalazione UAP",
+          "chunk_index": 10,
+          "search_score": 0.028860028833150864
+        },
+        {
+          "rank": 7,
+          "source_file": "Documento_UAP_Release_recenti_e_stato_della_disclosure.md",
+          "section": "1.1 Il programma PURSUE e le release di file declassificati",
+          "chunk_index": 1,
+          "search_score": 0.02817460335791111
+        },
+        {
+          "rank": 8,
+          "source_file": "1._Nota_metodologica.md",
+          "section": "4. Cronologia — svolta istituzionale (2000–2017)",
+          "chunk_index": 5,
+          "search_score": 0.028039216995239258
+        },
+        {
+          "rank": 9,
+          "source_file": "PDF_1_Primi_avvistamenti_UAP_dove_e_quando.md",
+          "section": "2. Cronologia dei casi fondativi",
+          "chunk_index": 2,
+          "search_score": 0.027863778173923492
+        },
+        {
+          "rank": 10,
+          "source_file": "Documento_UAP_Glossario_dei_termini_e_delle_sigle.md",
+          "section": "3. Termini istituzionali",
+          "chunk_index": 2,
+          "search_score": 0.027809742838144302
+        }
+      ]
+    }
+  ]
+}

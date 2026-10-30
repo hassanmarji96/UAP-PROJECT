@@ -170,6 +170,12 @@ def main() -> None:
         help="Numero di documenti recuperati (default: 5)",
     )
 
+    parser.add_argument(
+        "--label",
+        default="run",
+        help="Etichetta del file di output (es. baseline, v2)",
+    )
+
     args = parser.parse_args()
 
     if args.top_k < 1:
@@ -272,7 +278,7 @@ def main() -> None:
     RESULTS_DIR.mkdir(parents=True, exist_ok=True)
 
     output_path = RESULTS_DIR / (
-        f"retrieval_top_{args.top_k}.json"
+        f"retrieval_{args.label}_top_{args.top_k}.json"
     )
 
     output_path.write_text(

@@ -11,7 +11,7 @@ class UAPRAGChain:
         self, 
         retriever: AzureAISearchRetriever,
         llm: AzureAISearchRetriever,
-        top_k: int = 5,
+        top_k: int = 10,
     ) -> None:
         self.retriever = retriever
         self.top_k = top_k
@@ -93,13 +93,6 @@ class UAPRAGChain:
             top_k=self.top_k
         )
         
-        if self.reranker is not None:
-            documents = self.reranker.rerank(
-                query=question,
-                documents=documents,
-                top_k=self.top_k
-            )
-
         if not documents:
             return {
                 "answer": (

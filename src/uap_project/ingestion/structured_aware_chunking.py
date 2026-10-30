@@ -23,7 +23,10 @@ from langchain_text_splitters import (
 _TABLE_SEPARATOR = re.compile(r"^\s*\|?\s*:?-{3,}:?\s*(?:\|\s*:?-{3,}:?\s*)+\|?\s*$")
 # Intestazione Markdown (da # a ######); il gruppo 1 cattura il testo del titolo.
 _HEADER = re.compile(r"^\s{0,3}#{1,6}\s+(.+?)\s*$", re.MULTILINE)
-
+_BOILERPLATE = re.compile(
+    r"^.*(?:Generato da ARGO|Puoi scaricare questo contenuto).*$\n?",
+    re.MULTILINE,
+)
 # Forzo l'etichettamento io, siccome è un progetto studio. 
 # In ambienti reali, potrei farlo assegnare automaticamente da un LLM che classifica il contenuto dei documenti
 DOCUMENT_CATEGORIES = {
@@ -31,7 +34,18 @@ DOCUMENT_CATEGORIES = {
     "PDF_2_Come_vengono_gestiti_i_casi_UAP": "case_management",
     "PDF_3_Casistiche_UAP": "case_classification",
     "PDF_4_Fonti_ufficiali_UAP": "official_sources",
+    "1._Nota_metodologica": "timeline",
+    "Documento_UAP_Errori_da_evitare_nell_uso_documentale_delle_fonti": "source_guidance",
+    "Documento_UAP_Glossario_dei_termini_e_delle_sigle": "glossary",
+    "Documento_UAP_Release_recenti_e_stato_della_disclosure": "recent_releases",
 }
+
+# Sezioni che non sono contenuto UAP (appunti di lavoro): le escludo dall'indice.
+EXCLUDED_SECTIONS = (
+    "Struttura del documento PDF per RAG",
+    "Intestazione e metadati in testa al documento",
+    "Disclosure e animali rari",
+)
 
 def is_heading_only(text: str) -> bool:
     """Verifica se un chunk contiene soltanto heading Markdown."""
@@ -241,6 +255,7 @@ def chunk_markdown(
     )
     # utf-8-sig rimuove l'eventuale BOM all'inizio del file.
     markdown = path.read_text(encoding="utf-8-sig")
+    markdown = _BOILERPLATE.sub("", markdown)
     if not markdown.strip():
         return []
 
@@ -281,6 +296,30 @@ def chunk_markdown(
                 "category": category,
             }
         )
+
+        # Pulizia dei titoli (via il grassetto) PRIMA di ogni confronto
+        for key in ("title", "section", "subsection", "subsubsection"):
+            if key in section.metadata:
+                section.metadata[key] = re.sub(
+                    r"\*\*|__", "", section.metadata[key]
+                ).strip()
+
+        section_title = section.metadata.get("section", "")
+
+        # Salto il chunk di solo titolo del documento
+        if (
+            section_title == document_title
+            and len(section.page_content) < 300
+        ):
+            continue
+
+        # Salto le sezioni escluse (non pertinenti agli UAP)
+        if any(
+            excluded in section_title
+            for excluded in EXCLUDED_SECTIONS
+        ):
+            continue
+
         output.extend(
             _split_section_preserving_tables(
                 section,

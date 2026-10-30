@@ -1,0 +1,176 @@
+COME LEGGERE I RISULTATI DELLA VALUTAZIONE DI RETRIEVAL
+=======================================================
+Progetto: uap-project
+File analizzato: evaluation/results/retrieval_<label>_top_<k>.json
+Prodotto da:     uv run python -m uap_project.evaluation.evaluate_retrieval --top-k 10 --label <label>
+
+
+1. COSA MISURA
+--------------
+Misura solo la prima fase del RAG: "i chunk giusti vengono trovati?".
+NON dice nulla sulla qualità della risposta finale (quella la misura
+evaluate_generation con Ragas).
+
+Per ogni domanda del dataset che ha risposta (answerable = true) si
+confrontano le sezioni recuperate con quelle attese (expected_sections).
+Le domande senza risposta (hallucination, fuori dominio, premessa falsa)
+sono saltate: servono a testare l'astensione, non il retrieval.
+
+Il confronto avviene a livello di SEZIONE, non di chunk: la chiave è la
+coppia (nome file, titolo sezione normalizzato). Due chunk della stessa
+sezione contano come un solo "trovato".
+
+
+2. STRUTTURA DEL FILE JSON
+--------------------------
+Il file ha tre chiavi: "keyword", "vector", "hybrid". Per ognuna c'è una
+lista di righe, una per domanda:
+
+  id          identificativo della domanda (Q01, Q02, ...)
+  question    testo della domanda
+  type        direct / paraphrase / multi_hop
+  metrics     le metriche della domanda (vedi sotto)
+  latency_s   secondi impiegati dalla ricerca
+  documents   i chunk recuperati, in ordine, con:
+                rank, source_file, section, chunk_index, search_score
+
+La parte più utile per capire PERCHE' una domanda fallisce è "documents":
+mostra cosa ha occupato i posti al posto delle sezioni attese.
+
+
+3. LE METRICHE (per singola domanda)
+------------------------------------
+hit@1           1 se la prima sezione recuperata è una di quelle attese.
+hit@3           1 se una sezione attesa compare nei primi 3 risultati.
+hit@10          1 se una sezione attesa compare nei primi 10.
+recall@10       sezioni attese trovate / sezioni attese totali.
+                (con 1 sezione attesa vale 0 o 1; con 2 può valere 0.5)
+mrr@10          1 / posizione della prima sezione attesa (0 se assente).
+                Posizione 1 -> 1.0, 2 -> 0.5, 3 -> 0.33, 10 -> 0.1.
+full_coverage   1 solo se TUTTE le sezioni attese sono state trovate.
+found_sections / expected_sections   i due numeri dietro il recall.
+
+Nei riepiloghi a console e nelle tabelle, il valore è la MEDIA su tutte
+le domande: 0.833 su 18 domande significa 15 domande su 18.
+
+
+4. COME INTERPRETARE LE MEDIE
+-----------------------------
+hit@1       "il primo risultato è giusto?" Misura la precisione in cima.
+            Se è molto più basso di hit@10, il sistema trova le sezioni
+            giuste ma le mette in basso: serve un reranker.
+hit@10      "il sistema trova almeno qualcosa di giusto?" E' il limite
+            massimo di ciò che l'LLM potrà vedere. Se una sezione non è
+            nei top-k, la generazione non potrà usarla.
+recall@10   come hit@10 ma pesa le domande che richiedono più sezioni
+            (multi_hop). Se hit@10 è alto e recall@10 basso, il sistema
+            recupera una sola delle sezioni necessarie.
+mrr@10      sintesi della posizione. Utile per confrontare due versioni:
+            sale se le sezioni giuste salgono in classifica.
+full_cov.   la più severa: per le domande multi-sezione richiede tutto.
+
+Regola pratica: guarda prima hit@10 / recall@10 (il contenuto c'è?),
+poi hit@1 / MRR (è in cima?).
+
+
+5. CONFRONTARE I TRE METODI
+---------------------------
+keyword (BM25)   ottimo con sigle, nomi e date esatte ("AARO", "2004");
+                 non capisce sinonimi e parafrasi.
+vector           capisce il significato anche con parole diverse; può
+                 perdere termini esatti e, con domande generiche, ha
+                 punteggi quasi piatti (poca differenza tra risultati).
+hybrid           fonde le due classifiche (RRF). Atteso: >= dei singoli.
+
+I punteggi (search_score) NON sono confrontabili tra metodi:
+  keyword  BM25, senza limite alto (qui circa 6-15)
+  vector   similarità coseno (qui circa 0.65-0.72)
+  hybrid   RRF, valori minuscoli (qui circa 0.02-0.03)
+Servono solo per l'ordine dentro lo stesso metodo.
+
+
+6. BASELINE (top_k=10, 18 domande con risposta)
+-----------------------------------------------
+              hit@1  hit@3  hit@10  recall@10  MRR   copertura piena
+  keyword     0.39   0.72   0.72    0.72       0.56  0.72
+  vector      0.44   0.61   0.78    0.75       0.54  0.72
+  hybrid      0.50   0.67   0.83    0.81       0.60  0.78
+
+Lettura:
+ - hybrid è il migliore, come previsto.
+ - hit@10 di 0.83 ma hit@1 di 0.50: il contenuto spesso c'è, ma non in
+   cima. Qui un reranker ha margine.
+ - Per tipo di domanda (recall@10, hybrid): direct 0.92, paraphrase 0.33,
+   multi_hop 0.75. Le parafrasi sono il punto debole.
+
+Domande fallite in hybrid: Q02, Q04 (PDF_3 non compare mai), Q11 (risposta
+corretta ma da sezioni non previste dal dataset), Q21 (trova solo 1 delle
+2 sezioni cronologiche).
+
+
+7. COME DIAGNOSTICARE UNA DOMANDA CHE FALLISCE
+----------------------------------------------
+ a) Trova la domanda nel JSON, sotto "hybrid", e leggi "documents".
+ b) Chiediti dove sono finite le sezioni attese:
+      - non compaiono affatto  -> problema di indicizzazione, di
+        chunking o di vocabolario (la domanda non assomiglia al testo).
+      - compaiono in basso (11-20) -> problema di ranking: rumore che
+        occupa i primi posti, o serve un reranker.
+      - compaiono solo con keyword o solo con vector -> guarda quale
+        metodo le trova e perché l'altro no.
+ c) Guarda CHI occupa i primi posti: contenuti fuori tema, chunk di solo
+    titolo, sezioni duplicate in altri documenti.
+ d) Per approfondire una domanda, usa:
+      uv run python -m uap_project.evaluation.debug_query "<domanda>" --top-k 20 --mark "<testo sezione>"
+    Le righe con la stella (*) sono le sezioni che ti interessano.
+ e) Controlla che la risposta "sbagliata" non sia in realtà corretta:
+    se un'altra sezione dice la stessa cosa (contenuti duplicati tra
+    documenti), il fallimento è un limite del dataset, non del sistema.
+
+
+8. LIMITI DA TENERE PRESENTI
+----------------------------
+ - Dataset piccolo (18 domande): una sola domanda vale circa 5.5 punti
+   percentuali. Differenze di una domanda tra due versioni sono rumore.
+ - Poche parafrasi (3): il dato sulle parafrasi è fragile. Aggiungerne
+   almeno 8-10.
+ - Duplicati: lo stesso contenuto compare in più documenti. Il dataset
+   accetta spesso una sola sezione; il retrieval può essere penalizzato
+   per una risposta corretta.
+ - Granularità di sezione: non si misura se il chunk giusto DENTRO la
+   sezione è stato recuperato, né se contiene davvero la risposta.
+ - Il retrieval non è la risposta: un buon hit@10 non garantisce una
+   buona generazione (il prompt e il modello contano).
+ - La latenza è quella di Azure + embedding della query, non dell'LLM.
+
+
+9. COME CONFRONTARE DUE ESECUZIONI (baseline vs v2)
+---------------------------------------------------
+ - Cambia UNA cosa alla volta, se vuoi capire quale modifica ha agito.
+ - Usa sempre lo stesso dataset, lo stesso top_k e la stessa metrica.
+   Se cambi la metrica, ricalcola anche la baseline (il JSON contiene i
+   documenti recuperati, quindi si può riscorare offline).
+ - Dai priorità a: hit@10 / recall@10 (contenuto trovato), poi hit@1 e
+   MRR (posizione), e confronta anche le singole domande che cambiano
+   stato (da fallita a riuscita e viceversa): è più informativo della
+   media.
+ - Una modifica "migliora" davvero se sale su più metriche e non rompe
+   domande che prima funzionavano.
+
+
+10. SCRIPT RAPIDO PER LE MEDIE (da scrivere a mano, facoltativo)
+-----------------------------------------------------------------
+import json
+from statistics import mean
+
+d = json.load(open("retrieval_baseline_top_10.json", encoding="utf-8"))
+for metodo, righe in d.items():
+    print(metodo, len(righe))
+    for k in ("hit@1", "hit@3", "hit@10", "recall@10", "mrr@10", "full_coverage@10"):
+        print("  ", k, round(mean(r["metrics"][k] for r in righe), 3))
+
+Per l'elenco delle domande fallite in hybrid:
+
+for r in d["hybrid"]:
+    if not r["metrics"]["full_coverage@10"]:
+        print(r["id"], r["type"], r["question"])

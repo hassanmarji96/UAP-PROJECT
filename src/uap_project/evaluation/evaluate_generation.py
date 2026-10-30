@@ -9,6 +9,9 @@ Per testare soltanto 3 domande:
 """
 
 import argparse
+import warnings
+warnings.filterwarnings("ignore", category=DeprecationWarning, module="ragas")
+
 import json
 import math
 import os
@@ -16,17 +19,19 @@ from datetime import datetime, timezone
 from pathlib import Path
 from statistics import mean
 
-import litellm
 from dotenv import load_dotenv
 from langchain_openai import AzureChatOpenAI, AzureOpenAIEmbeddings
 
-from ragas.llms import llm_factory
-from ragas.embeddings.base import embedding_factory
-from ragas.metrics.collections import (
-    Faithfulness,
-    AnswerRelevancy,
+from ragas import SingleTurnSample
+from ragas.embeddings import LangchainEmbeddingsWrapper
+from ragas.llms import LangchainLLMWrapper
+from ragas.metrics import (
     AnswerCorrectness,
+    AnswerRelevancy,
+    AnswerSimilarity,
+    Faithfulness,
 )
+from ragas.run_config import RunConfig
 
 from uap_project.retrieval.azure_retriever import (
     AzureAISearchRetriever,
@@ -36,7 +41,7 @@ from uap_project.generation.rag_chain import UAPRAGChain
 
 DATASET_PATH = Path(__file__).with_name("dataset.json")
 RESULTS_DIR = Path(__file__).with_name("results")
-TOP_K = 5
+TOP_K = 10
 
 
 def create_rag() -> UAPRAGChain:
@@ -77,40 +82,46 @@ def create_evaluators() -> dict:
     api_key = os.environ["AZURE_OPENAI_API_KEY"]
     api_version = os.environ["AZURE_OPENAI_API_VERSION"]
 
-    # Configurazione di LiteLLM per Azure OpenAI.
-    litellm.api_base = endpoint
-    litellm.api_key = api_key
-    litellm.api_version = api_version
-
     judge_deployment = os.getenv(
         "AZURE_OPENAI_EVAL_DEPLOYMENT",
         os.environ["AZURE_OPENAI_CHAT_DEPLOYMENT"],
     )
+    
+    run_config = RunConfig(timeout=90, max_retries=3, max_wait=15)
 
-    judge_llm = llm_factory(
-        f"azure/{judge_deployment}",
-        provider="litellm",
-        client=litellm.completion,
+    judge_llm = LangchainLLMWrapper(
+        AzureChatOpenAI(
+            azure_deployment=judge_deployment,
+            azure_endpoint=endpoint,
+            api_key=api_key,
+            api_version=api_version,
+        ),
+        run_config=run_config,
+        bypass_temperature=True,
     )
-
-    judge_embeddings = embedding_factory(
-        "litellm",
-        model=f"azure/{os.environ['AZURE_OPENAI_DEPLOYMENT']}",
-        api_base=endpoint,
-        api_key=api_key,
-        api_version=api_version,
+    
+    judge_embeddings = LangchainEmbeddingsWrapper(
+        AzureOpenAIEmbeddings(
+            azure_deployment=os.environ["AZURE_OPENAI_DEPLOYMENT"],
+            azure_endpoint=endpoint,
+            api_key=api_key,
+            api_version=api_version,
+        )
     )
-
+    
     return {
         "faithfulness": Faithfulness(llm=judge_llm),
         "answer_relevancy": AnswerRelevancy(
             llm=judge_llm,
-            embeddings=judge_embeddings,
+            embeddings=judge_embeddings
         ),
         "answer_correctness": AnswerCorrectness(
             llm=judge_llm,
             embeddings=judge_embeddings,
-        ),
+            answer_similarity=AnswerSimilarity(
+                embeddings=judge_embeddings
+            ),
+        )
     }
 
 
@@ -198,11 +209,9 @@ def evaluate_sample(
 
     for name, evaluator in evaluators.items():
         try:
-            result = evaluator.score(
-                **metric_inputs[name]
-            )
+            sample = SingleTurnSample(**metric_inputs[name])
 
-            score = float(result.value)
+            score = float(evaluator.single_turn_score(sample))
 
             if not math.isfinite(score):
                 raise ValueError("Score non finito")

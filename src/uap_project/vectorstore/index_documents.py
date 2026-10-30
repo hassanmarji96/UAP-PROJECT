@@ -18,6 +18,23 @@ class AzureAISearchVectorStore:
             credential=AzureKeyCredential(azure_vector_api_key)
         )
     
+    @staticmethod
+    def _embedding_text(chunk: Document) -> str:
+        """
+        Testo usato SOLO per calcolare l'embedding: antepone al contenuto
+        il titolo del documento e la sezione, così il vettore "sa" dove
+        si trova il chunk. Il campo `content` salvato resta invariato.
+        """
+        title = chunk.metadata.get("document_title", "")
+        section = chunk.metadata.get("section", "")
+
+        header = " > ".join(part for part in (title, section) if part)
+
+        if not header:
+            return chunk.page_content
+
+        return f"{header}\n\n{chunk.page_content}"
+    
     def upload_chunks_in_vector_store(
         self,
         chunks: list[Document],
@@ -36,6 +53,15 @@ class AzureAISearchVectorStore:
         if batch_size <= 0:
             raise ValueError("batch_size deve essere > 0")
 
+        # Tutti i chunk di una chiamata appartengono allo stesso file
+        # (la pipeline processa un PDF alla volta): calcolo l'ID del
+        # documento una volta e cancello i suoi vecchi chunk PRIMA
+        # di caricare i nuovi.
+        document_id = hashlib.sha256(
+            chunks[0].metadata["filename"].encode()
+        ).hexdigest()
+        self.delete_document_chunks(document_id=document_id)
+
         total_uploaded = 0
 
         for start in range(0, len(chunks), batch_size):
@@ -43,7 +69,7 @@ class AzureAISearchVectorStore:
             batch = chunks[start:start + batch_size]
 
             # Embeddings dei documenti in batch
-            texts = [chunk.page_content for chunk in batch]
+            texts = [self._embedding_text(chunk) for chunk in batch]
 
             vectors = embedding.embed_documents(texts)
 
@@ -60,9 +86,6 @@ class AzureAISearchVectorStore:
 
                 source = metadata.get("source", "")
 
-                document_id = hashlib.sha256(
-                     metadata["filename"].encode()
-                ).hexdigest()
                 chunk_index = metadata.get("chunk_index", 0)
 
                 chunk_id = hashlib.sha256(
@@ -72,7 +95,7 @@ class AzureAISearchVectorStore:
                 documents.append({
                     "id": chunk_id,
                     "document_id": document_id,
-                    "source_file": source,
+                    "source_file": metadata.get("filename", source),
                     "section": metadata.get("section", ""),
                     "category": metadata.get(
                         "category", "uncategorized"
@@ -85,7 +108,7 @@ class AzureAISearchVectorStore:
                     "content_vector": vector,
                     "metadata": json.dumps({
                         "document_id": document_id,
-                        "source_file": source,
+                        "source_file": metadata.get("filename", source),
                         "section": metadata.get("section", ""),
                         "category": metadata.get("category", "uncategorized"),
                         "content_type": metadata.get("content_type", "text"),
@@ -120,3 +143,15 @@ class AzureAISearchVectorStore:
             f"Chunk caricati: "
             f"{total_uploaded}/{len(chunks)}"
         )
+        
+    def delete_document_chunks(self, document_id: str) -> None:
+        """Cancella tutti i chunk di un documento prima di reindicizzarlo."""
+        results = self.client.search(
+            search_text="*",
+            filter=f"document_id eq '{document_id}'",
+            select=["id"],
+            top=1000,
+        )
+        keys = [{"id": r["id"]} for r in results]
+        if keys:
+            self.client.delete_documents(documents=keys)
